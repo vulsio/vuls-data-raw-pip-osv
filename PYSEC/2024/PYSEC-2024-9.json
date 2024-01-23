@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2024-9",
-	"modified": "2024-01-22T07:41:36.050040Z",
+	"modified": "2024-01-22T21:56:41.084725Z",
 	"published": "2024-01-22T01:15:00Z",
 	"aliases": [
-		"CVE-2024-23750"
+		"CVE-2024-23750",
+		"GHSA-g7ph-8423-pf4j"
 	],
 	"details": "MetaGPT through 0.6.4 allows the QaEngineer role to execute arbitrary code because RunCode.run_script() passes shell metacharacters to subprocess.Popen.",
 	"affected": [
