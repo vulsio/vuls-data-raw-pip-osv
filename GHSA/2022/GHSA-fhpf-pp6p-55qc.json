@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fhpf-pp6p-55qc",
-	"modified": "2023-11-08T04:08:24.827076Z",
+	"modified": "2024-01-26T22:01:41.969620Z",
 	"published": "2022-02-01T00:43:38Z",
 	"aliases": [
 		"CVE-2022-23607",
@@ -93,6 +93,7 @@
 	"database_specific": {
 		"cwe_ids": [
 			"CWE-200",
+			"CWE-425",
 			"CWE-601"
 		],
 		"github_reviewed": true,

@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3f63-hfp8-52jq",
-	"modified": "2024-01-22T21:56:51.626250Z",
+	"modified": "2024-01-26T20:31:18.725372Z",
 	"published": "2024-01-19T21:30:35Z",
 	"aliases": [
 		"CVE-2023-50447"
 	],
 	"summary": "Arbitrary Code Execution in Pillow",
 	"details": "Pillow through 10.1.0 allows PIL.ImageMath.eval Arbitrary Code Execution via the environment parameter, a different vulnerability than CVE-2022-22817 (which was about the expression parameter).",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -155,6 +161,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/python-pillow/Pillow"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/python-pillow/Pillow/releases"
 		},
 		{
 			"type": "WEB",
