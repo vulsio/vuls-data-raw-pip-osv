@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-39mj-fpg2-3jrg",
-	"modified": "2023-08-07T21:00:48.575132Z",
+	"modified": "2024-02-14T05:33:06.370550Z",
 	"published": "2022-05-24T17:44:46Z",
 	"summary": "StackStorm st2 Infinite Loop Condition",
 	"details": "StackStorm before 3.4.1, in some situations, has an infinite loop that consumes all available memory and disk space. This can occur if Python 3.x is used, the locale is not utf-8, and there is an attempt to log Unicode data (from an action or rule name).",
@@ -104,7 +104,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://stackstorm.com/2021/03/10/stackstorm-v3-4-1-security-fix/"
+			"url": "https://stackstorm.com/2021/03/10/stackstorm-v3-4-1-security-fix"
 		}
 	],
 	"database_specific": {
