@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v5gw-mw7f-84px",
-	"modified": "2023-11-08T04:12:16.846611Z",
+	"modified": "2024-02-15T05:31:44.339962Z",
 	"published": "2023-05-17T03:49:14Z",
 	"aliases": [
 		"CVE-2023-29159",
@@ -106,7 +106,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://jvn.jp/en/jp/JVN95981715/"
+			"url": "https://jvn.jp/en/jp/JVN95981715"
 		}
 	],
 	"database_specific": {
