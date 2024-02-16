@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9gjg-834p-5gvv",
-	"modified": "2023-11-11T05:18:18.743647Z",
+	"modified": "2024-02-16T08:19:51.389960Z",
 	"published": "2023-07-24T18:30:44Z",
 	"summary": "Duplicate Advisory: Keylime's registrar vulnerable to Denial-of-service attack via a single open connection",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-pg75-v6fp-8q59. This link is maintained to preserve external references.\n\n## Original Description\nA flaw was found in Keylime. Due to their blocking nature, the Keylime registrar is subject to a remote denial of service against its SSL connections. This flaw allows an attacker to exhaust all available connections.",
