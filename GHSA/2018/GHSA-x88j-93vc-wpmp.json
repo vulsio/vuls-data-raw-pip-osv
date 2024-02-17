@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x88j-93vc-wpmp",
-	"modified": "2023-11-08T03:57:01.198036Z",
+	"modified": "2024-02-17T05:35:40.974403Z",
 	"published": "2018-07-23T19:52:39Z",
 	"aliases": [
 		"CVE-2011-4136",
@@ -92,11 +92,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.djangoproject.com/weblog/2011/sep/09/"
+			"url": "https://www.djangoproject.com/weblog/2011/sep/09"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.djangoproject.com/weblog/2011/sep/10/127/"
+			"url": "https://www.djangoproject.com/weblog/2011/sep/10/127"
 		},
 		{
 			"type": "WEB",

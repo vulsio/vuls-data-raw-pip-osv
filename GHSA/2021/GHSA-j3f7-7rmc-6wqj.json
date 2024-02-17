@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j3f7-7rmc-6wqj",
-	"modified": "2023-11-08T04:06:49.567340Z",
+	"modified": "2024-02-17T05:29:57.388500Z",
 	"published": "2021-11-24T20:35:03Z",
 	"aliases": [
 		"CVE-2021-40831",
@@ -209,7 +209,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/awslabs/aws-c-io/"
+			"url": "https://github.com/awslabs/aws-c-io"
 		}
 	],
 	"database_specific": {
