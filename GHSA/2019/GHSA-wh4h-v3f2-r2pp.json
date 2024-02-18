@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wh4h-v3f2-r2pp",
-	"modified": "2024-02-16T08:24:29.346346Z",
+	"modified": "2024-02-18T05:32:17.201448Z",
 	"published": "2019-02-12T15:36:37Z",
 	"aliases": [
 		"CVE-2019-6975",
@@ -304,7 +304,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://docs.djangoproject.com/en/dev/releases/security/"
+			"url": "https://docs.djangoproject.com/en/dev/releases/security"
 		},
 		{
 			"type": "PACKAGE",
@@ -316,11 +316,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/66WMXHGBXD7GSM3PEXVCMCAGLMQYHZCU/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/66WMXHGBXD7GSM3PEXVCMCAGLMQYHZCU"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HVXDOVCXLD74SHR2BENGCE2OOYYYWJHZ/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HVXDOVCXLD74SHR2BENGCE2OOYYYWJHZ"
 		},
 		{
 			"type": "WEB",
@@ -328,7 +328,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://usn.ubuntu.com/3890-1/"
+			"url": "https://usn.ubuntu.com/3890-1"
 		},
 		{
 			"type": "WEB",
@@ -340,7 +340,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.djangoproject.com/weblog/2019/feb/11/security-releases/"
+			"url": "https://www.djangoproject.com/weblog/2019/feb/11/security-releases"
 		},
 		{
 			"type": "WEB",
