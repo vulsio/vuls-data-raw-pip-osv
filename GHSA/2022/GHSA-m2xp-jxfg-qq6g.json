@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m2xp-jxfg-qq6g",
-	"modified": "2023-11-08T04:10:45.049673Z",
+	"modified": "2024-02-20T05:21:35.995440Z",
 	"published": "2022-11-22T03:30:56Z",
 	"aliases": [
 		"CVE-2022-43685",
@@ -150,7 +150,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://ckan.org/"
+			"url": "https://ckan.org"
 		},
 		{
 			"type": "WEB",
