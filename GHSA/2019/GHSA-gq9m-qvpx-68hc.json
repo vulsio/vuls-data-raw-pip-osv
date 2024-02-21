@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gq9m-qvpx-68hc",
-	"modified": "2024-02-16T08:11:26.963416Z",
+	"modified": "2024-02-21T05:33:13.957772Z",
 	"published": "2019-08-21T16:15:24Z",
 	"aliases": [
 		"CVE-2019-14806",
@@ -116,7 +116,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://palletsprojects.com/blog/werkzeug-0-15-3-released/"
+			"url": "https://palletsprojects.com/blog/werkzeug-0-15-3-released"
 		},
 		{
 			"type": "WEB",
