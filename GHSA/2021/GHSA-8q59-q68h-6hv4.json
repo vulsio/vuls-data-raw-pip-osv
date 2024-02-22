@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8q59-q68h-6hv4",
-	"modified": "2024-02-16T08:21:06.137147Z",
+	"modified": "2024-02-22T05:34:21.186190Z",
 	"published": "2021-03-25T21:26:26Z",
 	"aliases": [
 		"CVE-2020-14343",
@@ -111,7 +111,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://pypi.org/project/PyYAML/"
+			"url": "https://pypi.org/project/PyYAML"
 		},
 		{
 			"type": "WEB",
