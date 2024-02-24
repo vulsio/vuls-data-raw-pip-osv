@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rvmq-4x66-q7j3",
-	"modified": "2024-02-16T08:24:15.184854Z",
+	"modified": "2024-02-23T21:30:47.782525Z",
 	"published": "2020-07-27T16:57:33Z",
 	"aliases": [
 		"BIT-airflow-2020-11978",
@@ -105,6 +105,10 @@
 		{
 			"type": "WEB",
 			"url": "http://packetstormsecurity.com/files/162908/Apache-Airflow-1.10.10-Remote-Code-Execution.html"
+		},
+		{
+			"type": "WEB",
+			"url": "http://packetstormsecurity.com/files/174764/Apache-Airflow-1.10.10-Remote-Code-Execution.html"
 		}
 	],
 	"database_specific": {
