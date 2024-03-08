@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3v9r-885j-762g",
-	"modified": "2024-02-28T18:58:32.075118Z",
+	"modified": "2024-03-07T21:16:00.687207Z",
 	"published": "2024-02-28T12:30:27Z",
 	"aliases": [
 		"CVE-2024-26016"
@@ -113,6 +113,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26016"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/apache/superset"
 		},
 		{
 			"type": "WEB",
