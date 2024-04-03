@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-95rw-fx8r-36v6",
-	"modified": "2024-02-19T05:34:06.307430Z",
+	"modified": "2024-04-03T15:13:17.595178Z",
 	"published": "2022-02-04T00:00:33Z",
 	"aliases": [
 		"BIT-django-2022-22818",
@@ -28,7 +28,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "2.2.0"
+							"introduced": "2.2"
 						},
 						{
 							"fixed": "2.2.27"
@@ -80,7 +80,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.2.0"
+							"introduced": "3.2"
 						},
 						{
 							"fixed": "3.2.12"
@@ -117,7 +117,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "4.0.0"
+							"introduced": "4.0"
 						},
 						{
 							"fixed": "4.0.2"
