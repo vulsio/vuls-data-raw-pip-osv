@@ -1,11 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xcgp-r7r8-2hc9",
-	"modified": "2024-03-27T22:11:53.764689Z",
+	"modified": "2024-04-07T05:16:44.132562Z",
 	"published": "2024-03-27T18:32:38Z",
-	"aliases": [
-		"CVE-2024-1540"
-	],
 	"summary": "Gradio's CI vulnerable to Command Injection",
 	"details": "Previously, it was possible to exfiltrate secrets in Gradio's CI, but this is now fixed.",
 	"severity": [
