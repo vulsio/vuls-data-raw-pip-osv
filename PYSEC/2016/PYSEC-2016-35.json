@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2016-35",
-	"modified": "2023-11-08T03:57:57.557172Z",
+	"modified": "2024-04-30T08:56:51.174750Z",
 	"published": "2016-04-11T21:59:00Z",
 	"aliases": [
-		"CVE-2015-5303"
+		"CVE-2015-5303",
+		"GHSA-m94p-8942-pm49"
 	],
 	"details": "The TripleO Heat templates (tripleo-heat-templates), when deployed via the commandline interface, allow remote attackers to spoof OpenStack Networking metadata requests by leveraging knowledge of the default value of the NeutronMetadataProxySharedSecret parameter.",
 	"affected": [
