@@ -1,12 +1,13 @@
 {
 	"schema_version": "1.6.0",
-	"id": "PYSEC-2014-15",
+	"id": "GHSA-mccq-3m7h-fjxg",
 	"modified": "2024-04-30T12:41:55.705266Z",
-	"published": "2014-04-11T15:55:00Z",
+	"published": "2022-05-17T01:37:42Z",
 	"aliases": [
 		"CVE-2012-6130",
-		"GHSA-mccq-3m7h-fjxg"
+		"PYSEC-2014-15"
 	],
+	"summary": "Roundup Cross-site Scripting (XSS) vulnerability",
 	"details": "Cross-site scripting (XSS) vulnerability in the history display in Roundup before 1.4.20 allows remote attackers to inject arbitrary web script or HTML via a username, related to generating a link.",
 	"affected": [
 		{
@@ -87,14 +88,22 @@
 				"1.4.9"
 			],
 			"database_specific": {
-				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/roundup/PYSEC-2014-15.yaml"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-mccq-3m7h-fjxg/GHSA-mccq-3m7h-fjxg.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2012-6130"
+		},
+		{
 			"type": "WEB",
-			"url": "http://issues.roundup-tracker.org/issue2550684"
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=722672"
+		},
+		{
+			"type": "WEB",
+			"url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84189"
 		},
 		{
 			"type": "WEB",
@@ -102,19 +111,24 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.openwall.com/lists/oss-security/2012/11/10/2"
+			"url": "http://issues.roundup-tracker.org/issue2550684"
 		},
 		{
-			"type": "REPORT",
-			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=722672"
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2012/11/10/2"
 		},
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2013/02/13/8"
-		},
-		{
-			"type": "WEB",
-			"url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84189"
 		}
-	]
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-79"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2024-04-30T12:28:21Z",
+		"nvd_published_at": "2014-04-11T15:55:00Z",
+		"severity": "MODERATE"
+	}
 }

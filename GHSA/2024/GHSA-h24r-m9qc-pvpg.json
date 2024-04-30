@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h24r-m9qc-pvpg",
-	"modified": "2024-02-16T08:15:12.960761Z",
+	"modified": "2024-04-30T15:45:57.958364Z",
 	"published": "2024-02-06T12:30:31Z",
 	"aliases": [
 		"CVE-2024-0690",
@@ -261,6 +261,10 @@
 		{
 			"type": "WEB",
 			"url": "https://access.redhat.com/errata/RHSA-2024:0733"
+		},
+		{
+			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHSA-2024:2246"
 		},
 		{
 			"type": "WEB",
