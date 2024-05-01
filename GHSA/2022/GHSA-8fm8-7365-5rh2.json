@@ -1,13 +1,20 @@
 {
 	"schema_version": "1.6.0",
-	"id": "PYSEC-2016-27",
+	"id": "GHSA-8fm8-7365-5rh2",
 	"modified": "2024-05-01T17:28:18.737352Z",
-	"published": "2016-04-13T16:59:00Z",
+	"published": "2022-05-14T02:08:52Z",
 	"aliases": [
 		"CVE-2016-3069",
-		"GHSA-8fm8-7365-5rh2"
+		"PYSEC-2016-27"
 	],
+	"summary": "Mercurial vulnerable to arbitrary code execution via a crafted name when converting a Git repository",
 	"details": "Mercurial before 3.7.3 allows remote attackers to execute arbitrary code via a crafted name when converting a Git repository.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -133,14 +140,18 @@
 				"3.7.2"
 			],
 			"database_specific": {
-				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/mercurial/PYSEC-2016-27.yaml"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-8fm8-7365-5rh2/GHSA-8fm8-7365-5rh2.json"
 			}
 		}
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3069"
+		},
+		{
 			"type": "WEB",
-			"url": "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00018.html"
+			"url": "https://security.gentoo.org/glsa/201612-19"
 		},
 		{
 			"type": "WEB",
@@ -148,7 +159,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00017.html"
+			"url": "https://selenic.com/repo/hg-stable/rev/80cac1de6aea"
 		},
 		{
 			"type": "WEB",
@@ -160,10 +171,6 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181505.html"
-		},
-		{
-			"type": "WEB",
 			"url": "https://selenic.com/repo/hg-stable/rev/cdda7b96afff"
 		},
 		{
@@ -172,15 +179,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181542.html"
-		},
-		{
-			"type": "ADVISORY",
-			"url": "http://www.debian.org/security/2016/dsa-3542"
+			"url": "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181505.html"
 		},
 		{
 			"type": "WEB",
-			"url": "https://selenic.com/repo/hg-stable/rev/80cac1de6aea"
+			"url": "http://lists.fedoraproject.org/pipermail/package-announce/2016-April/181542.html"
 		},
 		{
 			"type": "WEB",
@@ -188,23 +191,40 @@
 		},
 		{
 			"type": "WEB",
+			"url": "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00017.html"
+		},
+		{
+			"type": "WEB",
+			"url": "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00018.html"
+		},
+		{
+			"type": "WEB",
 			"url": "http://lists.opensuse.org/opensuse-security-announce/2016-04/msg00043.html"
 		},
 		{
-			"type": "ADVISORY",
+			"type": "WEB",
 			"url": "http://rhn.redhat.com/errata/RHSA-2016-0706.html"
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html"
+			"url": "http://www.debian.org/security/2016/dsa-3542"
 		},
 		{
 			"type": "WEB",
 			"url": "http://www.oracle.com/technetwork/topics/security/bulletinapr2016-2952098.html"
 		},
 		{
-			"type": "ADVISORY",
-			"url": "https://security.gentoo.org/glsa/201612-19"
+			"type": "WEB",
+			"url": "http://www.oracle.com/technetwork/topics/security/linuxbulletinapr2016-2952096.html"
 		}
-	]
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-20"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2024-05-01T16:59:58Z",
+		"nvd_published_at": "2016-04-13T16:59:00Z",
+		"severity": "HIGH"
+	}
 }

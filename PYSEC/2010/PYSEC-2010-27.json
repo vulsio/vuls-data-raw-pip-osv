@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2010-27",
-	"modified": "2023-11-08T03:56:57.247200Z",
+	"modified": "2024-05-01T16:58:37.142621Z",
 	"published": "2010-10-19T20:00:00Z",
 	"aliases": [
-		"CVE-2010-3495"
+		"CVE-2010-3495",
+		"GHSA-j6m4-frxh-p4x8"
 	],
 	"details": "Race condition in ZEO/StorageServer.py in Zope Object Database (ZODB) before 3.10.0 allows remote attackers to cause a denial of service (daemon outage) by establishing and then immediately closing a TCP connection, leading to the accept function having an unexpected return value of None, an unexpected value of None for the address, or an ECONNABORTED, EAGAIN, or EWOULDBLOCK error, a related issue to CVE-2010-3492.",
 	"affected": [

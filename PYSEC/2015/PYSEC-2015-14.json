@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2015-14",
-	"modified": "2023-11-08T03:57:46.761387Z",
+	"modified": "2024-05-01T17:12:42.049933Z",
 	"published": "2015-03-31T14:59:00Z",
 	"aliases": [
-		"CVE-2014-9462"
+		"CVE-2014-9462",
+		"GHSA-3pmw-h7j4-rf54"
 	],
 	"details": "The _validaterepo function in sshpeer in Mercurial before 3.2.4 allows remote attackers to execute arbitrary commands via a crafted repository name in a clone command.",
 	"affected": [
