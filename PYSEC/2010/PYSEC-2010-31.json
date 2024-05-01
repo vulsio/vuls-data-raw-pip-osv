@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2010-31",
-	"modified": "2023-11-08T03:56:56.759617Z",
+	"modified": "2024-05-01T11:41:42.252596Z",
 	"published": "2010-09-24T19:00:00Z",
 	"aliases": [
-		"CVE-2010-2491"
+		"CVE-2010-2491",
+		"GHSA-frgf-rv99-862x"
 	],
 	"details": "Cross-site scripting (XSS) vulnerability in cgi/client.py in Roundup before 1.4.14 allows remote attackers to inject arbitrary web script or HTML via the template argument to the /issue program.",
 	"affected": [

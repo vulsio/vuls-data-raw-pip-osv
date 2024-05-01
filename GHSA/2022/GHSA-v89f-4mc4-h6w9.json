@@ -1,12 +1,13 @@
 {
 	"schema_version": "1.6.0",
-	"id": "PYSEC-2013-12",
+	"id": "GHSA-v89f-4mc4-h6w9",
 	"modified": "2024-05-01T11:41:45.281474Z",
-	"published": "2013-11-05T18:55:00Z",
+	"published": "2022-05-17T04:58:26Z",
 	"aliases": [
 		"CVE-2013-4435",
-		"GHSA-v89f-4mc4-h6w9"
+		"PYSEC-2013-12"
 	],
+	"summary": "Salt has insufficient argument validation in several modules",
 	"details": "Salt (aka SaltStack) 0.15.0 through 0.17.0 allows remote authenticated users who are using external authentication or client ACL to execute restricted routines by embedding the routine in another routine.",
 	"affected": [
 		{
@@ -43,11 +44,24 @@
 				"0.17.0rc1"
 			],
 			"database_specific": {
-				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/salt/PYSEC-2013-12.yaml"
+				"last_known_affected_version_range": "<= 0.17.0",
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-v89f-4mc4-h6w9/GHSA-v89f-4mc4-h6w9.json"
 			}
 		}
 	],
 	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2013-4435"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/saltstack/salt"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/saltstack/salt/blob/master/doc/topics/releases/0.17.1.rst"
+		},
 		{
 			"type": "WEB",
 			"url": "http://docs.saltstack.com/topics/releases/0.17.1.html"
@@ -56,5 +70,14 @@
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2013/10/18/3"
 		}
-	]
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-287"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2024-05-01T11:19:14Z",
+		"nvd_published_at": "2013-11-05T18:55:00Z",
+		"severity": "MODERATE"
+	}
 }

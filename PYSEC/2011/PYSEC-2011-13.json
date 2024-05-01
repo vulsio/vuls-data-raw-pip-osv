@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2011-13",
-	"modified": "2023-11-08T03:56:58.538634Z",
+	"modified": "2024-05-01T11:11:35.159724Z",
 	"published": "2011-02-03T17:00:00Z",
 	"aliases": [
-		"CVE-2011-0720"
+		"CVE-2011-0720",
+		"GHSA-3v28-9jjp-4g5w"
 	],
 	"details": "Unspecified vulnerability in Plone 2.5 through 4.0, as used in Conga, luci, and possibly other products, allows remote attackers to obtain administrative access, read or create arbitrary content, and change the site skin via unknown vectors.",
 	"affected": [
