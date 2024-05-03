@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3gg8-mc87-cq3h",
-	"modified": "2024-04-24T20:13:33.029034Z",
+	"modified": "2024-05-02T19:16:30.581815Z",
 	"published": "2024-04-21T18:30:36Z",
 	"aliases": [
 		"CVE-2024-29733"
@@ -108,6 +108,10 @@
 		{
 			"type": "WEB",
 			"url": "https://lists.apache.org/thread/265t5zbmtjs6h9fkw52wtp03nsbplky2"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/04/19/3"
 		}
 	],
 	"database_specific": {
