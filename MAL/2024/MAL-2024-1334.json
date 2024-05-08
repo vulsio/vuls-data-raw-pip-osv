@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-1334",
-	"modified": "2024-05-07T01:52:46Z",
+	"modified": "2024-05-08T11:05:18Z",
 	"published": "2024-05-06T23:58:22Z",
 	"summary": "Malicious code in multiconnections (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (d080fb698cec14d7c79b82bff9f6ca58764dbfcd5b487ea88e5822e59e1d74cb)\nThe OpenSSF Package Analysis project identified 'multiconnections' @ 2.34.23 (pypi) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
@@ -15,7 +15,9 @@
 			"versions": [
 				"2.34.23",
 				"2.35.1",
-				"2.35.4"
+				"2.35.4",
+				"2.35.7",
+				"2.35.5"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/multiconnections/MAL-2024-1334.json"
@@ -59,6 +61,24 @@
 				"source": "ossf-package-analysis",
 				"versions": [
 					"2.35.4"
+				]
+			},
+			{
+				"import_time": "2024-05-08T06:34:26.532927201Z",
+				"modified_time": "2024-05-08T06:33:59Z",
+				"sha256": "db5d3aefc11d438b01e04b0cd72b12064df7114bc943c0e604753f0d650e56de",
+				"source": "ossf-package-analysis",
+				"versions": [
+					"2.35.7"
+				]
+			},
+			{
+				"import_time": "2024-05-08T11:04:51.010022806Z",
+				"modified_time": "2024-05-07T23:51:18Z",
+				"sha256": "c78034569643fd64d75f264a278b7d2b5cc194de2ba3f976bf0128a69a6196f8",
+				"source": "ossf-package-analysis",
+				"versions": [
+					"2.35.5"
 				]
 			}
 		]
