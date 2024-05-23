@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wgpq-p2hm-56v9",
-	"modified": "2024-02-16T08:14:32.804897Z",
+	"modified": "2024-05-23T14:17:02.216161Z",
 	"published": "2024-02-01T15:30:24Z",
 	"aliases": [
 		"CVE-2024-1141"
@@ -110,6 +110,7 @@
 				"4.3.0",
 				"4.3.1",
 				"4.3.2",
+				"4.3.3",
 				"4.4.0",
 				"4.5.0",
 				"4.6.0",
@@ -131,6 +132,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://access.redhat.com/errata/RHSA-2024:2732"
+		},
+		{
+			"type": "WEB",
 			"url": "https://access.redhat.com/security/cve/CVE-2024-1141"
 		},
 		{
@@ -144,7 +149,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-532"
+			"CWE-532",
+			"CWE-779"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-02-05T22:32:25Z",
