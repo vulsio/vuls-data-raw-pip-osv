@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5174",
+	"modified": "2024-06-25T13:35:42Z",
+	"published": "2024-06-25T13:35:42Z",
+	"summary": "Malicious code in genui (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "genui",
+				"purl": "pkg:pypi/genui"
+			},
+			"versions": [
+				"0.0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/genui/MAL-2024-5174.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-03956",
+				"import_time": "2024-06-28T02:49:03.139009563Z",
+				"modified_time": "2024-06-25T13:35:42Z",
+				"sha256": "290ecfec8319a6898c690f40588169ee3611f46f2a4120c121d2b351680f647c",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
+				]
+			}
+		]
+	}
+}

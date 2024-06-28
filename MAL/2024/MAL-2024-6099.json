@@ -1,0 +1,52 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-6099",
+	"modified": "2024-06-25T13:43:17Z",
+	"published": "2024-06-25T13:43:17Z",
+	"summary": "Malicious code in telerer (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "telerer",
+				"purl": "pkg:pypi/telerer"
+			},
+			"versions": [
+				"2.3",
+				"2.0",
+				"2.2",
+				"2.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/telerer/MAL-2024-6099.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04902",
+				"import_time": "2024-06-28T02:50:56.113299843Z",
+				"modified_time": "2024-06-25T13:43:17Z",
+				"sha256": "fe237de32c331287e13c7a03898f10f148b5c80e3996c45a4e973df6564c2cd8",
+				"source": "reversing-labs",
+				"versions": [
+					"2.3",
+					"2.0",
+					"2.2",
+					"2.1"
+				]
+			}
+		]
+	}
+}

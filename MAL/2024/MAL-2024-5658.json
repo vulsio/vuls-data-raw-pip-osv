@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5658",
+	"modified": "2024-06-25T13:39:36Z",
+	"published": "2024-06-25T13:39:36Z",
+	"summary": "Malicious code in pycoloring (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "pycoloring",
+				"purl": "pkg:pypi/pycoloring"
+			},
+			"versions": [
+				"0.0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pycoloring/MAL-2024-5658.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04441",
+				"import_time": "2024-06-28T02:50:00.563590005Z",
+				"modified_time": "2024-06-25T13:39:36Z",
+				"sha256": "b97f43fcf4b7173c4e25acf17ec66e3c4a247b88af83ed7eafe1d3b17ac9269a",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
+				]
+			}
+		]
+	}
+}

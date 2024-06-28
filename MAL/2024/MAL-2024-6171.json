@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-6171",
+	"modified": "2024-06-25T13:43:51Z",
+	"published": "2024-06-25T13:43:51Z",
+	"summary": "Malicious code in ts-wuzzi (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "ts-wuzzi",
+				"purl": "pkg:pypi/ts-wuzzi"
+			},
+			"versions": [
+				"4.4.5"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/ts-wuzzi/MAL-2024-6171.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04975",
+				"import_time": "2024-06-28T02:51:04.620617989Z",
+				"modified_time": "2024-06-25T13:43:51Z",
+				"sha256": "5822cb0de780294108576a7c5406f14ad60dc72e9f48ade38a4de0f05a2ef0d8",
+				"source": "reversing-labs",
+				"versions": [
+					"4.4.5"
+				]
+			}
+		]
+	}
+}

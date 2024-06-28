@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5652",
+	"modified": "2024-06-25T13:39:33Z",
+	"published": "2024-06-25T13:39:33Z",
+	"summary": "Malicious code in pyclonefile (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "pyclonefile",
+				"purl": "pkg:pypi/pyclonefile"
+			},
+			"versions": [
+				"1.0.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pyclonefile/MAL-2024-5652.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04435",
+				"import_time": "2024-06-28T02:49:59.834194184Z",
+				"modified_time": "2024-06-25T13:39:33Z",
+				"sha256": "2f10576d1a7c8e651f05141501d598c25287aab903cf339b03689c1726765363",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
+				]
+			}
+		]
+	}
+}

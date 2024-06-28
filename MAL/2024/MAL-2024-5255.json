@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5255",
+	"modified": "2024-06-25T13:36:21Z",
+	"published": "2024-06-25T13:36:21Z",
+	"summary": "Malicious code in idtotoken (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "idtotoken",
+				"purl": "pkg:pypi/idtotoken"
+			},
+			"versions": [
+				"0.0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/idtotoken/MAL-2024-5255.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04037",
+				"import_time": "2024-06-28T02:49:13.105022333Z",
+				"modified_time": "2024-06-25T13:36:21Z",
+				"sha256": "c6be8a34937ceedeedd86f672d0efbd9e40108a1608d40043fa4c3dbbefa9474",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
+				]
+			}
+		]
+	}
+}

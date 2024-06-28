@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5280",
+	"modified": "2024-06-25T13:36:34Z",
+	"published": "2024-06-25T13:36:34Z",
+	"summary": "Malicious code in jksandbox (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "jksandbox",
+				"purl": "pkg:pypi/jksandbox"
+			},
+			"versions": [
+				"99.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/jksandbox/MAL-2024-5280.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04062",
+				"import_time": "2024-06-28T02:49:16.223449484Z",
+				"modified_time": "2024-06-25T13:36:34Z",
+				"sha256": "dbac0ca64d8d3a36060a51649611f5bb540b9a529495ea9a47e4a094493fbbf7",
+				"source": "reversing-labs",
+				"versions": [
+					"99.0"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5783",
+	"modified": "2024-06-25T13:40:45Z",
+	"published": "2024-06-25T13:40:45Z",
+	"summary": "Malicious code in pysubprocess (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "pysubprocess",
+				"purl": "pkg:pypi/pysubprocess"
+			},
+			"versions": [
+				"1.0.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pysubprocess/MAL-2024-5783.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/DataDog/malicious-software-packages-dataset"
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04580",
+				"import_time": "2024-06-28T02:50:16.885634885Z",
+				"modified_time": "2024-06-25T13:40:45Z",
+				"sha256": "846f4c72d250ad843b7ef08e458b5d7b5c5db4aec04eff174008f7533dad86e4",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
+				]
+			}
+		]
+	}
+}

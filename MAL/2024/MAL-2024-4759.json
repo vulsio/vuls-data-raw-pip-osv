@@ -1,0 +1,52 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-4759",
+	"modified": "2024-06-25T13:32:20Z",
+	"published": "2024-06-25T13:32:20Z",
+	"summary": "Malicious code in airnitro (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "airnitro",
+				"purl": "pkg:pypi/airnitro"
+			},
+			"versions": [
+				"1.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/airnitro/MAL-2024-4759.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/DataDog/malicious-software-packages-dataset"
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-03539",
+				"import_time": "2024-06-28T02:48:15.223065469Z",
+				"modified_time": "2024-06-25T13:32:20Z",
+				"sha256": "9be575448cab485475e904629ef2779125456f3ba402c803f72ca94fa6454ab4",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0"
+				]
+			}
+		]
+	}
+}

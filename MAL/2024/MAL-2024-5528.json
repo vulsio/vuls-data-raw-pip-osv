@@ -1,0 +1,52 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5528",
+	"modified": "2024-06-25T13:38:33Z",
+	"published": "2024-06-25T13:38:33Z",
+	"summary": "Malicious code in piphack (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "piphack",
+				"purl": "pkg:pypi/piphack"
+			},
+			"versions": [
+				"0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/piphack/MAL-2024-5528.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/DataDog/malicious-software-packages-dataset"
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04310",
+				"import_time": "2024-06-28T02:49:45.305274184Z",
+				"modified_time": "2024-06-25T13:38:33Z",
+				"sha256": "fa9707fade501b81021b423be0490432c0e2d89d57a4e767c86f00aacc9cfc10",
+				"source": "reversing-labs",
+				"versions": [
+					"0.1"
+				]
+			}
+		]
+	}
+}

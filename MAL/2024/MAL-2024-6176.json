@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-6176",
+	"modified": "2024-06-25T13:43:53Z",
+	"published": "2024-06-25T13:43:53Z",
+	"summary": "Malicious code in update-mss (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "update-mss",
+				"purl": "pkg:pypi/update-mss"
+			},
+			"versions": [
+				"0.0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/update-mss/MAL-2024-6176.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04980",
+				"import_time": "2024-06-28T02:51:05.211650657Z",
+				"modified_time": "2024-06-25T13:43:53Z",
+				"sha256": "d8d5adab5f87b0f6f683210c6ec6279b240750115a7986355aa66d6d5fea8eeb",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
+				]
+			}
+		]
+	}
+}

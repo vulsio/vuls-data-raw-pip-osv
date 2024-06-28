@@ -1,0 +1,55 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5320",
+	"modified": "2024-06-28T03:14:55.396707Z",
+	"published": "2024-06-25T13:36:53Z",
+	"aliases": [
+		"SNYK-PYTHON-LIBIOBI-5885064"
+	],
+	"summary": "Malicious code in libiobi (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "libiobi",
+				"purl": "pkg:pypi/libiobi"
+			},
+			"versions": [
+				"0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/libiobi/MAL-2024-5320.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://security.snyk.io/vuln/SNYK-PYTHON-LIBIOBI-5885064"
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04102",
+				"import_time": "2024-06-28T02:49:20.99803591Z",
+				"modified_time": "2024-06-25T13:36:53Z",
+				"sha256": "8f92274dbbe0e9dc67a5d78204859e91d040852d959489b9c992647a47791e2b",
+				"source": "reversing-labs",
+				"versions": [
+					"0.1"
+				]
+			}
+		]
+	}
+}

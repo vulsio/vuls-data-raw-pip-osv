@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-4959",
+	"modified": "2024-06-25T13:33:57Z",
+	"published": "2024-06-25T13:33:57Z",
+	"summary": "Malicious code in colorfade (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "colorfade",
+				"purl": "pkg:pypi/colorfade"
+			},
+			"versions": [
+				"0.0.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/colorfade/MAL-2024-4959.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-03739",
+				"import_time": "2024-06-28T02:48:38.078149404Z",
+				"modified_time": "2024-06-25T13:33:57Z",
+				"sha256": "79663f369b3ea7e27ecf3582837c04900f3c41a5d774346fd83336d925116a2f",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.0"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5117",
+	"modified": "2024-06-25T13:35:13Z",
+	"published": "2024-06-25T13:35:13Z",
+	"summary": "Malicious code in ethertoollerz (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "ethertoollerz",
+				"purl": "pkg:pypi/ethertoollerz"
+			},
+			"versions": [
+				"1.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/ethertoollerz/MAL-2024-5117.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-03897",
+				"import_time": "2024-06-28T02:48:56.139943398Z",
+				"modified_time": "2024-06-25T13:35:13Z",
+				"sha256": "8b9e972e35be7d92e29d22cf65234b711d2462c28954e9fdf360a1cca6cc5472",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5968",
+	"modified": "2024-06-25T13:42:14Z",
+	"published": "2024-06-25T13:42:14Z",
+	"summary": "Malicious code in sclighte (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "sclighte",
+				"purl": "pkg:pypi/sclighte"
+			},
+			"versions": [
+				"1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/sclighte/MAL-2024-5968.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04769",
+				"import_time": "2024-06-28T02:50:39.954212622Z",
+				"modified_time": "2024-06-25T13:42:14Z",
+				"sha256": "c6e4587c90f17f8563124f0ecf924474669a0e8ef3cfc3822f435b1691383ad7",
+				"source": "reversing-labs",
+				"versions": [
+					"1"
+				]
+			}
+		]
+	}
+}

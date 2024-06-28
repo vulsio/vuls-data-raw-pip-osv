@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-6040",
+	"modified": "2024-06-25T13:42:50Z",
+	"published": "2024-06-25T13:42:50Z",
+	"summary": "Malicious code in strbeautify (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "strbeautify",
+				"purl": "pkg:pypi/strbeautify"
+			},
+			"versions": [
+				"1.4.2"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/strbeautify/MAL-2024-6040.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04843",
+				"import_time": "2024-06-28T02:50:48.994591614Z",
+				"modified_time": "2024-06-25T13:42:50Z",
+				"sha256": "57955c08b7203e62608a4c131f58b576c48186bdf686f2341d413b11869f61b0",
+				"source": "reversing-labs",
+				"versions": [
+					"1.4.2"
+				]
+			}
+		]
+	}
+}

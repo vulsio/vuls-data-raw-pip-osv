@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-5884",
+	"modified": "2024-06-25T13:41:34Z",
+	"published": "2024-06-25T13:41:34Z",
+	"summary": "Malicious code in request-http (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "request-http",
+				"purl": "pkg:pypi/request-http"
+			},
+			"versions": [
+				"0.0.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/request-http/MAL-2024-5884.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-04685",
+				"import_time": "2024-06-28T02:50:29.564947681Z",
+				"modified_time": "2024-06-25T13:41:34Z",
+				"sha256": "0d7ace94970dbf9d840531ae4fbc701a50fffd51b7ce5fc38c043b34d90e679a",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
+				]
+			}
+		]
+	}
+}

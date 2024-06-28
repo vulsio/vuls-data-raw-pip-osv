@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-4730",
+	"modified": "2024-06-25T13:32:07Z",
+	"published": "2024-06-25T13:32:07Z",
+	"summary": "Malicious code in adm3 (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "adm3",
+				"purl": "pkg:pypi/adm3"
+			},
+			"versions": [
+				"1.8.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/adm3/MAL-2024-4730.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-03510",
+				"import_time": "2024-06-28T02:48:11.976336717Z",
+				"modified_time": "2024-06-25T13:32:07Z",
+				"sha256": "af769f88e433f42170ec8b0c4eac0c0fdc62d4bb4dfdace3bda8e563da5aa38e",
+				"source": "reversing-labs",
+				"versions": [
+					"1.8.0"
+				]
+			}
+		]
+	}
+}

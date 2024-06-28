@@ -1,0 +1,52 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-4827",
+	"modified": "2024-06-25T13:32:53Z",
+	"published": "2024-06-25T13:32:53Z",
+	"summary": "Malicious code in boost-tool-api (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "boost-tool-api",
+				"purl": "pkg:pypi/boost-tool-api"
+			},
+			"versions": [
+				"1.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/boost-tool-api/MAL-2024-4827.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://research.jfrog.com/malicious-packages/"
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-03607",
+				"import_time": "2024-06-28T02:48:22.88578676Z",
+				"modified_time": "2024-06-25T13:32:53Z",
+				"sha256": "f64bac8f12c0ddcf32e6848e70668d201b7603be1c4ddeca618a50dbe20005d3",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0"
+				]
+			}
+		]
+	}
+}

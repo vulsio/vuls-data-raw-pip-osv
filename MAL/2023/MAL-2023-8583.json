@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2023-8583",
-	"modified": "2023-10-15T10:12:58Z",
+	"modified": "2024-06-28T03:15:08.734743Z",
 	"published": "2023-09-18T00:00:00Z",
+	"aliases": [
+		"SNYK-PYTHON-PYOWLER-6069632"
+	],
 	"summary": "Malicious code in pyowler (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: checkmarx (9df2ac0489cd9816fc13f309f73773ae3fc26794b44dd4930ab92a367115899f)\nMalicious packages campaign targeting developers, payload is hidden using Steganography, exfiltrate host information\n",
 	"affected": [
@@ -22,6 +25,9 @@
 					]
 				}
 			],
+			"versions": [
+				"1.0.0"
+			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pyowler/MAL-2023-8583.json"
 			}
@@ -31,6 +37,14 @@
 		{
 			"type": "ARTICLE",
 			"url": "https://medium.com/checkmarx-security/attacker-hidden-in-plain-sight-for-nearly-six-months-targeting-python-developers-3712f0f107e0"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://security.snyk.io/vuln/SNYK-PYTHON-PYOWLER-6069632"
+		},
+		{
+			"type": "ARTICLE",
+			"url": "https://checkmarx.com/blog/attacker-hidden-in-plain-sight-for-nearly-six-months-targeting-python-developers/"
 		}
 	],
 	"credits": [
@@ -39,6 +53,13 @@
 			"contact": [
 				"supplychainsecurity@checkmarx.com",
 				"https://bit.ly/checkmarx-malicious-packages"
+			],
+			"type": "FINDER"
+		},
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
 			],
 			"type": "FINDER"
 		}
@@ -83,6 +104,16 @@
 				],
 				"sha256": "9df2ac0489cd9816fc13f309f73773ae3fc26794b44dd4930ab92a367115899f",
 				"source": "checkmarx"
+			},
+			{
+				"id": "RLMA-2024-04550",
+				"import_time": "2024-06-28T02:50:13.531983705Z",
+				"modified_time": "2024-06-25T13:40:30Z",
+				"sha256": "6cea72329252ba68cd0dac23573fb89e987c8ac82d9293e41031397991af3d46",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
+				]
 			}
 		]
 	}
