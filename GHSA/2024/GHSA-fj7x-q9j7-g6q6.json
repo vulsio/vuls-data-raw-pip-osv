@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fj7x-q9j7-g6q6",
-	"modified": "2024-03-20T15:41:52.204760Z",
+	"modified": "2024-07-03T21:30:43.913247Z",
 	"published": "2024-03-19T06:30:52Z",
 	"aliases": [
 		"CVE-2024-21503",
@@ -127,7 +127,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-1333"
+			"CWE-1333",
+			"CWE-75"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-03-20T15:24:01Z",

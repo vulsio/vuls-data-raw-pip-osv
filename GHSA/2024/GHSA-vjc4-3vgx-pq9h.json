@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vjc4-3vgx-pq9h",
-	"modified": "2024-05-06T15:11:50.454821Z",
+	"modified": "2024-07-03T22:20:40.266458Z",
 	"published": "2024-05-06T00:30:52Z",
 	"aliases": [
 		"CVE-2024-34529"
@@ -94,7 +94,9 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-200"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-05-06T14:35:50Z",
 		"nvd_published_at": "2024-05-06T00:15:10Z",

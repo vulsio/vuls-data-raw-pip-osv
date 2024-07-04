@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3gg8-mc87-cq3h",
-	"modified": "2024-05-02T19:16:30.581815Z",
+	"modified": "2024-07-03T20:47:28.357367Z",
 	"published": "2024-04-21T18:30:36Z",
 	"aliases": [
 		"CVE-2024-29733"
 	],
 	"summary": "Improper Certificate Validation vulnerability in Apache Airflow FTP Provider",
 	"details": "Improper Certificate Validation vulnerability in Apache Airflow FTP Provider.\n\nThe FTP hook lacks complete certificate validation in FTP_TLS connections, which can potentially be leveraged. Implementing proper certificate validation by passing context=ssl.create_default_context() during FTP_TLS instantiation is used as mitigation to validate the certificates properly.\n\nThis issue affects Apache Airflow FTP Provider: before 3.7.0.\n\nUsers are recommended to upgrade to version 3.7.0, which fixes the issue.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -121,6 +127,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-04-24T19:52:02Z",
 		"nvd_published_at": "2024-04-21T18:15:45Z",
-		"severity": "MODERATE"
+		"severity": "LOW"
 	}
 }

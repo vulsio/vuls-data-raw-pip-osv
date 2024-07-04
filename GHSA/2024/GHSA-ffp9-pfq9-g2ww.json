@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-ffp9-pfq9-g2ww",
-	"modified": "2024-05-06T15:11:50.299069Z",
+	"modified": "2024-07-03T20:21:32.147262Z",
 	"published": "2024-05-05T03:30:47Z",
 	"aliases": [
 		"CVE-2024-34488"
 	],
 	"summary": "Ryu Infinite Loop vulnerability",
 	"details": "`OFPMultipartReply` in parser.py in Faucet SDN Ryu 4.34 allows attackers to cause a denial of service (infinite loop) via `b.length=0`.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -132,10 +138,12 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-835"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-05-06T14:32:52Z",
 		"nvd_published_at": "2024-05-05T03:15:07Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
