@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h95x-26f3-88hr",
-	"modified": "2024-06-25T02:36:54.119579Z",
+	"modified": "2024-07-05T18:03:25.203700Z",
 	"published": "2024-06-20T18:34:08Z",
 	"aliases": [
 		"CVE-2024-28397"
@@ -104,6 +104,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/Marven11"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/Marven11/CVE-2024-28397-js2py-Sandbox-Escape"
 		},
 		{
@@ -112,7 +116,9 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-94"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-06-20T19:19:56Z",
 		"nvd_published_at": "2024-06-20T17:15:50Z",
