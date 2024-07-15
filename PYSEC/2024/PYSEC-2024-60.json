@@ -39,6 +39,9 @@
 					"events": [
 						{
 							"introduced": "0.1"
+						},
+						{
+							"fixed": "3.7"
 						}
 					]
 				}
