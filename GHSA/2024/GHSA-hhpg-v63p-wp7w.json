@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hhpg-v63p-wp7w",
-	"modified": "2024-07-18T22:27:22.072080Z",
+	"modified": "2024-07-19T15:11:53.962561Z",
 	"published": "2024-07-18T22:06:41Z",
 	"aliases": [
 		"CVE-2024-35199"
@@ -69,6 +69,10 @@
 			"url": "https://github.com/pytorch/serve/security/advisories/GHSA-hhpg-v63p-wp7w"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35199"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/pytorch/serve/pull/3083"
 		},
@@ -87,11 +91,12 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-1256"
+			"CWE-1256",
+			"CWE-668"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-18T22:06:41Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-07-19T02:15:14Z",
 		"severity": "HIGH"
 	}
 }

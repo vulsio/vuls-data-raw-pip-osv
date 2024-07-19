@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wxcx-gg9c-fwp2",
-	"modified": "2024-07-18T22:27:21.998873Z",
+	"modified": "2024-07-19T14:41:03.516224Z",
 	"published": "2024-07-18T22:03:30Z",
 	"aliases": [
 		"CVE-2024-35198"
@@ -73,6 +73,10 @@
 			"url": "https://github.com/pytorch/serve/security/advisories/GHSA-wxcx-gg9c-fwp2"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35198"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/pytorch/serve/pull/3082"
 		},
@@ -91,11 +95,12 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-22"
+			"CWE-22",
+			"CWE-706"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-18T22:03:30Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-07-19T02:15:14Z",
 		"severity": "MODERATE"
 	}
 }
