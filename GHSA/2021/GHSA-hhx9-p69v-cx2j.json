@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hhx9-p69v-cx2j",
-	"modified": "2024-03-06T22:47:28.193310Z",
+	"modified": "2024-08-01T17:21:04.923600Z",
 	"published": "2021-04-30T17:34:13Z",
 	"aliases": [
 		"BIT-airflow-2020-13927",
@@ -133,6 +133,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-1056",
 			"CWE-1188",
 			"CWE-287"
 		],
