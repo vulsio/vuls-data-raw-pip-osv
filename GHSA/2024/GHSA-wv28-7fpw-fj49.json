@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wv28-7fpw-fj49",
-	"modified": "2024-03-27T22:26:42.654662Z",
+	"modified": "2024-08-06T19:00:46.448640Z",
 	"published": "2024-03-27T06:30:33Z",
 	"aliases": [
 		"CVE-2024-28335",
@@ -9,6 +9,16 @@
 	],
 	"summary": "Lektor does not sanitize database path traversal",
 	"details": "Lektor before 3.3.11 does not sanitize DB path traversal. Thus, shell commands might be executed via a file that is added to the templates directory, if the victim's web browser accesses an untrusted website that uses JavaScript to send requests to localhost port 5000, and the web browser is running on the same machine as the \"lektor server\" command.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -148,6 +158,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-03-27T21:59:55Z",
 		"nvd_published_at": "2024-03-27T06:15:19Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }
