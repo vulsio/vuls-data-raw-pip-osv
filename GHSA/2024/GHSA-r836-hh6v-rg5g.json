@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r836-hh6v-rg5g",
-	"modified": "2024-08-08T08:11:48.319634Z",
+	"modified": "2024-08-08T15:30:16.783051Z",
 	"published": "2024-08-07T15:30:42Z",
 	"aliases": [
 		"BIT-django-2024-41991",
@@ -131,6 +131,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-1284",
+			"CWE-130",
 			"CWE-1333"
 		],
 		"github_reviewed": true,
