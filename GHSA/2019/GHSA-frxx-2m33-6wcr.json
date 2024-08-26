@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-frxx-2m33-6wcr",
-	"modified": "2024-02-16T08:20:57.007816Z",
+	"modified": "2024-08-26T17:13:30.889413Z",
 	"published": "2019-04-24T16:11:30Z",
 	"aliases": [
 		"CVE-2018-8825",
@@ -15,6 +15,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -60,6 +64,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/tensorflow/tensorflow/commit/8badd11d875a826bd318ed439909d5c47a7fb811"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/tensorflow/tensorflow"
 		},
 		{
 			"type": "WEB",
