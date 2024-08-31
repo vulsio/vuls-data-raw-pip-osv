@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2024-10",
-	"modified": "2024-01-22T18:41:46.432070Z",
+	"modified": "2024-08-30T23:57:56.740609Z",
 	"published": "2024-01-12T03:15:00Z",
 	"aliases": [
-		"CVE-2016-20021"
+		"CVE-2016-20021",
+		"GHSA-pw5x-x5jw-ccmh"
 	],
 	"details": "In Gentoo Portage before 3.0.47, there is missing PGP validation of executed code: the standalone emerge-webrsync downloads a .gpgsig file but does not perform signature verification. Unless emerge-webrsync is used, Portage is not vulnerable.",
 	"severity": [
