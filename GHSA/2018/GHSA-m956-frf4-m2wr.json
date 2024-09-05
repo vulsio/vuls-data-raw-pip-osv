@@ -1,18 +1,22 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m956-frf4-m2wr",
-	"modified": "2024-02-19T05:25:56.847176Z",
+	"modified": "2024-09-04T19:00:51.626617Z",
 	"published": "2018-10-10T17:22:53Z",
 	"aliases": [
 		"CVE-2016-9587",
 		"PYSEC-2018-39"
 	],
 	"summary": "Ansible is vulnerable to an improper input validation in Ansible's handling of data sent from client systems",
-	"details": "Ansible before versions 2.1.4, 2.2.1 is vulnerable to an improper input validation in Ansible's handling of data sent from client systems. An attacker with control over a client system being managed by Ansible and the ability to send facts back to the Ansible server could use this flaw to execute arbitrary code on the Ansible server using the Ansible server privileges.",
+	"details": "Ansible before versions 2.1.4.0, 2.2.1.0 is vulnerable to an improper input validation in Ansible's handling of data sent from client systems. An attacker with control over a client system being managed by Ansible and the ability to send facts back to the Ansible server could use this flaw to execute arbitrary code on the Ansible server using the Ansible server privileges.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -168,6 +172,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://web.archive.org/web/20170115210655/http://www.securityfocus.com/bid/95352"
+		},
+		{
+			"type": "WEB",
 			"url": "https://www.exploit-db.com/exploits/41013"
 		},
 		{
@@ -177,10 +185,6 @@
 		{
 			"type": "WEB",
 			"url": "http://rhn.redhat.com/errata/RHSA-2017-0260.html"
-		},
-		{
-			"type": "WEB",
-			"url": "http://www.securityfocus.com/bid/95352"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9x6q-5423-w5v9",
-	"modified": "2023-11-08T03:57:18.652358Z",
+	"modified": "2024-09-04T18:46:16.976393Z",
 	"published": "2018-10-10T17:23:39Z",
 	"aliases": [
 		"CVE-2013-2233",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
