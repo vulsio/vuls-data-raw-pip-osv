@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r48c-4vfj-h426",
-	"modified": "2023-11-08T04:10:49.464507Z",
+	"modified": "2024-09-06T16:33:41.389169Z",
 	"published": "2022-12-14T15:30:16Z",
 	"aliases": [
 		"CVE-2022-4495",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
 		}
 	],
 	"affected": [
@@ -73,6 +77,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/collective/collective.dms.basecontent/releases/tag/1.7"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/collective-dms-basecontent/PYSEC-2022-42989.yaml"
 		},
 		{
 			"type": "WEB",
