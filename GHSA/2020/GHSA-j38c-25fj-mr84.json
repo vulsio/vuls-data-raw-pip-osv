@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j38c-25fj-mr84",
-	"modified": "2023-12-06T01:00:42.851900Z",
+	"modified": "2024-09-11T21:23:51.099134Z",
 	"published": "2020-07-27T16:57:34Z",
 	"aliases": [
 		"BIT-airflow-2020-9485",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
 		}
 	],
 	"affected": [
@@ -93,6 +97,18 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9485"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-j38c-25fj-mr84"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/apache/airflow"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2020-23.yaml"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2h84-3crq-vgfj",
-	"modified": "2024-03-06T23:31:19.088766Z",
+	"modified": "2024-09-11T18:52:45.257921Z",
 	"published": "2023-07-12T12:31:36Z",
 	"aliases": [
 		"BIT-airflow-2023-35908",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
