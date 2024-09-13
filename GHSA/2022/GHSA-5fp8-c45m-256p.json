@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5fp8-c45m-256p",
-	"modified": "2024-02-16T08:17:51.582708Z",
+	"modified": "2024-09-12T20:52:37.641928Z",
 	"published": "2022-05-24T19:20:42Z",
 	"aliases": [
 		"CVE-2021-42250",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [

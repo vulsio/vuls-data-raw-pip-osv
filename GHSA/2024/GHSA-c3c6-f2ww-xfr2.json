@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c3c6-f2ww-xfr2",
-	"modified": "2024-02-16T08:12:15.173005Z",
+	"modified": "2024-09-12T20:03:44.650295Z",
 	"published": "2024-01-24T15:30:30Z",
 	"aliases": [
 		"BIT-airflow-2023-50943",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -31,7 +35,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.8.1"
+							"fixed": "2.8.1rc1"
 						}
 					]
 				}
@@ -210,8 +214,7 @@
 				"2.8.0rc1",
 				"2.8.0rc2",
 				"2.8.0rc3",
-				"2.8.0rc4",
-				"2.8.1rc1"
+				"2.8.0rc4"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/01/GHSA-c3c6-f2ww-xfr2/GHSA-c3c6-f2ww-xfr2.json"
@@ -226,6 +229,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/apache/airflow/pull/36255"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/apache/airflow/commit/2c4c5bc604e9ab0cc1e98f7bee7d31d566579462"
 		},
 		{
 			"type": "PACKAGE",
