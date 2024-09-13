@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mqwh-r366-4224",
-	"modified": "2024-02-16T08:20:30.371066Z",
+	"modified": "2024-09-13T16:06:55.565886Z",
 	"published": "2022-05-24T17:29:11Z",
 	"aliases": [
 		"CVE-2020-7734",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:L"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:H/SI:L/SA:L/E:U"
 		}
 	],
 	"affected": [
@@ -90,6 +94,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/cabot/PYSEC-2020-227.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://itsmeanonartist.tech/blogs/blog2.html"
 		},
 		{
@@ -108,6 +116,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-08-04T21:48:39Z",
 		"nvd_published_at": "2020-09-22T08:15:00Z",
-		"severity": "HIGH"
+		"severity": "LOW"
 	}
 }
