@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v542-8q9x-cffc",
-	"modified": "2024-02-16T08:24:44.378642Z",
+	"modified": "2024-09-13T18:01:43.817869Z",
 	"published": "2021-03-19T21:29:02Z",
 	"aliases": [
 		"CVE-2020-35681",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -63,8 +67,20 @@
 			"url": "https://channels.readthedocs.io/en/stable/releases/index.html"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-v542-8q9x-cffc"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/django/channels"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/django/channels/releases"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/channels/PYSEC-2021-113.yaml"
 		}
 	],
 	"database_specific": {
