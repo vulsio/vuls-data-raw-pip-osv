@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m38j-pmg3-v5x5",
-	"modified": "2023-11-08T04:03:50.640117Z",
+	"modified": "2024-09-16T21:32:53.840629Z",
 	"published": "2020-06-23T19:58:27Z",
 	"aliases": [
 		"CVE-2020-4071",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:L/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -66,6 +70,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/tm-kn/django-basic-auth-ip-whitelist/commit/effe05ed1ed9e1ccc675a65b69d36217e5c5dfc6"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/django-basic-auth-ip-whitelist/PYSEC-2020-37.yaml"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/tm-kn/django-basic-auth-ip-whitelist"
 		},
 		{
 			"type": "WEB",
