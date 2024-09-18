@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6565-fg86-6jcx",
-	"modified": "2024-02-20T05:23:06.054392Z",
+	"modified": "2024-09-18T14:45:56.594121Z",
 	"published": "2022-05-17T03:34:12Z",
 	"aliases": [
 		"CVE-2015-2241",
@@ -9,6 +9,16 @@
 	],
 	"summary": "Django Cross-site Scripting Vulnerability",
 	"details": "Cross-site scripting (XSS) vulnerability in the contents function in `admin/helpers.py` in Django before 1.7.6 and 1.8 before 1.8b2 allows remote attackers to inject arbitrary web script or HTML via a model attribute in `ModelAdmin.readonly_fields`, as demonstrated by an `@property`.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -110,6 +120,11 @@
 				"1.7.4",
 				"1.7.5"
 			],
+			"ecosystem_specific": {
+				"affected_functions": [
+					"django.contrib.admin.helpers.AdminReadonlyField.contents"
+				]
+			},
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-6565-fg86-6jcx/GHSA-6565-fg86-6jcx.json"
 			}
@@ -160,6 +175,14 @@
 			"url": "https://code.djangoproject.com/ticket/24461"
 		},
 		{
+			"type": "PACKAGE",
+			"url": "https://github.com/django/django"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/django/PYSEC-2015-8.yaml"
+		},
+		{
 			"type": "WEB",
 			"url": "https://web.archive.org/web/20150523054951/http://www.mandriva.com/en/support/security/advisories/advisory/MDVSA-2015:109/?name=MDVSA-2015:109"
 		},
@@ -170,6 +193,10 @@
 		{
 			"type": "WEB",
 			"url": "https://www.djangoproject.com/weblog/2015/mar/09/security-releases"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.mandriva.com/security/advisories?name=MDVSA-2015:109"
 		}
 	],
 	"database_specific": {
