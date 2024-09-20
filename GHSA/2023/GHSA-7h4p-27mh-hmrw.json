@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7h4p-27mh-hmrw",
-	"modified": "2024-02-16T08:10:39.929417Z",
+	"modified": "2024-09-20T15:23:33.100202Z",
 	"published": "2023-11-03T06:36:29Z",
 	"aliases": [
 		"BIT-django-2023-41164",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [

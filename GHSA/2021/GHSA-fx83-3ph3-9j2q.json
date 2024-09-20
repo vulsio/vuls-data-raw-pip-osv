@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fx83-3ph3-9j2q",
-	"modified": "2024-02-21T05:33:25.952415Z",
+	"modified": "2024-09-20T15:12:55.355320Z",
 	"published": "2021-03-19T21:32:47Z",
 	"aliases": [
 		"CVE-2020-25626",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
 		}
 	],
 	"affected": [
@@ -177,8 +181,16 @@
 			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=1878635"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-fx83-3ph3-9j2q"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/encode/django-rest-framework"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/djangorestframework/PYSEC-2020-263.yaml"
 		},
 		{
 			"type": "WEB",
