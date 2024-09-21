@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m2qf-hxjv-5gpq",
-	"modified": "2024-02-20T05:25:16.923896Z",
+	"modified": "2024-09-20T18:01:16.104241Z",
 	"published": "2023-05-01T19:22:20Z",
 	"aliases": [
 		"CVE-2023-30861",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [

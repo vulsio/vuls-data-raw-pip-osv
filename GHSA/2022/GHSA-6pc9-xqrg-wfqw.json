@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6pc9-xqrg-wfqw",
-	"modified": "2023-11-08T04:07:34.100598Z",
+	"modified": "2024-09-20T22:01:19.944457Z",
 	"published": "2022-03-16T00:00:47Z",
 	"aliases": [
 		"CVE-2022-0430",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -99,6 +103,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/httpie/httpie/commit/65ab7d5caaaf2f95e61f9dd65441801c2ddee38b"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-6pc9-xqrg-wfqw"
 		},
 		{
 			"type": "PACKAGE",

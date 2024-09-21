@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3qqg-pgqq-3695",
-	"modified": "2024-02-16T08:03:08.783830Z",
+	"modified": "2024-09-20T21:23:46.673042Z",
 	"published": "2023-06-09T22:51:19Z",
 	"aliases": [
 		"CVE-2023-34239",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -483,7 +487,6 @@
 				]
 			},
 			"database_specific": {
-				"last_known_affected_version_range": "<= 3.33.1",
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-3qqg-pgqq-3695/GHSA-3qqg-pgqq-3695.json"
 			}
 		}
@@ -504,6 +507,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/gradio-app/gradio/pull/4406"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/gradio-app/gradio/commit/37967617bd97615fb6f3b44e7750c0e0be58479a"
 		},
 		{
 			"type": "WEB",
@@ -529,6 +536,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-06-09T22:51:19Z",
 		"nvd_published_at": "2023-06-08T00:15:09Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
