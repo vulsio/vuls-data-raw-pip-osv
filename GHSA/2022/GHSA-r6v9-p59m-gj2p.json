@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r6v9-p59m-gj2p",
-	"modified": "2023-11-08T04:09:22.844035Z",
+	"modified": "2024-09-23T16:38:59.407916Z",
 	"published": "2022-09-02T21:55:20Z",
 	"aliases": [
 		"CVE-2022-31020",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
