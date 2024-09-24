@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jj53-8fmw-f2w2",
-	"modified": "2024-02-17T05:37:06.646928Z",
+	"modified": "2024-09-24T16:44:02.688713Z",
 	"published": "2021-09-01T18:25:44Z",
 	"aliases": [
 		"CVE-2021-39163",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -259,6 +263,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/matrix-org/synapse/releases/tag/v1.41.1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/matrix-synapse/PYSEC-2021-424.yaml"
 		},
 		{
 			"type": "WEB",
