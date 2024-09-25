@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5r3q-93q3-f978",
-	"modified": "2024-02-16T08:08:22.112196Z",
+	"modified": "2024-09-24T21:34:41.182260Z",
 	"published": "2023-12-20T06:30:25Z",
 	"aliases": [
 		"BIT-mlflow-2023-6909",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [

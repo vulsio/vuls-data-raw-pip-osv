@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7xx3-qp5w-fw96",
-	"modified": "2024-02-16T08:24:38.116782Z",
+	"modified": "2024-09-24T21:23:43.200029Z",
 	"published": "2022-05-24T17:38:59Z",
 	"aliases": [
 		"BIT-jupyterhub-2020-36191",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:A/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -92,6 +96,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://github.com/advisories/GHSA-7xx3-qp5w-fw96"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/jupyterhub/jupyterhub"
 		},
 		{
 			"type": "WEB",
