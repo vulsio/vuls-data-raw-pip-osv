@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7fc2-rm35-2pp7",
-	"modified": "2023-11-08T03:57:58.412599Z",
+	"modified": "2024-09-27T16:02:05.372096Z",
 	"published": "2022-05-17T00:35:13Z",
 	"aliases": [
 		"CVE-2015-5607",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [

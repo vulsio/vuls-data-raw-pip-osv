@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mffc-9gx5-99g3",
-	"modified": "2024-02-23T21:13:18.674606Z",
+	"modified": "2024-09-27T16:13:38.329787Z",
 	"published": "2022-05-14T01:46:42Z",
 	"aliases": [
 		"CVE-2015-3206",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -48,6 +52,34 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-mffc-9gx5-99g3/GHSA-mffc-9gx5-99g3.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "pykerberos",
+				"purl": "pkg:pypi/pykerberos"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.1.6"
+						}
+					]
+				}
+			],
+			"versions": [
+				"1.1.3",
+				"1.1.4",
+				"1.1.5"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-mffc-9gx5-99g3/GHSA-mffc-9gx5-99g3.json"
+			}
 		}
 	],
 	"references": [
@@ -73,6 +105,18 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/kerberos/PYSEC-2017-49.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/pykerberos/PYSEC-2017-66.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://pypi.python.org/pypi/kerberos"
+		},
+		{
+			"type": "WEB",
 			"url": "https://web.archive.org/web/20150910143429/https://trac.calendarserver.org/ticket/833"
 		},
 		{
@@ -91,6 +135,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-02-23T20:53:08Z",
 		"nvd_published_at": "2017-08-25T18:29:00Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }
