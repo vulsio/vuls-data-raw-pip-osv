@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gf2q-j2qq-pjf2",
-	"modified": "2024-02-16T08:17:46.041115Z",
+	"modified": "2024-09-27T21:34:15.580830Z",
 	"published": "2022-05-17T05:22:32Z",
 	"aliases": [
 		"CVE-2012-3542",
@@ -9,6 +9,16 @@
 	],
 	"summary": "OpenStack Keystone Allows Remote User Account Creation",
 	"details": "OpenStack Keystone, as used in OpenStack Folsom before folsom-rc1 and OpenStack Essex (2012.1), allows remote attackers to add an arbitrary user to an arbitrary tenant via a request to update the user's default tenant to the administrative API.  NOTE: this identifier was originally incorrectly assigned to an open redirect issue, but the correct identifier for that issue is CVE-2012-3540.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -68,11 +78,16 @@
 				"22.0.0",
 				"22.0.0.0rc1",
 				"22.0.1",
+				"22.0.2",
 				"23.0.0",
 				"23.0.0.0rc1",
 				"23.0.1",
+				"23.0.2",
 				"24.0.0",
-				"24.0.0.0rc1"
+				"24.0.0.0rc1",
+				"25.0.0",
+				"25.0.0.0rc1",
+				"26.0.0.0rc1"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-gf2q-j2qq-pjf2/GHSA-gf2q-j2qq-pjf2.json"
