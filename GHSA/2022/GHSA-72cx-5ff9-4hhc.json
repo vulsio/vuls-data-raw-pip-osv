@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-72cx-5ff9-4hhc",
-	"modified": "2023-11-08T03:56:53.943561Z",
+	"modified": "2024-09-30T17:01:01.298140Z",
 	"published": "2022-04-21T01:54:03Z",
 	"aliases": [
 		"CVE-2009-3724",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
 		}
 	],
 	"affected": [

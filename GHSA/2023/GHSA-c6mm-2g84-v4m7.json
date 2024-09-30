@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c6mm-2g84-v4m7",
-	"modified": "2024-02-16T08:24:26.421298Z",
+	"modified": "2024-09-30T17:01:34.013781Z",
 	"published": "2023-05-05T23:10:44Z",
 	"aliases": [
 		"CVE-2023-31143",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -108,6 +112,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-05-05T23:10:44Z",
 		"nvd_published_at": "2023-05-09T15:15:10Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
