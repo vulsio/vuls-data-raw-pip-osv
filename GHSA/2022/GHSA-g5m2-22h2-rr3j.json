@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g5m2-22h2-rr3j",
-	"modified": "2024-02-16T08:13:05.705305Z",
+	"modified": "2024-09-30T17:21:04.650518Z",
 	"published": "2022-05-14T02:09:23Z",
 	"aliases": [
 		"CVE-2014-1839",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -100,10 +104,6 @@
 		{
 			"type": "WEB",
 			"url": "http://lists.opensuse.org/opensuse-updates/2014-02/msg00085.html"
-		},
-		{
-			"type": "WEB",
-			"url": "http://secunia.com/advisories/57209"
 		},
 		{
 			"type": "WEB",

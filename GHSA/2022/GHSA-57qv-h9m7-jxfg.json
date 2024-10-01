@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-57qv-h9m7-jxfg",
-	"modified": "2024-02-21T05:33:37.862742Z",
+	"modified": "2024-09-30T17:24:25.827422Z",
 	"published": "2022-05-09T00:00:48Z",
 	"aliases": [
 		"CVE-2022-28470",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
