@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mq5p-2mcr-m52j",
-	"modified": "2023-11-08T04:06:31.649485Z",
+	"modified": "2024-10-03T21:32:34.288132Z",
 	"published": "2021-08-30T16:17:06Z",
 	"aliases": [
 		"CVE-2021-39160",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -40,12 +44,6 @@
 				"0.10.1",
 				"0.9.0"
 			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"nbgitpuller.pull.GitPuller.branch_exists",
-					"nbgitpuller.pull.GitPuller.initialize_repo"
-				]
-			},
 			"database_specific": {
 				"last_known_affected_version_range": "<= 0.10.1",
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-mq5p-2mcr-m52j/GHSA-mq5p-2mcr-m52j.json"
@@ -72,6 +70,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/jupyterhub/nbgitpuller/blob/main/CHANGELOG.md#0102---2021-08-25"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/nbgitpuller/PYSEC-2021-315.yaml"
 		}
 	],
 	"database_specific": {
