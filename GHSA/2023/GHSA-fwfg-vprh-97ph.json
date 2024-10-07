@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fwfg-vprh-97ph",
-	"modified": "2024-02-16T08:20:46.716964Z",
+	"modified": "2024-10-07T17:03:55.009601Z",
 	"published": "2023-10-10T21:21:12Z",
 	"aliases": [
 		"CVE-2023-41047",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -133,6 +137,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-10-10T21:21:12Z",
 		"nvd_published_at": "2023-10-09T16:15:10Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
