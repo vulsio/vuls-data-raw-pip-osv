@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f8q4-jwww-x3wv",
-	"modified": "2024-02-16T07:56:21.547732Z",
+	"modified": "2024-10-09T20:23:29.575623Z",
 	"published": "2022-03-19T00:01:03Z",
 	"aliases": [
 		"CVE-2022-24302",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -38,11 +42,6 @@
 			"versions": [
 				"2.10.0"
 			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"paramiko.pkey.PKey._write_private_key_file"
-				]
-			},
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/03/GHSA-f8q4-jwww-x3wv/GHSA-f8q4-jwww-x3wv.json"
 			}
@@ -71,11 +70,6 @@
 				"2.9.1",
 				"2.9.2"
 			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"paramiko.pkey.PKey._write_private_key_file"
-				]
-			},
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/03/GHSA-f8q4-jwww-x3wv/GHSA-f8q4-jwww-x3wv.json"
 			}
@@ -138,6 +132,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2022-03-29T20:52:09Z",
 		"nvd_published_at": "2022-03-17T22:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }

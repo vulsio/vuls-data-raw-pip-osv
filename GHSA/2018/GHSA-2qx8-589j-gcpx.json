@@ -1,14 +1,24 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2qx8-589j-gcpx",
-	"modified": "2023-11-08T03:56:59.702489Z",
+	"modified": "2024-10-09T21:36:44.080785Z",
 	"published": "2018-07-23T20:26:45Z",
 	"aliases": [
 		"CVE-2011-1950",
 		"PYSEC-2011-16"
 	],
-	"summary": "Moderate severity vulnerability that affects Plone and plone.app.users",
+	"summary": "Plone and plone.app.users allow remote authenticated users to modify the properties of arbitrary accounts",
 	"details": "plone.app.users in Plone 4.0 and 4.1 allows remote authenticated users to modify the properties of arbitrary accounts via unspecified vectors, as exploited in the wild in June 2011.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:A"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -109,6 +119,32 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2018/07/GHSA-2qx8-589j-gcpx/GHSA-2qx8-589j-gcpx.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "plone",
+				"purl": "pkg:pypi/plone"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.1.0"
+						},
+						{
+							"fixed": "4.1.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.1"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2018/07/GHSA-2qx8-589j-gcpx/GHSA-2qx8-589j-gcpx.json"
+			}
 		}
 	],
 	"references": [
@@ -126,27 +162,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://osvdb.org/72729"
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/plone/PYSEC-2011-16.yaml"
 		},
 		{
 			"type": "WEB",
 			"url": "http://plone.org/products/plone/security/advisories/CVE-2011-1950"
-		},
-		{
-			"type": "WEB",
-			"url": "http://secunia.com/advisories/44775"
-		},
-		{
-			"type": "WEB",
-			"url": "http://securityreason.com/securityalert/8269"
-		},
-		{
-			"type": "WEB",
-			"url": "http://www.securityfocus.com/archive/1/518155/100/0/threaded"
-		},
-		{
-			"type": "WEB",
-			"url": "http://www.securityfocus.com/bid/48005"
 		}
 	],
 	"database_specific": {
@@ -154,6 +174,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-06-16T20:52:51Z",
 		"nvd_published_at": null,
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
