@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c5h8-cq4v-cvfm",
-	"modified": "2023-11-08T03:57:25.017822Z",
+	"modified": "2024-10-14T22:00:55.355945Z",
 	"published": "2022-05-24T22:01:03Z",
 	"aliases": [
 		"CVE-2013-5123",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -110,10 +114,6 @@
 		{
 			"type": "WEB",
 			"url": "http://www.openwall.com/lists/oss-security/2013/08/21/18"
-		},
-		{
-			"type": "WEB",
-			"url": "http://www.securityfocus.com/bid/77520"
 		}
 	],
 	"database_specific": {
@@ -123,6 +123,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2022-07-07T23:28:34Z",
 		"nvd_published_at": "2019-11-05T22:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
