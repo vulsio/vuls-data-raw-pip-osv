@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3hjh-jh2h-vrg6",
-	"modified": "2024-06-25T02:28:47.599502Z",
+	"modified": "2024-10-15T23:42:14.745306Z",
 	"published": "2024-06-06T21:30:36Z",
 	"aliases": [
 		"CVE-2024-2965"
@@ -111,7 +111,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-400"
+			"CWE-400",
+			"CWE-674"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-06-06T22:20:20Z",
