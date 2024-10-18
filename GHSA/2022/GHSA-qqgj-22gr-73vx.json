@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qqgj-22gr-73vx",
-	"modified": "2024-04-29T17:11:25.138194Z",
+	"modified": "2024-10-18T15:49:29.318396Z",
 	"published": "2022-05-17T02:57:52Z",
 	"aliases": [
 		"CVE-2016-4041",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -142,6 +146,32 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-qqgj-22gr-73vx/GHSA-qqgj-22gr-73vx.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "plone",
+				"purl": "pkg:pypi/plone"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "5.1a1"
+						},
+						{
+							"fixed": "5.1a2"
+						}
+					]
+				}
+			],
+			"versions": [
+				"5.1a1"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-qqgj-22gr-73vx/GHSA-qqgj-22gr-73vx.json"
+			}
 		}
 	],
 	"references": [
@@ -152,6 +182,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/plone/Plone"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/plone/PYSEC-2017-55.yaml"
 		},
 		{
 			"type": "WEB",
@@ -167,6 +201,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-04-29T16:52:01Z",
 		"nvd_published_at": "2017-02-24T20:59:00Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
