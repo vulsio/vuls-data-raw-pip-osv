@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rmpv-rcp6-v8wc",
-	"modified": "2023-11-08T04:06:04.952996Z",
+	"modified": "2024-10-18T22:01:14.557401Z",
 	"published": "2021-06-08T23:20:11Z",
 	"aliases": [
 		"CVE-2021-33508",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
 		}
 	],
 	"affected": [
@@ -191,6 +195,18 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33508"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-rmpv-rcp6-v8wc"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/plone/Plone"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/plone/PYSEC-2021-80.yaml"
 		},
 		{
 			"type": "WEB",
