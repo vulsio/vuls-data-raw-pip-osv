@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5194",
-	"modified": "2024-06-25T13:35:51Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:51Z",
 	"summary": "Malicious code in habbocls (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08336",
+				"import_time": "2024-10-24T00:59:15.925962601Z",
+				"modified_time": "2024-10-16T14:41:49Z",
+				"sha256": "0237c4199f075ab7bc345f7e9e150dcda895c0d581697263580389ed875a3cb1",
+				"source": "reversing-labs"
 			}
 		]
 	}

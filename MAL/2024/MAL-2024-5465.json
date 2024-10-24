@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5465",
-	"modified": "2024-06-25T13:38:03Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:38:03Z",
 	"summary": "Malicious code in pi-cord (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08675",
+				"import_time": "2024-10-24T00:59:34.517938236Z",
+				"modified_time": "2024-10-16T14:45:20Z",
+				"sha256": "0f4aa34511466559dd634acacd4b608622276bba3c60eb211f6308b0d9b10fed",
+				"source": "reversing-labs"
 			}
 		]
 	}

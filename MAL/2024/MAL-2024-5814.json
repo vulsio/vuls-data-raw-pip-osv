@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5814",
-	"modified": "2024-06-28T03:15:11.178145Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:00Z",
 	"aliases": [
 		"SNYK-PYTHON-PYTHONCRYPTPKGSV2-5591187",
@@ -18,7 +18,8 @@
 			},
 			"versions": [
 				"1.1.0",
-				"3.3.3"
+				"3.3.3",
+				"1.0.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythoncryptpkgsv2/MAL-2024-5814.json"
@@ -63,6 +64,16 @@
 				"versions": [
 					"1.1.0",
 					"3.3.3"
+				]
+			},
+			{
+				"id": "RLUA-2024-09053",
+				"import_time": "2024-10-24T00:59:58.249258973Z",
+				"modified_time": "2024-10-16T14:49:11Z",
+				"sha256": "f1d6820262f3a38d875d0101a1101bafee2e64db31c53f1b63383fb181f5be1a",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
 				]
 			}
 		]

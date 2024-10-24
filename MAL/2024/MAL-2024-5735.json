@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5735",
-	"modified": "2024-06-25T13:40:19Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:19Z",
 	"summary": "Malicious code in pylibrequest (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08959",
+				"import_time": "2024-10-24T00:59:53.027979684Z",
+				"modified_time": "2024-10-16T14:48:14Z",
+				"sha256": "1ce09fc30c1d7d84daef8fd06329ab7caed17c28c0183e7955688003c2068edd",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6132",
-	"modified": "2024-06-25T13:43:33Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:33Z",
 	"summary": "Malicious code in tfit (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"3.2.0",
 					"3.2.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09407",
+				"import_time": "2024-10-24T01:00:19.992331134Z",
+				"modified_time": "2024-10-16T14:52:48Z",
+				"sha256": "7927d669269b3f340d6dde25274eb268f45f97346bcdbf1f857ee8f138e73152",
+				"source": "reversing-labs"
 			}
 		]
 	}

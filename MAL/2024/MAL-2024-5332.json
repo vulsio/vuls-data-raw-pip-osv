@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5332",
-	"modified": "2024-06-25T13:36:59Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:59Z",
 	"summary": "Malicious code in lowmovers (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08478",
+				"import_time": "2024-10-24T00:59:25.066693098Z",
+				"modified_time": "2024-10-16T14:43:18Z",
+				"sha256": "7f888f72cbf295a4eb7fae78f0c1c95f6a29138ad2d975f5a7167ad3220069d4",
+				"source": "reversing-labs"
 			}
 		]
 	}

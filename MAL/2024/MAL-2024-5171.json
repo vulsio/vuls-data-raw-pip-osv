@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5171",
-	"modified": "2024-06-28T03:14:54.116180Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:40Z",
 	"aliases": [
 		"SNYK-PYTHON-GENAGENTFINGERPRINT-5885059"
@@ -49,6 +49,13 @@
 				"versions": [
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08309",
+				"import_time": "2024-10-24T00:59:14.437925567Z",
+				"modified_time": "2024-10-16T14:41:32Z",
+				"sha256": "b4d8aedd7cddf9582dcc1e2accfdca6f4615cd34aff03ff3939c524d9f565527",
+				"source": "reversing-labs"
 			}
 		]
 	}

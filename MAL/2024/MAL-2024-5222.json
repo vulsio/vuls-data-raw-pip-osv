@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5222",
-	"modified": "2024-06-25T13:36:06Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:06Z",
 	"summary": "Malicious code in httpscolor (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08365",
+				"import_time": "2024-10-24T00:59:17.914568728Z",
+				"modified_time": "2024-10-16T14:42:07Z",
+				"sha256": "32c50a65dae080c411296d95e76404d8d8416f41819b0d5d84ffb6e1751927bd",
+				"source": "reversing-labs"
 			}
 		]
 	}

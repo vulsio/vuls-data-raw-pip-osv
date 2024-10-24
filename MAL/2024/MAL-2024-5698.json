@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5698",
-	"modified": "2024-06-25T13:39:56Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:56Z",
 	"summary": "Malicious code in pydiscordion (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08918",
+				"import_time": "2024-10-24T00:59:50.499043146Z",
+				"modified_time": "2024-10-16T14:47:50Z",
+				"sha256": "856c8a51cc09af39a2590e7dc77335d24a477e91ba0f9f26ad59fe4e2a3b772a",
+				"source": "reversing-labs"
 			}
 		]
 	}

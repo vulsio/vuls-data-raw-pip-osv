@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6183",
-	"modified": "2024-06-25T13:43:56Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:56Z",
 	"summary": "Malicious code in urelib3 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.27.15"
 				]
+			},
+			{
+				"id": "RLUA-2024-09467",
+				"import_time": "2024-10-24T01:00:23.346382562Z",
+				"modified_time": "2024-10-16T14:53:24Z",
+				"sha256": "5ee35e68bdaba12d8a9a66e92bb20211c03fc4cd6d3f2f68fd83a644a10a6822",
+				"source": "reversing-labs"
 			}
 		]
 	}

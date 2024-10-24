@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6015",
-	"modified": "2024-06-25T13:42:37Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:37Z",
 	"summary": "Malicious code in site-messanger (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.2.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-09278",
+				"import_time": "2024-10-24T01:00:12.004729435Z",
+				"modified_time": "2024-10-16T14:51:28Z",
+				"sha256": "61ae88f6b2c85958d66508c0c979b39f3f0459e333e0aadd03ff866a72903b5f",
+				"source": "reversing-labs"
 			}
 		]
 	}

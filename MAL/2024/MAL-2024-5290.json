@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5290",
-	"modified": "2024-06-25T13:36:38Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:38Z",
 	"summary": "Malicious code in kazer12 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"1",
 					"2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08435",
+				"import_time": "2024-10-24T00:59:22.385576811Z",
+				"modified_time": "2024-10-16T14:42:51Z",
+				"sha256": "6ac9d726434c69faeb3399d3211b37d283b07b0aff84a66ca114c642d6e43a41",
+				"source": "reversing-labs"
 			}
 		]
 	}

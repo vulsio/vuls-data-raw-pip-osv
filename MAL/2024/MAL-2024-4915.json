@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4915",
-	"modified": "2024-06-25T13:33:35Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:35Z",
 	"summary": "Malicious code in color-animated (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-07986",
+				"import_time": "2024-10-24T00:58:56.323885125Z",
+				"modified_time": "2024-10-16T14:38:08Z",
+				"sha256": "8ecabe2858c63f815a18d2f9e3e02ff7d9e89a0a65347a314724c3cf68233e20",
+				"source": "reversing-labs"
 			}
 		]
 	}

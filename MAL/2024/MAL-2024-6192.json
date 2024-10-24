@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6192",
-	"modified": "2024-06-25T13:44:00Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:44:00Z",
 	"summary": "Malicious code in validatekey (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.13"
 				]
+			},
+			{
+				"id": "RLUA-2024-09481",
+				"import_time": "2024-10-24T01:00:23.997325293Z",
+				"modified_time": "2024-10-16T14:53:33Z",
+				"sha256": "8db43605c8877d9b8a6af90d042264efa8c94de539f1616ee60a0e1da2f4fa06",
+				"source": "reversing-labs"
 			}
 		]
 	}

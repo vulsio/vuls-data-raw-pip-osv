@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5100",
-	"modified": "2024-06-25T13:35:05Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:05Z",
 	"summary": "Malicious code in easycap (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -13,7 +13,10 @@
 				"purl": "pkg:pypi/easycap"
 			},
 			"versions": [
-				"1.1"
+				"1.1",
+				"1.0",
+				"1.2",
+				"1.4"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/easycap/MAL-2024-5100.json"
@@ -39,6 +42,18 @@
 				"source": "reversing-labs",
 				"versions": [
 					"1.1"
+				]
+			},
+			{
+				"id": "RLUA-2024-08177",
+				"import_time": "2024-10-24T00:59:09.573962985Z",
+				"modified_time": "2024-10-16T14:40:08Z",
+				"sha256": "ff2aef498a82609be77f0bcdba0d60782807fcd635b580e18d234436f63b26fa",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0",
+					"1.2",
+					"1.4"
 				]
 			}
 		]

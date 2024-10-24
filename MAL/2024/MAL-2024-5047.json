@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5047",
-	"modified": "2024-06-25T13:34:40Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:40Z",
 	"summary": "Malicious code in dhamaka (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08123",
+				"import_time": "2024-10-24T00:59:05.861470048Z",
+				"modified_time": "2024-10-16T14:39:34Z",
+				"sha256": "4b7ee60319945aa4b5aa8f7e375cd0110d798c4393b5b6e104b1a34db59025c6",
+				"source": "reversing-labs"
 			}
 		]
 	}

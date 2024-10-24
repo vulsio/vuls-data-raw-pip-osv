@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5404",
-	"modified": "2024-06-25T13:37:33Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:33Z",
 	"summary": "Malicious code in neverbeentg (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08560",
+				"import_time": "2024-10-24T00:59:30.306099919Z",
+				"modified_time": "2024-10-16T14:44:09Z",
+				"sha256": "94c0f8f08a2d6a113ed9c42c114c2fde367454055ec7e72dc10a818b4c072d95",
+				"source": "reversing-labs"
 			}
 		]
 	}

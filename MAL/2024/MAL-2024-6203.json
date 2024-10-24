@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6203",
-	"modified": "2024-06-25T13:44:05Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:05Z",
 	"summary": "Malicious code in webt00n (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09517",
+				"import_time": "2024-10-24T01:00:24.682120389Z",
+				"modified_time": "2024-10-16T14:53:55Z",
+				"sha256": "8b4c91ba48c329f962571348bae72a1a35acc4a81edff56a5192c4ee42a2ec2e",
+				"source": "reversing-labs"
 			}
 		]
 	}

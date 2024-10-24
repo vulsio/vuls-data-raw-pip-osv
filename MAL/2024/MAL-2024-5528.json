@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5528",
-	"modified": "2024-06-25T13:38:33Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:33Z",
 	"summary": "Malicious code in piphack (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -13,7 +13,8 @@
 				"purl": "pkg:pypi/piphack"
 			},
 			"versions": [
-				"0.1"
+				"0.1",
+				"0.0.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/piphack/MAL-2024-5528.json"
@@ -45,6 +46,16 @@
 				"source": "reversing-labs",
 				"versions": [
 					"0.1"
+				]
+			},
+			{
+				"id": "RLUA-2024-08738",
+				"import_time": "2024-10-24T00:59:38.588793473Z",
+				"modified_time": "2024-10-16T14:45:58Z",
+				"sha256": "fb8036a8a5f9f228653a2a7793f93128cbc460162fe0a30c8467038e47a7a699",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
 				]
 			}
 		]

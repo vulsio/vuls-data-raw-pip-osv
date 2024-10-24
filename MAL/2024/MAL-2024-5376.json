@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5376",
-	"modified": "2024-06-25T13:37:20Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:20Z",
 	"summary": "Malicious code in morecolor (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08531",
+				"import_time": "2024-10-24T00:59:28.250412698Z",
+				"modified_time": "2024-10-16T14:43:50Z",
+				"sha256": "99e3e0e3b6f432821c593b3092286c2e1b69da6ec7d263aa9a300219d7f3ecc1",
+				"source": "reversing-labs"
 			}
 		]
 	}

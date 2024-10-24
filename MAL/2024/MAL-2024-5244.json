@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5244",
-	"modified": "2024-06-25T13:36:16Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:16Z",
 	"summary": "Malicious code in httpxrequesterv2 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08387",
+				"import_time": "2024-10-24T00:59:19.314179481Z",
+				"modified_time": "2024-10-16T14:42:21Z",
+				"sha256": "334f96a18a77252d67ef54e5df0a326a9233e187ed6b50ed7468cde4c91ca6f1",
+				"source": "reversing-labs"
 			}
 		]
 	}

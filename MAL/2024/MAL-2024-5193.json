@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5193",
-	"modified": "2024-06-25T13:35:51Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:51Z",
 	"summary": "Malicious code in habboapps (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08335",
+				"import_time": "2024-10-24T00:59:15.863027459Z",
+				"modified_time": "2024-10-16T14:41:48Z",
+				"sha256": "dc8a2172df6f1e0c241a7c736110d746caa992ef8ec4c19a51f85180fb7ce236",
+				"source": "reversing-labs"
 			}
 		]
 	}

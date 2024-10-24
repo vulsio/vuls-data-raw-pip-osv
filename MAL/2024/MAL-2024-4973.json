@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4973",
-	"modified": "2024-06-25T13:34:04Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:04Z",
 	"summary": "Malicious code in colorpad (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.4.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08045",
+				"import_time": "2024-10-24T00:59:00.483795463Z",
+				"modified_time": "2024-10-16T14:38:45Z",
+				"sha256": "47e7331c2678ecd121ac11c1eb10ad04b42f7b57b594eb57beb880a5af7c997a",
+				"source": "reversing-labs"
 			}
 		]
 	}

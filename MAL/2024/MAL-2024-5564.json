@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5564",
-	"modified": "2024-06-25T13:38:50Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:50Z",
 	"summary": "Malicious code in promptcolor (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08776",
+				"import_time": "2024-10-24T00:59:40.997741217Z",
+				"modified_time": "2024-10-16T14:46:21Z",
+				"sha256": "22a5a5baf5fd6dfa7fbae706172d727de5605aa9ace16ee09300cae137851ec1",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5781",
-	"modified": "2024-06-25T13:40:43Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:43Z",
 	"summary": "Malicious code in pystyl (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-09012",
+				"import_time": "2024-10-24T00:59:56.163272493Z",
+				"modified_time": "2024-10-16T14:48:46Z",
+				"sha256": "10ed776bc8d73a1d0e1d106863455cf5c2460c6521d5dc4e22be267fe8bcf7d8",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6094",
-	"modified": "2024-06-25T13:43:14Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:14Z",
 	"summary": "Malicious code in tablediter (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"3.8.0",
 					"3.8.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-09365",
+				"import_time": "2024-10-24T01:00:17.423751289Z",
+				"modified_time": "2024-10-16T14:52:22Z",
+				"sha256": "036e462f7c1141c6c0b92fca7fbb925df8ef6aa84d41d9d6b4ce50df8fc6e9db",
+				"source": "reversing-labs"
 			}
 		]
 	}

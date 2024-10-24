@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5229",
-	"modified": "2024-06-25T13:36:09Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:09Z",
 	"summary": "Malicious code in httpssus (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"0.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08372",
+				"import_time": "2024-10-24T00:59:18.370503232Z",
+				"modified_time": "2024-10-16T14:42:12Z",
+				"sha256": "167ee741d7238ebaa63b97668acddd423e9160f32da90773e0187becace311e8",
+				"source": "reversing-labs"
 			}
 		]
 	}

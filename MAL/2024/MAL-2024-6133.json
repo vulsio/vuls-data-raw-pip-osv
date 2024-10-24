@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6133",
-	"modified": "2024-06-25T13:43:33Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:33Z",
 	"summary": "Malicious code in tglibrium (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09408",
+				"import_time": "2024-10-24T01:00:20.050682542Z",
+				"modified_time": "2024-10-16T14:52:48Z",
+				"sha256": "e30754620da502d396c3e4c5df51f1f9b3bee996be2798f5d8e7056302c2ade7",
+				"source": "reversing-labs"
 			}
 		]
 	}

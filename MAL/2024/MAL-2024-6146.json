@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6146",
-	"modified": "2024-06-25T13:43:39Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:39Z",
 	"summary": "Malicious code in tiktok8 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09423",
+				"import_time": "2024-10-24T01:00:21.01155766Z",
+				"modified_time": "2024-10-16T14:52:57Z",
+				"sha256": "f19785da52ab68234135c805dddeff07626abf8ed4476d551c1a1dac74c1d575",
+				"source": "reversing-labs"
 			}
 		]
 	}

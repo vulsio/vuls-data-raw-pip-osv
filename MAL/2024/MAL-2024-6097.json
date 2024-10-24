@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6097",
-	"modified": "2024-06-25T13:43:16Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:16Z",
 	"summary": "Malicious code in tasksaio (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09368",
+				"import_time": "2024-10-24T01:00:17.629238138Z",
+				"modified_time": "2024-10-16T14:52:24Z",
+				"sha256": "b00d2dc0fff0e2bee21bce459f907a70683b7ff233cf75eda1f93da01fab7cf0",
+				"source": "reversing-labs"
 			}
 		]
 	}

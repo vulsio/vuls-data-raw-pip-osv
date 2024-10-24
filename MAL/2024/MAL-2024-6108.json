@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6108",
-	"modified": "2024-06-25T13:43:22Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:22Z",
 	"summary": "Malicious code in test-typo-pypi (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"1.1.18",
 					"1.1.7"
 				]
+			},
+			{
+				"id": "RLUA-2024-09380",
+				"import_time": "2024-10-24T01:00:18.323397839Z",
+				"modified_time": "2024-10-16T14:52:31Z",
+				"sha256": "9107d2276000dd94bdafe6f4c959c6d68008518e5305f00b45d1bfb4429c45e7",
+				"source": "reversing-labs"
 			}
 		]
 	}

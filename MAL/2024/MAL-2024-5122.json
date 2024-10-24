@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5122",
-	"modified": "2024-06-25T13:35:16Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:16Z",
 	"summary": "Malicious code in evannlegoat (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08253",
+				"import_time": "2024-10-24T00:59:11.143365354Z",
+				"modified_time": "2024-10-16T14:40:56Z",
+				"sha256": "6094430be96a65fff1a5b696175172826e03e38022029d44803d05c1b01a5e89",
+				"source": "reversing-labs"
 			}
 		]
 	}

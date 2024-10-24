@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5636",
-	"modified": "2024-06-25T13:39:24Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:24Z",
 	"summary": "Malicious code in py23crypt (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"0.1.6",
 					"0.1.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08852",
+				"import_time": "2024-10-24T00:59:46.060310512Z",
+				"modified_time": "2024-10-16T14:47:07Z",
+				"sha256": "c37b4fd410e1aee7afb7a8c14a5e563012f954c9fef87c05f2f6b7838b69c153",
+				"source": "reversing-labs"
 			}
 		]
 	}

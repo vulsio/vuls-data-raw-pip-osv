@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5367",
-	"modified": "2024-06-25T13:37:16Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:16Z",
 	"summary": "Malicious code in minecraft-utilities-api (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -56,6 +56,13 @@
 					"0.4.2",
 					"0.3.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08518",
+				"import_time": "2024-10-24T00:59:27.631864788Z",
+				"modified_time": "2024-10-16T14:43:43Z",
+				"sha256": "ba81fbebc1e294a6a4e93e11527504375841ef8bea7a097dac198b9a626c5ca4",
+				"source": "reversing-labs"
 			}
 		]
 	}

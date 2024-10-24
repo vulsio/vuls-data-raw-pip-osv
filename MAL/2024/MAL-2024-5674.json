@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5674",
-	"modified": "2024-06-25T13:39:44Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:44Z",
 	"summary": "Malicious code in pycoulor (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08894",
+				"import_time": "2024-10-24T00:59:48.931506442Z",
+				"modified_time": "2024-10-16T14:47:35Z",
+				"sha256": "2fbb041438f67d75629e842696dd5f851cb3a1ea13760632fe265259d27197dc",
+				"source": "reversing-labs"
 			}
 		]
 	}

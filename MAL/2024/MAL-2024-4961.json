@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4961",
-	"modified": "2024-06-25T13:33:58Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:58Z",
 	"summary": "Malicious code in colorfidget (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08033",
+				"import_time": "2024-10-24T00:58:59.69162972Z",
+				"modified_time": "2024-10-16T14:38:37Z",
+				"sha256": "31462fdd0ac9d0d18d3165b93a1ee0093cf8f863e35f4752db4bf1e38925efd6",
+				"source": "reversing-labs"
 			}
 		]
 	}

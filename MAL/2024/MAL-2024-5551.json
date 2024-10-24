@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5551",
-	"modified": "2024-06-25T13:38:43Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:43Z",
 	"summary": "Malicious code in plasticswampbubble (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08761",
+				"import_time": "2024-10-24T00:59:39.991573184Z",
+				"modified_time": "2024-10-16T14:46:12Z",
+				"sha256": "425ed815484631d44cd20daa0c731c03eb4247b985ec80c8890c1d5a2512358c",
+				"source": "reversing-labs"
 			}
 		]
 	}

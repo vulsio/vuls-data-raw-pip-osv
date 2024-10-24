@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5190",
-	"modified": "2024-06-25T13:35:49Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:49Z",
 	"summary": "Malicious code in guypy (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08331",
+				"import_time": "2024-10-24T00:59:15.697004066Z",
+				"modified_time": "2024-10-16T14:41:46Z",
+				"sha256": "027a0954575fb3a9c17bed94ea68e750f0edd4e34433366091b93a702070996e",
+				"source": "reversing-labs"
 			}
 		]
 	}

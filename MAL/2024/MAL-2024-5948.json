@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5948",
-	"modified": "2024-06-25T13:42:04Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:04Z",
 	"summary": "Malicious code in ro-py-wrapper (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.0.10"
 				]
+			},
+			{
+				"id": "RLUA-2024-09209",
+				"import_time": "2024-10-24T01:00:07.382437681Z",
+				"modified_time": "2024-10-16T14:50:45Z",
+				"sha256": "768663c69d48be55045c4fc5cdbfc801fbcb590c4a4df0a2126ab07b1334d922",
+				"source": "reversing-labs"
 			}
 		]
 	}

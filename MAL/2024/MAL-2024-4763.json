@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4763",
-	"modified": "2024-06-25T13:32:22Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:22Z",
 	"summary": "Malicious code in amazonfdndn (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-07811",
+				"import_time": "2024-10-24T00:58:46.725979326Z",
+				"modified_time": "2024-10-16T14:36:19Z",
+				"sha256": "a98af2f469f41d02247c2b93c7f26a453e0dce16025d81a55072045cbf17032d",
+				"source": "reversing-labs"
 			}
 		]
 	}

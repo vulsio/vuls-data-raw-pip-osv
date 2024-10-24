@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5030",
-	"modified": "2024-06-25T13:34:31Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:31Z",
 	"summary": "Malicious code in data-platform-observability-core (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"999.9.20"
 				]
+			},
+			{
+				"id": "RLUA-2024-08106",
+				"import_time": "2024-10-24T00:59:04.763242447Z",
+				"modified_time": "2024-10-16T14:39:23Z",
+				"sha256": "b6eda43a7b8bda294c99417f5174170b4a62a8188b965e2c583d948835987f22",
+				"source": "reversing-labs"
 			}
 		]
 	}

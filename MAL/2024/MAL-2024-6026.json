@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6026",
-	"modified": "2024-06-25T13:42:42Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:42Z",
 	"summary": "Malicious code in soupcsstools (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"3.11.7"
 				]
+			},
+			{
+				"id": "RLUA-2024-09295",
+				"import_time": "2024-10-24T01:00:12.58238513Z",
+				"modified_time": "2024-10-16T14:51:38Z",
+				"sha256": "f7b3dabac6834c580a34baaf43649330b85f1242d654a4e99e29ff48dfc99ba6",
+				"source": "reversing-labs"
 			}
 		]
 	}

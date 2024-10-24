@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5425",
-	"modified": "2024-06-25T13:37:43Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:43Z",
 	"summary": "Malicious code in oauth20-api (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08581",
+				"import_time": "2024-10-24T00:59:31.709415661Z",
+				"modified_time": "2024-10-16T14:44:21Z",
+				"sha256": "7b121b2ac7b3d0c113d7f5371117dac2d16768d1d5976749eaf20d1d8261a985",
+				"source": "reversing-labs"
 			}
 		]
 	}

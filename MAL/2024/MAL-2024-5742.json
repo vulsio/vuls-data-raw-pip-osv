@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5742",
-	"modified": "2024-06-25T13:40:23Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:23Z",
 	"summary": "Malicious code in pylopenssl (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"20.0.3",
 					"20.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08966",
+				"import_time": "2024-10-24T00:59:53.482266102Z",
+				"modified_time": "2024-10-16T14:48:19Z",
+				"sha256": "1708133bfe9876055869385b271e471864d51e46187b8f659fd13fdd15c58fd9",
+				"source": "reversing-labs"
 			}
 		]
 	}

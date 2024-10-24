@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4829",
-	"modified": "2024-06-25T13:32:54Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:32:54Z",
 	"summary": "Malicious code in boostbot-api (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07889",
+				"import_time": "2024-10-24T00:58:50.795928231Z",
+				"modified_time": "2024-10-16T14:37:05Z",
+				"sha256": "80fa7d28b779afb87b666a6485e935d18535fa170650c5ea384619c7bedc496a",
+				"source": "reversing-labs"
 			}
 		]
 	}

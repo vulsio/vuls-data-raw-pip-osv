@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5133",
-	"modified": "2024-06-25T13:35:21Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:21Z",
 	"summary": "Malicious code in feenton (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08269",
+				"import_time": "2024-10-24T00:59:11.792929775Z",
+				"modified_time": "2024-10-16T14:41:07Z",
+				"sha256": "9aa16265834aab904e095594f9d9f224f0c1ba24d6af24d10ee3b13743f3361a",
+				"source": "reversing-labs"
 			}
 		]
 	}

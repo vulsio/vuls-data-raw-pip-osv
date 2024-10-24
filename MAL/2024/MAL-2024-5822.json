@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5822",
-	"modified": "2024-06-28T03:15:11.548730Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:03Z",
 	"aliases": [
 		"SNYK-PYTHON-PYTHONSQLADDONV2-5591160",
@@ -17,7 +17,8 @@
 				"purl": "pkg:pypi/pythonsqladdonv2"
 			},
 			"versions": [
-				"1.1.0"
+				"1.1.0",
+				"1.0.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythonsqladdonv2/MAL-2024-5822.json"
@@ -61,6 +62,16 @@
 				"source": "reversing-labs",
 				"versions": [
 					"1.1.0"
+				]
+			},
+			{
+				"id": "RLUA-2024-09061",
+				"import_time": "2024-10-24T00:59:58.664403015Z",
+				"modified_time": "2024-10-16T14:49:15Z",
+				"sha256": "c66e88a5853a8584ce3b8a7b07dce48220d92101207f3f28e87fa2fc503761cf",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
 				]
 			}
 		]

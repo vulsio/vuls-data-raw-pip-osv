@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4986",
-	"modified": "2024-06-25T13:34:10Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:10Z",
 	"summary": "Malicious code in colorzing (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08058",
+				"import_time": "2024-10-24T00:59:01.352850486Z",
+				"modified_time": "2024-10-16T14:38:53Z",
+				"sha256": "ec12660665c27bf0adc4af0e8eadf5c83075ec3414cbb121a4aa86f35a978f92",
+				"source": "reversing-labs"
 			}
 		]
 	}

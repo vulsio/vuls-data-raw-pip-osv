@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4733",
-	"modified": "2024-06-25T13:32:08Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:08Z",
 	"summary": "Malicious code in admcheck2 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.7.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07778",
+				"import_time": "2024-10-24T00:58:44.671340769Z",
+				"modified_time": "2024-10-16T14:36:05Z",
+				"sha256": "e4cfcd041faf61c8e70a15217f7b57b9421ece4be7e83cd30fdfe70ca92177fa",
+				"source": "reversing-labs"
 			}
 		]
 	}

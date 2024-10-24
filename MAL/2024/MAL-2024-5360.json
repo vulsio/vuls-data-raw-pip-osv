@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5360",
-	"modified": "2024-06-25T13:37:12Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:12Z",
 	"summary": "Malicious code in methantiafkxd (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -14,7 +14,9 @@
 			},
 			"versions": [
 				"0.0.2",
-				"0.0.3"
+				"0.0.3",
+				"0.0.1",
+				"0.0.6"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/methantiafkxd/MAL-2024-5360.json"
@@ -47,6 +49,17 @@
 				"versions": [
 					"0.0.2",
 					"0.0.3"
+				]
+			},
+			{
+				"id": "RLUA-2024-08511",
+				"import_time": "2024-10-24T00:59:27.180425059Z",
+				"modified_time": "2024-10-16T14:43:38Z",
+				"sha256": "e994577b7e44ed6844262694b1f7d46aaddf884da0ca9ec768bbe4d2c560d698",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1",
+					"0.0.6"
 				]
 			}
 		]

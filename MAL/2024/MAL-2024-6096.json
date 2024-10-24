@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6096",
-	"modified": "2024-06-25T13:43:15Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:15Z",
 	"summary": "Malicious code in tahalib (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09367",
+				"import_time": "2024-10-24T01:00:17.573928759Z",
+				"modified_time": "2024-10-16T14:52:23Z",
+				"sha256": "5d641582e82ef03a384a852c59671e382fb86305d1a641f6d9d9f81f9e5bc0f7",
+				"source": "reversing-labs"
 			}
 		]
 	}

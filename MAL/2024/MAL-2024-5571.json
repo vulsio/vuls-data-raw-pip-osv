@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5571",
-	"modified": "2024-06-25T13:38:54Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:54Z",
 	"summary": "Malicious code in proxyscrapertool (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08784",
+				"import_time": "2024-10-24T00:59:41.470331779Z",
+				"modified_time": "2024-10-16T14:46:26Z",
+				"sha256": "96e56342f757e00637e8f8abf14f3f635513166723da7304c4766fe8cbd90a40",
+				"source": "reversing-labs"
 			}
 		]
 	}

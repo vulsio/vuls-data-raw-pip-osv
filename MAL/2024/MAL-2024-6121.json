@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6121",
-	"modified": "2024-06-25T13:43:28Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:28Z",
 	"summary": "Malicious code in testnetdubled (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09395",
+				"import_time": "2024-10-24T01:00:19.232159059Z",
+				"modified_time": "2024-10-16T14:52:40Z",
+				"sha256": "0f61f42f095fb29f3b13091bf3e877750fb3120b0bcf909fb3068a9cc11c4cad",
+				"source": "reversing-labs"
 			}
 		]
 	}

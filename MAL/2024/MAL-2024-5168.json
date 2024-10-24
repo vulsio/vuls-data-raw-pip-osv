@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5168",
-	"modified": "2024-06-25T13:35:39Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:39Z",
 	"summary": "Malicious code in futurejson (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -13,7 +13,11 @@
 				"purl": "pkg:pypi/futurejson"
 			},
 			"versions": [
-				"0.5.0"
+				"0.5.0",
+				"0.1.0",
+				"0.2.0",
+				"0.3.0",
+				"0.4.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/futurejson/MAL-2024-5168.json"
@@ -39,6 +43,19 @@
 				"source": "reversing-labs",
 				"versions": [
 					"0.5.0"
+				]
+			},
+			{
+				"id": "RLUA-2024-08306",
+				"import_time": "2024-10-24T00:59:14.286196938Z",
+				"modified_time": "2024-10-16T14:41:30Z",
+				"sha256": "fb89acb6683ee74a1d9585b7df87e742902eac88a7ed957208b15a753f727741",
+				"source": "reversing-labs",
+				"versions": [
+					"0.1.0",
+					"0.2.0",
+					"0.3.0",
+					"0.4.0"
 				]
 			}
 		]

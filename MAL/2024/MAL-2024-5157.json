@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5157",
-	"modified": "2024-06-25T13:35:33Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:33Z",
 	"summary": "Malicious code in forings (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08294",
+				"import_time": "2024-10-24T00:59:13.526304413Z",
+				"modified_time": "2024-10-16T14:41:23Z",
+				"sha256": "f46146d0afb387c01fafd45160137cc829400db66f44b9be5f10ca3bf88e5362",
+				"source": "reversing-labs"
 			}
 		]
 	}

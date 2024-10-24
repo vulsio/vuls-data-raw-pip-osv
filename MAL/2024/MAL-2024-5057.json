@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5057",
-	"modified": "2024-06-25T13:34:45Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:45Z",
 	"summary": "Malicious code in discord-boost (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08134",
+				"import_time": "2024-10-24T00:59:06.543367965Z",
+				"modified_time": "2024-10-16T14:39:41Z",
+				"sha256": "f1ec347b130f77316c8e5fb9aca631cf516cf8ef5eeb752ac7e089c5546d7dac",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5943",
-	"modified": "2024-06-25T13:42:02Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:02Z",
 	"summary": "Malicious code in rhermann (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09204",
+				"import_time": "2024-10-24T01:00:07.142800647Z",
+				"modified_time": "2024-10-16T14:50:42Z",
+				"sha256": "9204723424aa2e5d24559d90e1b417346884e17f909652744163e0adcffeb609",
+				"source": "reversing-labs"
 			}
 		]
 	}

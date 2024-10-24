@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5573",
-	"modified": "2024-06-25T13:38:55Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:55Z",
 	"summary": "Malicious code in ptfit (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"3.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08786",
+				"import_time": "2024-10-24T00:59:41.621342518Z",
+				"modified_time": "2024-10-16T14:46:27Z",
+				"sha256": "1055de07ff67c7bbd7c234a06617eeab68d7a04b0e1771e84fbeb8bf59212254",
+				"source": "reversing-labs"
 			}
 		]
 	}

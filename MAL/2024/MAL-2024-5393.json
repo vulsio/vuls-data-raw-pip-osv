@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5393",
-	"modified": "2024-06-25T13:37:28Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:28Z",
 	"summary": "Malicious code in n1trobrdr (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08548",
+				"import_time": "2024-10-24T00:59:29.45729014Z",
+				"modified_time": "2024-10-16T14:44:01Z",
+				"sha256": "709d900d29843db3b05f6619daa50604e5ced00e21bdcd74ffd4870e6fa47a8a",
+				"source": "reversing-labs"
 			}
 		]
 	}

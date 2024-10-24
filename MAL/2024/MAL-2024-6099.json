@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6099",
-	"modified": "2024-06-25T13:43:17Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:17Z",
 	"summary": "Malicious code in telerer (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 					"2.2",
 					"2.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09370",
+				"import_time": "2024-10-24T01:00:17.730902273Z",
+				"modified_time": "2024-10-16T14:52:25Z",
+				"sha256": "f17693bac74b87885e7a6562db68a51fd252150371f164a54cfb83a5f8633d83",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4899",
-	"modified": "2024-06-25T13:33:28Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:28Z",
 	"summary": "Malicious code in cloud-credentials (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07970",
+				"import_time": "2024-10-24T00:58:55.164507742Z",
+				"modified_time": "2024-10-16T14:37:58Z",
+				"sha256": "e122b32c83395c6ae02f9fbd2a2228743d42165c789105999165d4b5509c66a0",
+				"source": "reversing-labs"
 			}
 		]
 	}

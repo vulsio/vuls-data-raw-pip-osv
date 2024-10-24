@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5140",
-	"modified": "2024-06-25T13:35:25Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:25Z",
 	"summary": "Malicious code in figlets (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"3",
 					"5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08276",
+				"import_time": "2024-10-24T00:59:12.199904502Z",
+				"modified_time": "2024-10-16T14:41:12Z",
+				"sha256": "2240ec66301d3ec9995ccc396de77a7a839db2661e7bf98c2fccd827dd38f6e6",
+				"source": "reversing-labs"
 			}
 		]
 	}

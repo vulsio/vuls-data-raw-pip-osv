@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5437",
-	"modified": "2024-06-25T13:37:49Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:49Z",
 	"summary": "Malicious code in osinfopkg (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -19,7 +19,8 @@
 				"1.0.3",
 				"0.0.3",
 				"0.0.2",
-				"0.0.4"
+				"0.0.4",
+				"0.0.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/osinfopkg/MAL-2024-5437.json"
@@ -57,6 +58,16 @@
 					"0.0.3",
 					"0.0.2",
 					"0.0.4"
+				]
+			},
+			{
+				"id": "RLUA-2024-08643",
+				"import_time": "2024-10-24T00:59:32.54040143Z",
+				"modified_time": "2024-10-16T14:44:59Z",
+				"sha256": "4d3762d626c16f00d063eea4a3027f087393f0577c431618c0020325da012243",
+				"source": "reversing-labs",
+				"versions": [
+					"0.0.1"
 				]
 			}
 		]

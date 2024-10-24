@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5062",
-	"modified": "2024-06-25T13:34:47Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:47Z",
 	"summary": "Malicious code in discord-ghost (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08139",
+				"import_time": "2024-10-24T00:59:06.890566832Z",
+				"modified_time": "2024-10-16T14:39:44Z",
+				"sha256": "03d8e343307a273874269e4cd127d1f1f6eb63021ff36579ce39c6814dd6d3d2",
+				"source": "reversing-labs"
 			}
 		]
 	}

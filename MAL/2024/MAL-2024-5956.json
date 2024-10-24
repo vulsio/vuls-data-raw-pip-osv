@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5956",
-	"modified": "2024-06-25T13:42:08Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:08Z",
 	"summary": "Malicious code in ropython (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"2.0.10",
 					"2.0.12"
 				]
+			},
+			{
+				"id": "RLUA-2024-09221",
+				"import_time": "2024-10-24T01:00:07.950932935Z",
+				"modified_time": "2024-10-16T14:50:52Z",
+				"sha256": "99b3248da26dff9dc01e93bc754a14324b9711ac5e1131b605f2a4298b75de76",
+				"source": "reversing-labs"
 			}
 		]
 	}

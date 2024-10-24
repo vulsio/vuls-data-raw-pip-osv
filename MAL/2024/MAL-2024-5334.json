@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5334",
-	"modified": "2024-06-25T13:37:00Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:00Z",
 	"summary": "Malicious code in lubyrequests (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08480",
+				"import_time": "2024-10-24T00:59:25.198147865Z",
+				"modified_time": "2024-10-16T14:43:19Z",
+				"sha256": "2b7b094281aad44570bc03a50ac8e139dbc62ba616c83aea8773ad57d34a80c7",
+				"source": "reversing-labs"
 			}
 		]
 	}

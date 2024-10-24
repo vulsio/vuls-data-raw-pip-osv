@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5833",
-	"modified": "2024-06-25T13:41:09Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:09Z",
 	"summary": "Malicious code in pytspeak (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"3.22",
 					"3.23"
 				]
+			},
+			{
+				"id": "RLUA-2024-09083",
+				"import_time": "2024-10-24T00:59:59.407158898Z",
+				"modified_time": "2024-10-16T14:49:29Z",
+				"sha256": "eec54cedf8398a0bb6608c0ffc2f97878074e650a2aa85ea9ff3a271de906d24",
+				"source": "reversing-labs"
 			}
 		]
 	}

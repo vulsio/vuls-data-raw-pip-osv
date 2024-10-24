@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5322",
-	"modified": "2024-06-25T13:36:54Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:54Z",
 	"summary": "Malicious code in libpeshnx (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08468",
+				"import_time": "2024-10-24T00:59:24.363569483Z",
+				"modified_time": "2024-10-16T14:43:12Z",
+				"sha256": "5ffe13e039df722d26ef43e59cabf953041e169562ec6bdf919bc591e8dde5c6",
+				"source": "reversing-labs"
 			}
 		]
 	}

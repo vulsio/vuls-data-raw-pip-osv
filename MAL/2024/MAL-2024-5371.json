@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5371",
-	"modified": "2024-06-25T13:37:18Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:18Z",
 	"summary": "Malicious code in mlp-data-product-producer (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -16,7 +16,8 @@
 				"999.9.19",
 				"999.9.20",
 				"999.9.18",
-				"999.9.17"
+				"999.9.17",
+				"999.9.13"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/mlp-data-product-producer/MAL-2024-5371.json"
@@ -45,6 +46,16 @@
 					"999.9.20",
 					"999.9.18",
 					"999.9.17"
+				]
+			},
+			{
+				"id": "RLUA-2024-08524",
+				"import_time": "2024-10-24T00:59:27.933196723Z",
+				"modified_time": "2024-10-16T14:43:46Z",
+				"sha256": "bcc861cde44c9bda8cb26bb539d6cbdf9e94a02abd73afc5f5cdffb98069ec20",
+				"source": "reversing-labs",
+				"versions": [
+					"999.9.13"
 				]
 			}
 		]

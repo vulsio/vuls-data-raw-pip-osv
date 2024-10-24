@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5840",
-	"modified": "2024-06-25T13:41:14Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:14Z",
 	"summary": "Malicious code in qaxtest-httpx (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -13,7 +13,8 @@
 				"purl": "pkg:pypi/qaxtest-httpx"
 			},
 			"versions": [
-				"1.1.3"
+				"1.1.3",
+				"1.1.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/qaxtest-httpx/MAL-2024-5840.json"
@@ -39,6 +40,16 @@
 				"source": "reversing-labs",
 				"versions": [
 					"1.1.3"
+				]
+			},
+			{
+				"id": "RLUA-2024-09095",
+				"import_time": "2024-10-24T00:59:59.95391782Z",
+				"modified_time": "2024-10-16T14:49:36Z",
+				"sha256": "25d6d9a3ced5a94ae1e0f2b1fe360747e1cec847fd815c19641cecc49fd6aafe",
+				"source": "reversing-labs",
+				"versions": [
+					"1.1.1"
 				]
 			}
 		]

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6167",
-	"modified": "2024-06-28T03:15:20.568169Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:49Z",
 	"aliases": [
 		"SNYK-PYTHON-TRC20UNLOCKER-5292140"
@@ -57,6 +57,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09444",
+				"import_time": "2024-10-24T01:00:22.327253157Z",
+				"modified_time": "2024-10-16T14:53:10Z",
+				"sha256": "e2ff22393d0eb5a0d9328fcf1718f6ba301ba034ca8217e66da24233669b77e4",
+				"source": "reversing-labs"
 			}
 		]
 	}

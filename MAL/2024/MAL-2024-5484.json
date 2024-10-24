@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5484",
-	"modified": "2024-06-25T13:38:12Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:12Z",
 	"summary": "Malicious code in pip-remote-access-test (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08694",
+				"import_time": "2024-10-24T00:59:35.736385653Z",
+				"modified_time": "2024-10-16T14:45:31Z",
+				"sha256": "393d288ddc00a93d460f45d16659f2caba14c99f4b1d695fbd16b7fa21898fd6",
+				"source": "reversing-labs"
 			}
 		]
 	}

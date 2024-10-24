@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6197",
-	"modified": "2024-06-25T13:44:02Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:44:02Z",
 	"summary": "Malicious code in wdrags (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09496",
+				"import_time": "2024-10-24T01:00:24.328052261Z",
+				"modified_time": "2024-10-16T14:53:42Z",
+				"sha256": "ae9793654f8c88267aee5448a753e68b59fcb810364980e1f5877146a709ac8c",
+				"source": "reversing-labs"
 			}
 		]
 	}

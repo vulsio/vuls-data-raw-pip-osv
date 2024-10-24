@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4823",
-	"modified": "2024-06-25T13:32:51Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:32:51Z",
 	"summary": "Malicious code in blazeted (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07882",
+				"import_time": "2024-10-24T00:58:50.373734741Z",
+				"modified_time": "2024-10-16T14:37:01Z",
+				"sha256": "8897acecc582dc63206e30875d832be9810d3283cccf658f56eb8944a0bac38f",
+				"source": "reversing-labs"
 			}
 		]
 	}

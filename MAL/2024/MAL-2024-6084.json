@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6084",
-	"modified": "2024-06-28T03:15:19.000754Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:10Z",
 	"aliases": [
 		"SNYK-PYTHON-SYSSQLITE3LIBERYV1-5932110"
@@ -53,6 +53,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09355",
+				"import_time": "2024-10-24T01:00:16.605526298Z",
+				"modified_time": "2024-10-16T14:52:16Z",
+				"sha256": "079ab4e91af23b3f1ba68ffd1c0afc41471e927835bb42dba30f2f1427bae7ea",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5368",
-	"modified": "2024-06-25T13:37:16Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:16Z",
 	"summary": "Malicious code in minecraftskyblockapi (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"0.2.3",
 					"0.2.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08519",
+				"import_time": "2024-10-24T00:59:27.695874462Z",
+				"modified_time": "2024-10-16T14:43:43Z",
+				"sha256": "4e5a8e102db0968c366cfb30319d3e0fd111439352ff8ddfe1aa678d1efad729",
+				"source": "reversing-labs"
 			}
 		]
 	}

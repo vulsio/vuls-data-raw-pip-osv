@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5524",
-	"modified": "2024-06-28T03:15:00.001581Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:31Z",
 	"aliases": [
 		"SNYK-PYTHON-PIPFONTINGV1-5932324"
@@ -53,6 +53,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08734",
+				"import_time": "2024-10-24T00:59:38.356760356Z",
+				"modified_time": "2024-10-16T14:45:55Z",
+				"sha256": "78808f41381746d1112f0ccd21af4aa4a915605c27bae88beb7a827eb68f2df4",
+				"source": "reversing-labs"
 			}
 		]
 	}

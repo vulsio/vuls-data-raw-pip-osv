@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5955",
-	"modified": "2024-06-25T13:42:08Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:08Z",
 	"summary": "Malicious code in robux (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"0.2",
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09216",
+				"import_time": "2024-10-24T01:00:07.864202233Z",
+				"modified_time": "2024-10-16T14:50:49Z",
+				"sha256": "2674f256eb5c7c5fb738c6548b329b5083334fcd035843f4278cf865d4ddd2e3",
+				"source": "reversing-labs"
 			}
 		]
 	}

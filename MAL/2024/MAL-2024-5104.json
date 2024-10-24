@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5104",
-	"modified": "2024-06-25T13:35:07Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:07Z",
 	"summary": "Malicious code in edgehttp (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08181",
+				"import_time": "2024-10-24T00:59:09.856726052Z",
+				"modified_time": "2024-10-16T14:40:10Z",
+				"sha256": "831eb9e973f219f6c00e9d4945d23fd3aec80561e0d908c9d3a565f5f9a533d1",
+				"source": "reversing-labs"
 			}
 		]
 	}

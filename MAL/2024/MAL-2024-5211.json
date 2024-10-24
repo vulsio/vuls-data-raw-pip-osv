@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5211",
-	"modified": "2024-06-25T13:36:00Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:00Z",
 	"summary": "Malicious code in http-request-query (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.0.2",
 					"0.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08354",
+				"import_time": "2024-10-24T00:59:17.079804982Z",
+				"modified_time": "2024-10-16T14:42:01Z",
+				"sha256": "e337d99833af221713571513d8f19db699c3b38c848c71b853e1dd3a84825744",
+				"source": "reversing-labs"
 			}
 		]
 	}

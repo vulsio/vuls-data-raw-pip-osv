@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5982",
-	"modified": "2024-06-25T13:42:22Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:22Z",
 	"summary": "Malicious code in seleniumwebdriver (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -58,6 +58,13 @@
 					"0.1.7",
 					"0.1.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09247",
+				"import_time": "2024-10-24T01:00:09.90633192Z",
+				"modified_time": "2024-10-16T14:51:09Z",
+				"sha256": "2a9d07661a212150660a62b2c35219a40c7f9cf1e39e0bd03347d2c1b3cf96e2",
+				"source": "reversing-labs"
 			}
 		]
 	}

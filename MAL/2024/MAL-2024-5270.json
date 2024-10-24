@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5270",
-	"modified": "2024-06-25T13:36:28Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:28Z",
 	"summary": "Malicious code in insanepackagev1414 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08412",
+				"import_time": "2024-10-24T00:59:21.134562842Z",
+				"modified_time": "2024-10-16T14:42:37Z",
+				"sha256": "4bc3c5f461e7cf3e3a47551b9d5595e8ee56674dac56888d6dd3425019a9729a",
+				"source": "reversing-labs"
 			}
 		]
 	}

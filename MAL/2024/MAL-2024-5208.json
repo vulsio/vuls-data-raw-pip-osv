@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5208",
-	"modified": "2024-06-25T13:35:59Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:59Z",
 	"summary": "Malicious code in htties (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08351",
+				"import_time": "2024-10-24T00:59:16.860699587Z",
+				"modified_time": "2024-10-16T14:41:59Z",
+				"sha256": "9dae90b6bc9d8db728bd8302123afef48748e488275c2e183d8bea164c580c1a",
+				"source": "reversing-labs"
 			}
 		]
 	}

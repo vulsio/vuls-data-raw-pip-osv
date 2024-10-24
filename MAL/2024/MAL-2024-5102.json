@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5102",
-	"modified": "2024-06-25T13:35:06Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:06Z",
 	"summary": "Malicious code in easyrequests (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08179",
+				"import_time": "2024-10-24T00:59:09.748429294Z",
+				"modified_time": "2024-10-16T14:40:09Z",
+				"sha256": "0f543a5ebced3c076369c866aa8eb6b39c63ec7ccabb28153a516c3a1b961765",
+				"source": "reversing-labs"
 			}
 		]
 	}

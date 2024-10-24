@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5842",
-	"modified": "2024-06-25T13:41:14Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:14Z",
 	"summary": "Malicious code in qrcodegeneration (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-09097",
+				"import_time": "2024-10-24T01:00:00.062234092Z",
+				"modified_time": "2024-10-16T14:49:38Z",
+				"sha256": "cd2c937544bf919385a8d2e169e8f21c74d791d3853a84fd39f1663849b4e16d",
+				"source": "reversing-labs"
 			}
 		]
 	}

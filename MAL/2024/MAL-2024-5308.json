@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5308",
-	"modified": "2024-06-25T13:36:48Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:48Z",
 	"summary": "Malicious code in libari (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 					"0.2",
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08454",
+				"import_time": "2024-10-24T00:59:23.535182558Z",
+				"modified_time": "2024-10-16T14:43:04Z",
+				"sha256": "90c1dcfbd5598db371cc458a1008d2d1ce644cb99fd19895605928e049c3cc9c",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6027",
-	"modified": "2024-06-25T13:42:43Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:43Z",
 	"summary": "Malicious code in souptools (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 					"2.1.4",
 					"2.1.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-09296",
+				"import_time": "2024-10-24T01:00:12.634544786Z",
+				"modified_time": "2024-10-16T14:51:39Z",
+				"sha256": "121e45e40287aba80b8faaebdacabad8924e293cd2e0292935a586eb8bed29f9",
+				"source": "reversing-labs"
 			}
 		]
 	}

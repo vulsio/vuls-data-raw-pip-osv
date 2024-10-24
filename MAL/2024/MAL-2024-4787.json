@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4787",
-	"modified": "2024-06-25T13:32:34Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:34Z",
 	"summary": "Malicious code in authanticetor (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07844",
+				"import_time": "2024-10-24T00:58:48.207908214Z",
+				"modified_time": "2024-10-16T14:36:37Z",
+				"sha256": "1f61315a97a626b2ae6c56022bd25c944389b2677f76fe54bf8559b00ff0eee4",
+				"source": "reversing-labs"
 			}
 		]
 	}

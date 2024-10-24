@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6141",
-	"modified": "2024-06-25T13:43:37Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:37Z",
 	"summary": "Malicious code in threadscount (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09418",
+				"import_time": "2024-10-24T01:00:20.59276134Z",
+				"modified_time": "2024-10-16T14:52:54Z",
+				"sha256": "f47e9dbda6e5651f716f66bf72dbec87869094c0ab6e017b92fd88c09aed9bd5",
+				"source": "reversing-labs"
 			}
 		]
 	}

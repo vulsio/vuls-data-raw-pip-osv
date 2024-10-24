@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5414",
-	"modified": "2024-06-25T13:37:38Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:38Z",
 	"summary": "Malicious code in no-install-test-noinst (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.0.10"
 				]
+			},
+			{
+				"id": "RLUA-2024-08570",
+				"import_time": "2024-10-24T00:59:30.964792718Z",
+				"modified_time": "2024-10-16T14:44:15Z",
+				"sha256": "c5ada796b2f8c6f5412ace4c808191a655e673fcff647540ce8bf9dfa5df7561",
+				"source": "reversing-labs"
 			}
 		]
 	}

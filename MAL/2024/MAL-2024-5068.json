@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5068",
-	"modified": "2024-06-25T13:34:50Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:50Z",
 	"summary": "Malicious code in discord-scrapper (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08146",
+				"import_time": "2024-10-24T00:59:07.279419815Z",
+				"modified_time": "2024-10-16T14:39:49Z",
+				"sha256": "7f9cb9c626221a4ab8bbef7cf98e99c952becca8c6fa4235d3a273570e84a3bc",
+				"source": "reversing-labs"
 			}
 		]
 	}

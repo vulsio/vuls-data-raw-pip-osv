@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5451",
-	"modified": "2024-06-25T13:37:56Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:56Z",
 	"summary": "Malicious code in panda-lib (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.3.6"
 				]
+			},
+			{
+				"id": "RLUA-2024-08657",
+				"import_time": "2024-10-24T00:59:33.488710825Z",
+				"modified_time": "2024-10-16T14:45:08Z",
+				"sha256": "2cb1888b6c2e505a71fc0e5f4fe222517a5f30467818cd5afdd5a3f4466318b9",
+				"source": "reversing-labs"
 			}
 		]
 	}

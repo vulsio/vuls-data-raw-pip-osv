@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5704",
-	"modified": "2024-06-25T13:39:59Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:59Z",
 	"summary": "Malicious code in pydistoolhebs (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08924",
+				"import_time": "2024-10-24T00:59:50.892138787Z",
+				"modified_time": "2024-10-16T14:47:53Z",
+				"sha256": "d78dd5d881f1076e31f81aa712835f82dfb08c7f899df968c2c4ce940466b196",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5150",
-	"modified": "2024-06-25T13:35:29Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:29Z",
 	"summary": "Malicious code in forenitq (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"0.6.9",
 					"7.6.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08287",
+				"import_time": "2024-10-24T00:59:12.923982263Z",
+				"modified_time": "2024-10-16T14:41:18Z",
+				"sha256": "ce6cdcd643a44fc0394866b18d7c06994180d76176d82e88c93683aade5c294e",
+				"source": "reversing-labs"
 			}
 		]
 	}

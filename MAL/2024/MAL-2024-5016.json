@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5016",
-	"modified": "2024-06-25T13:34:24Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:24Z",
 	"summary": "Malicious code in cusromtkinter (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08091",
+				"import_time": "2024-10-24T00:59:03.426929122Z",
+				"modified_time": "2024-10-16T14:39:14Z",
+				"sha256": "45db0ef4b1730616d2aa8297f3f29dec35778ceb39e3313ce0153ae996108a37",
+				"source": "reversing-labs"
 			}
 		]
 	}

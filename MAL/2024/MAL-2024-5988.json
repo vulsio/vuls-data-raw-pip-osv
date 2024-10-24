@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5988",
-	"modified": "2024-06-28T03:15:16.230251Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:24Z",
 	"aliases": [
 		"SNYK-PYTHON-SENTINELONESDK-3184333"
@@ -55,6 +55,13 @@
 					"6.2.2",
 					"6.2.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09252",
+				"import_time": "2024-10-24T01:00:10.244199677Z",
+				"modified_time": "2024-10-16T14:51:12Z",
+				"sha256": "e4f91fb0b91c71e73904c162db26e73d1877941cb22513af62fa6db7c06f40c4",
+				"source": "reversing-labs"
 			}
 		]
 	}

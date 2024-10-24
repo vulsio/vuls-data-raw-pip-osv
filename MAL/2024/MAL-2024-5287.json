@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5287",
-	"modified": "2024-06-25T13:36:37Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:37Z",
 	"summary": "Malicious code in jupyter-pytest-fi-console (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"8.7.3",
 					"8.7.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08432",
+				"import_time": "2024-10-24T00:59:22.23150597Z",
+				"modified_time": "2024-10-16T14:42:50Z",
+				"sha256": "1cbba02310619b10dc4eb416c353a2836ea5533385390ac1b1e9dacc46eeaaec",
+				"source": "reversing-labs"
 			}
 		]
 	}

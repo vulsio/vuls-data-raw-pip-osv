@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5344",
-	"modified": "2024-06-25T13:37:05Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:05Z",
 	"summary": "Malicious code in mall0d (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08490",
+				"import_time": "2024-10-24T00:59:26.053661053Z",
+				"modified_time": "2024-10-16T14:43:25Z",
+				"sha256": "be38bd5dc7732a57eae89d70d7d1190ff787afecf02a815a6f05fd567e961059",
+				"source": "reversing-labs"
 			}
 		]
 	}

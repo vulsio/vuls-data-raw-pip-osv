@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5191",
-	"modified": "2024-06-25T13:35:50Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:50Z",
 	"summary": "Malicious code in habboapis (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08333",
+				"import_time": "2024-10-24T00:59:15.747376766Z",
+				"modified_time": "2024-10-16T14:41:47Z",
+				"sha256": "a5b1542ce08778994b1f9014e5f952bb3e5d51f4727aaccc14a10a133b3bb890",
+				"source": "reversing-labs"
 			}
 		]
 	}

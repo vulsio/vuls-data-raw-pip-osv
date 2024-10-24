@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5859",
-	"modified": "2024-06-25T13:41:23Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:23Z",
 	"summary": "Malicious code in rensoflow (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09117",
+				"import_time": "2024-10-24T01:00:01.306877245Z",
+				"modified_time": "2024-10-16T14:49:50Z",
+				"sha256": "7c79510ad3621bce90d710e6eefaafc21fd78a37413716f0f17d08f665971bd8",
+				"source": "reversing-labs"
 			}
 		]
 	}

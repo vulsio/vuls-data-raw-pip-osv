@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5356",
-	"modified": "2024-06-25T13:37:11Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:11Z",
 	"summary": "Malicious code in mdkjrkjelz (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08504",
+				"import_time": "2024-10-24T00:59:26.828926642Z",
+				"modified_time": "2024-10-16T14:43:34Z",
+				"sha256": "ca0023e494dfc5d97c38537bece01d17c56bb8a3cc7a693977256b26fb6832c3",
+				"source": "reversing-labs"
 			}
 		]
 	}

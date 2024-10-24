@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5706",
-	"modified": "2024-06-25T13:40:01Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:01Z",
 	"summary": "Malicious code in pyfigleet (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.9.post1",
 					"0.8.post1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08928",
+				"import_time": "2024-10-24T00:59:50.989306416Z",
+				"modified_time": "2024-10-16T14:47:56Z",
+				"sha256": "05fe1ab6738553762a3bdc0752350f479e948aad6233cd85d2d1634d2c582657",
+				"source": "reversing-labs"
 			}
 		]
 	}

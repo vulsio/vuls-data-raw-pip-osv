@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5568",
-	"modified": "2024-06-25T13:38:52Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:52Z",
 	"summary": "Malicious code in proxies-booster-v1 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08781",
+				"import_time": "2024-10-24T00:59:41.272105827Z",
+				"modified_time": "2024-10-16T14:46:24Z",
+				"sha256": "011423bd9138a98299013bda9229ae43caed6332c18876c08059d300f4c2fa46",
+				"source": "reversing-labs"
 			}
 		]
 	}

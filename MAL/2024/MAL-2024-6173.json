@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6173",
-	"modified": "2024-06-25T13:43:52Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:52Z",
 	"summary": "Malicious code in twittter (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.19.6"
 				]
+			},
+			{
+				"id": "RLUA-2024-09454",
+				"import_time": "2024-10-24T01:00:22.749963228Z",
+				"modified_time": "2024-10-16T14:53:16Z",
+				"sha256": "852f62224b3d44bb47158cc6499b6c272a80654164f919ea48555c4298725a72",
+				"source": "reversing-labs"
 			}
 		]
 	}

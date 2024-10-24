@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6201",
-	"modified": "2024-06-25T13:44:04Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:04Z",
 	"summary": "Malicious code in web3txtools (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09514",
+				"import_time": "2024-10-24T01:00:24.569117553Z",
+				"modified_time": "2024-10-16T14:53:53Z",
+				"sha256": "75e4abcf5fbcaf9a3dfa14edf560e067906c2d150306600352e4829fab984604",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6171",
-	"modified": "2024-06-25T13:43:51Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:51Z",
 	"summary": "Malicious code in ts-wuzzi (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"4.4.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-09452",
+				"import_time": "2024-10-24T01:00:22.579962305Z",
+				"modified_time": "2024-10-16T14:53:15Z",
+				"sha256": "5b20c23292cf1090dee59d7ac937db90105cb1cd679d8b0066a92efcf0148c20",
+				"source": "reversing-labs"
 			}
 		]
 	}

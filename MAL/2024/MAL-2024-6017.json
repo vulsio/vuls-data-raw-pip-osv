@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6017",
-	"modified": "2024-06-25T13:42:38Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:38Z",
 	"summary": "Malicious code in snelt (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09280",
+				"import_time": "2024-10-24T01:00:12.11110869Z",
+				"modified_time": "2024-10-16T14:51:29Z",
+				"sha256": "6d1edea230b4a7c5d292697d9f9f66ba314ccdf76426103a00869e9b33d8224c",
+				"source": "reversing-labs"
 			}
 		]
 	}

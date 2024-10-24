@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6009",
-	"modified": "2024-06-25T13:42:34Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:34Z",
 	"summary": "Malicious code in si-python (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09272",
+				"import_time": "2024-10-24T01:00:11.608815347Z",
+				"modified_time": "2024-10-16T14:51:25Z",
+				"sha256": "a1b56a7b531330b830a3e3797fb8ee80ac39e7abf3640d675575d0052a1a194e",
+				"source": "reversing-labs"
 			}
 		]
 	}

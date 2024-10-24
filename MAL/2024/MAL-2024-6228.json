@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6228",
-	"modified": "2024-06-25T13:44:16Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:16Z",
 	"summary": "Malicious code in xolobwritbrulv (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09550",
+				"import_time": "2024-10-24T01:00:26.122554526Z",
+				"modified_time": "2024-10-16T14:54:16Z",
+				"sha256": "25d880eb35af044ac5eaaeed9a5d3d08a5f4f4317180dbdcb5cf075603ebec27",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5024",
-	"modified": "2024-06-25T13:34:28Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:28Z",
 	"summary": "Malicious code in cxcxcx (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"9.9.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08099",
+				"import_time": "2024-10-24T00:59:04.441653298Z",
+				"modified_time": "2024-10-16T14:39:19Z",
+				"sha256": "31802541e8f85de553b072b158fc9a23c7ba25b0358d935b15e7c8c66bd35233",
+				"source": "reversing-labs"
 			}
 		]
 	}

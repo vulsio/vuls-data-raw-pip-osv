@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6164",
-	"modified": "2024-06-28T03:15:20.500769Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:48Z",
 	"aliases": [
 		"SNYK-PYTHON-TOTOHATEINENKLEINENCOCK-5932340"
@@ -63,6 +63,13 @@
 					"2.0.0",
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09441",
+				"import_time": "2024-10-24T01:00:22.141976288Z",
+				"modified_time": "2024-10-16T14:53:08Z",
+				"sha256": "68da87626c08c7366758d3211c46fc72c149b89b879d52fd84205e984401ac76",
+				"source": "reversing-labs"
 			}
 		]
 	}

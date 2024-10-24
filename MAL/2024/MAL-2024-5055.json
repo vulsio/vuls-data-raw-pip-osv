@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5055",
-	"modified": "2024-06-25T13:34:43Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:43Z",
 	"summary": "Malicious code in discord-anarch (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08132",
+				"import_time": "2024-10-24T00:59:06.335912174Z",
+				"modified_time": "2024-10-16T14:39:40Z",
+				"sha256": "0f2580243c236c425adfd8f1979273f38d5152db3556f7739ae70b92f87477ec",
+				"source": "reversing-labs"
 			}
 		]
 	}

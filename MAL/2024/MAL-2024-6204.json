@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6204",
-	"modified": "2024-06-25T13:44:05Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:05Z",
 	"summary": "Malicious code in webtoongen (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09519",
+				"import_time": "2024-10-24T01:00:24.733419469Z",
+				"modified_time": "2024-10-16T14:53:56Z",
+				"sha256": "59bcc7de762873a7632742def7542d000da19e3cffbc90bd608af259f329428a",
+				"source": "reversing-labs"
 			}
 		]
 	}

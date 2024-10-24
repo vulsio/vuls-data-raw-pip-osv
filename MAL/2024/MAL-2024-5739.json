@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5739",
-	"modified": "2024-06-25T13:40:21Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:21Z",
 	"summary": "Malicious code in pylibsql (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08963",
+				"import_time": "2024-10-24T00:59:53.293667945Z",
+				"modified_time": "2024-10-16T14:48:17Z",
+				"sha256": "684b543d47801d9dea3bdc1e0d02dd8609b970d63726b555f3809675499d791e",
+				"source": "reversing-labs"
 			}
 		]
 	}

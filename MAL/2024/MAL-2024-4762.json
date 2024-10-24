@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4762",
-	"modified": "2024-06-25T13:32:21Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:21Z",
 	"summary": "Malicious code in alzynitro (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07810",
+				"import_time": "2024-10-24T00:58:46.673478965Z",
+				"modified_time": "2024-10-16T14:36:19Z",
+				"sha256": "8a4cea2c25caf3e76d37f78242c662320924f7bc59db3041cbceda9c3cdee9cf",
+				"source": "reversing-labs"
 			}
 		]
 	}

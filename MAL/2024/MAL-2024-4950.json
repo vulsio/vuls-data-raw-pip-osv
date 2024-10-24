@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4950",
-	"modified": "2024-06-25T13:33:53Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:53Z",
 	"summary": "Malicious code in colordot (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.4.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08022",
+				"import_time": "2024-10-24T00:58:58.724470806Z",
+				"modified_time": "2024-10-16T14:38:30Z",
+				"sha256": "21f30c61c20cab50f0097a4be5536c6f4c4f3506194179cbd0d69a5ab55a1b13",
+				"source": "reversing-labs"
 			}
 		]
 	}

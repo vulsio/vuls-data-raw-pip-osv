@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5217",
-	"modified": "2024-06-25T13:36:03Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:03Z",
 	"summary": "Malicious code in httpgayasfunigga (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"4.4.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08360",
+				"import_time": "2024-10-24T00:59:17.499170588Z",
+				"modified_time": "2024-10-16T14:42:04Z",
+				"sha256": "d8f2c65cbf759e8fb49a43ece6b66aa828ad45c5a33d80c3e25d99b355058cd2",
+				"source": "reversing-labs"
 			}
 		]
 	}

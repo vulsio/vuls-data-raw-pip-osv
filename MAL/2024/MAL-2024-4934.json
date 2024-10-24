@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4934",
-	"modified": "2024-06-28T03:14:50.791639Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:45Z",
 	"aliases": [
 		"SNYK-PYTHON-COLORAMU-6513694"
@@ -53,6 +53,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08005",
+				"import_time": "2024-10-24T00:58:57.662522087Z",
+				"modified_time": "2024-10-16T14:38:19Z",
+				"sha256": "896aa98319c1ee4750c839a49038b35c670d3d13eb2a79fa122b357f04e02431",
+				"source": "reversing-labs"
 			}
 		]
 	}

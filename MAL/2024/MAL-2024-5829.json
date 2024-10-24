@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5829",
-	"modified": "2024-06-28T03:15:11.986792Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:07Z",
 	"aliases": [
 		"SNYK-PYTHON-PYTHONSQLITEV1-5932317"
@@ -16,7 +16,8 @@
 				"purl": "pkg:pypi/pythonsqlitev1"
 			},
 			"versions": [
-				"1.1.0"
+				"1.1.0",
+				"1.0.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pythonsqlitev1/MAL-2024-5829.json"
@@ -52,6 +53,16 @@
 				"source": "reversing-labs",
 				"versions": [
 					"1.1.0"
+				]
+			},
+			{
+				"id": "RLUA-2024-09068",
+				"import_time": "2024-10-24T00:59:59.200381198Z",
+				"modified_time": "2024-10-16T14:49:20Z",
+				"sha256": "f0eaacea4a89ebcbb43d2192681faf19298b1d998daad25c798ba10ace9ab9cd",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
 				]
 			}
 		]

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6004",
-	"modified": "2024-06-25T13:42:32Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:32Z",
 	"summary": "Malicious code in sherms (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09267",
+				"import_time": "2024-10-24T01:00:11.228421067Z",
+				"modified_time": "2024-10-16T14:51:22Z",
+				"sha256": "1a2b6b8a81309d85e8d501be14b5d914592e39e679afc39ac548c299716c1c72",
+				"source": "reversing-labs"
 			}
 		]
 	}

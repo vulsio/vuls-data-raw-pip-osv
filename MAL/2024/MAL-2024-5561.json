@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5561",
-	"modified": "2024-06-25T13:38:49Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:49Z",
 	"summary": "Malicious code in postgresserializer (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 					"0.0.2",
 					"0.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08773",
+				"import_time": "2024-10-24T00:59:40.796315116Z",
+				"modified_time": "2024-10-16T14:46:19Z",
+				"sha256": "5d053afef22ed2acb99569a8f6990902c73ea161ff49181f9baad94b8fd2d514",
+				"source": "reversing-labs"
 			}
 		]
 	}

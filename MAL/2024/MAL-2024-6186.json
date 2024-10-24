@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6186",
-	"modified": "2024-06-25T13:43:58Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:58Z",
 	"summary": "Malicious code in urllib33 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.27.15"
 				]
+			},
+			{
+				"id": "RLUA-2024-09472",
+				"import_time": "2024-10-24T01:00:23.599394246Z",
+				"modified_time": "2024-10-16T14:53:27Z",
+				"sha256": "994b40d19a18ce3f43b698840d9661f78c15d83a9752da019fc6ccb8e2370951",
+				"source": "reversing-labs"
 			}
 		]
 	}

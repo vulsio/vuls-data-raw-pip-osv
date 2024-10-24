@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5118",
-	"modified": "2024-06-25T13:35:14Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:14Z",
 	"summary": "Malicious code in ethertoolz (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.7",
 					"0.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08232",
+				"import_time": "2024-10-24T00:59:10.844595845Z",
+				"modified_time": "2024-10-16T14:40:43Z",
+				"sha256": "090e5d4aee45ea18c5f5447e6b2010d9a60b45cb66949a4ae220f521a2c3d5c7",
+				"source": "reversing-labs"
 			}
 		]
 	}

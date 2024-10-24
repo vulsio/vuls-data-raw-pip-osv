@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5753",
-	"modified": "2024-06-25T13:40:28Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:28Z",
 	"summary": "Malicious code in pyocls (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08978",
+				"import_time": "2024-10-24T00:59:54.152696379Z",
+				"modified_time": "2024-10-16T14:48:26Z",
+				"sha256": "2a8554d77ddda865e97a08791552b584215713915bf4f4dabd63838fbd06d7b4",
+				"source": "reversing-labs"
 			}
 		]
 	}

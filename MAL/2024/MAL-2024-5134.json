@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5134",
-	"modified": "2024-06-25T13:35:22Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:22Z",
 	"summary": "Malicious code in fef3434334dwrg (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08270",
+				"import_time": "2024-10-24T00:59:11.838386807Z",
+				"modified_time": "2024-10-16T14:41:07Z",
+				"sha256": "b43476dd93328c77657d0a9c468ce1bad1942932de862b3be02e9010578c6c82",
+				"source": "reversing-labs"
 			}
 		]
 	}

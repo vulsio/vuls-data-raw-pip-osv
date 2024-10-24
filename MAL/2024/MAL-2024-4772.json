@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4772",
-	"modified": "2024-06-25T13:32:26Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:26Z",
 	"summary": "Malicious code in apicolors-advanced (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07822",
+				"import_time": "2024-10-24T00:58:47.28408768Z",
+				"modified_time": "2024-10-16T14:36:23Z",
+				"sha256": "b41c7635a9ca02eb1374901f8424e71f689c0a1b55ec1dbd8e185542e89d9c58",
+				"source": "reversing-labs"
 			}
 		]
 	}

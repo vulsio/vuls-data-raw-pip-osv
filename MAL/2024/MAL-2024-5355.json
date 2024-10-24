@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5355",
-	"modified": "2024-06-25T13:37:10Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:10Z",
 	"summary": "Malicious code in mchypixel (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"1.0.2",
 					"1.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08503",
+				"import_time": "2024-10-24T00:59:26.774716316Z",
+				"modified_time": "2024-10-16T14:43:33Z",
+				"sha256": "d8896dc27e7e54eae2c1fdf2996eb45d26c69408b830134f27143192729a3b71",
+				"source": "reversing-labs"
 			}
 		]
 	}

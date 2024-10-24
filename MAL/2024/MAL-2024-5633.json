@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5633",
-	"modified": "2024-06-25T13:39:23Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:23Z",
 	"summary": "Malicious code in py-obfuscater (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"1.0.2",
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08848",
+				"import_time": "2024-10-24T00:59:45.82854221Z",
+				"modified_time": "2024-10-16T14:47:05Z",
+				"sha256": "4166cbbd338d92fa6db3855bd3daca833fbdd920207a7733dc3e2b5145f4757f",
+				"source": "reversing-labs"
 			}
 		]
 	}

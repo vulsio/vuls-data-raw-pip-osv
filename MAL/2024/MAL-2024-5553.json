@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5553",
-	"modified": "2024-06-25T13:38:45Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:45Z",
 	"summary": "Malicious code in plutodebug (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08763",
+				"import_time": "2024-10-24T00:59:40.127215425Z",
+				"modified_time": "2024-10-16T14:46:13Z",
+				"sha256": "1a3e35741525e5c30d9a8bca9fc4226117e88b6ddacef2af8620f976d63be865",
+				"source": "reversing-labs"
 			}
 		]
 	}

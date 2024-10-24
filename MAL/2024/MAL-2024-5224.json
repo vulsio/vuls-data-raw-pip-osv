@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5224",
-	"modified": "2024-06-25T13:36:07Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:07Z",
 	"summary": "Malicious code in httpsos (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 				"versions": [
 					"0.35"
 				]
+			},
+			{
+				"id": "RLUA-2024-08367",
+				"import_time": "2024-10-24T00:59:18.0766777Z",
+				"modified_time": "2024-10-16T14:42:09Z",
+				"sha256": "a54bc07f9b9f4d23f2e57fdbe7c92c1d4fd44ce23beb3e99dd99713cadd10cad",
+				"source": "reversing-labs"
 			}
 		]
 	}

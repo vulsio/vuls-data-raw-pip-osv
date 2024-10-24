@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5693",
-	"modified": "2024-06-25T13:39:53Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:53Z",
 	"summary": "Malicious code in pydefendermalware123 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08913",
+				"import_time": "2024-10-24T00:59:50.156891728Z",
+				"modified_time": "2024-10-16T14:47:47Z",
+				"sha256": "9020716c8a3458a5b7799d59da0ef16619c5ff96706b68aabafde5101b054071",
+				"source": "reversing-labs"
 			}
 		]
 	}

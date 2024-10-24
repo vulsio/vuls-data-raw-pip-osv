@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4773",
-	"modified": "2024-06-25T13:32:27Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:27Z",
 	"summary": "Malicious code in apihypixel (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"1.0.5",
 					"1.0.7"
 				]
+			},
+			{
+				"id": "RLUA-2024-07823",
+				"import_time": "2024-10-24T00:58:47.340146569Z",
+				"modified_time": "2024-10-16T14:36:23Z",
+				"sha256": "c6a508031c2814a6e605689ee1f362d1b11bcda0791ddf5c0db6c36561bdc96a",
+				"source": "reversing-labs"
 			}
 		]
 	}

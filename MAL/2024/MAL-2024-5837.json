@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5837",
-	"modified": "2024-06-25T13:41:11Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:11Z",
 	"summary": "Malicious code in pywincompile (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.9.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09091",
+				"import_time": "2024-10-24T00:59:59.734682066Z",
+				"modified_time": "2024-10-16T14:49:33Z",
+				"sha256": "c446aec56c376aeae5daac13c54488b003e129c0294dbd2a40d5887de39591c6",
+				"source": "reversing-labs"
 			}
 		]
 	}

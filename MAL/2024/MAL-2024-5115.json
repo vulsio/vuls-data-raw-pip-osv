@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5115",
-	"modified": "2024-06-25T13:35:12Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:12Z",
 	"summary": "Malicious code in eth-manager (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.8.1",
 					"0.8.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08197",
+				"import_time": "2024-10-24T00:59:10.661804666Z",
+				"modified_time": "2024-10-16T14:40:21Z",
+				"sha256": "966296ed42e9a9069a971aabab1e8de21b25aceaa7aab4ee42fff8e381477156",
+				"source": "reversing-labs"
 			}
 		]
 	}

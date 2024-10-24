@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6239",
-	"modified": "2024-06-25T13:44:21Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:21Z",
 	"summary": "Malicious code in xolomjqalvrpmp (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09561",
+				"import_time": "2024-10-24T01:00:27.010841825Z",
+				"modified_time": "2024-10-16T14:54:23Z",
+				"sha256": "54be538c58d346b44fa6974ae5b31f5c9837e77b47d5f1e5d01146d991a26668",
+				"source": "reversing-labs"
 			}
 		]
 	}

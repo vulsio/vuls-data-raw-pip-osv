@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5418",
-	"modified": "2024-06-25T13:37:40Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:40Z",
 	"summary": "Malicious code in nowsys (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08574",
+				"import_time": "2024-10-24T00:59:31.277026988Z",
+				"modified_time": "2024-10-16T14:44:17Z",
+				"sha256": "ce26499942080fd6a5579b48b6df1e4a1be4b31d4dc8bade23946a8c2dd4418c",
+				"source": "reversing-labs"
 			}
 		]
 	}

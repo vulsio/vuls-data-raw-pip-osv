@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5459",
-	"modified": "2024-06-25T13:38:00Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:38:00Z",
 	"summary": "Malicious code in passport-snapchat (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08665",
+				"import_time": "2024-10-24T00:59:33.994335262Z",
+				"modified_time": "2024-10-16T14:45:13Z",
+				"sha256": "11cdb4da9434c53b5a92a4fb9ef1048ce79350f6cc7b231f5cadadbc16cc73b3",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5386",
-	"modified": "2024-06-25T13:37:25Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:25Z",
 	"summary": "Malicious code in multihttps (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"2.32.1",
 					"2.32.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08541",
+				"import_time": "2024-10-24T00:59:28.989870989Z",
+				"modified_time": "2024-10-16T14:43:56Z",
+				"sha256": "6e0d1125412d226688f80928f7ee574a61ec1a6bf7bcfd9fd86344fddd7dc5cf",
+				"source": "reversing-labs"
 			}
 		]
 	}

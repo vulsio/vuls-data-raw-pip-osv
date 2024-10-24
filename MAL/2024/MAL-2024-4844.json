@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4844",
-	"modified": "2024-06-25T13:33:02Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:02Z",
 	"summary": "Malicious code in camera-kit (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07912",
+				"import_time": "2024-10-24T00:58:51.732205543Z",
+				"modified_time": "2024-10-16T14:37:21Z",
+				"sha256": "68f707b93692a0e89a18d059691e6c0d7b7bf9ab96a51335a84201535bc99dea",
+				"source": "reversing-labs"
 			}
 		]
 	}

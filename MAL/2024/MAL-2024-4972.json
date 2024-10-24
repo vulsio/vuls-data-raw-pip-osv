@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4972",
-	"modified": "2024-06-25T13:34:03Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:03Z",
 	"summary": "Malicious code in colorpack (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08044",
+				"import_time": "2024-10-24T00:59:00.43997983Z",
+				"modified_time": "2024-10-16T14:38:44Z",
+				"sha256": "9193036a2a625fde65090a4b1734a73a94f915a96776ba92b04fa5dcdb767b7b",
+				"source": "reversing-labs"
 			}
 		]
 	}

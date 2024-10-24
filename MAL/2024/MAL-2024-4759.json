@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4759",
-	"modified": "2024-06-25T13:32:20Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:20Z",
 	"summary": "Malicious code in airnitro (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07807",
+				"import_time": "2024-10-24T00:58:46.508628185Z",
+				"modified_time": "2024-10-16T14:36:17Z",
+				"sha256": "43af53ddc81b77772f4860de1f69e8772ce9f946b7a10d99e67d6fcec4682c97",
+				"source": "reversing-labs"
 			}
 		]
 	}

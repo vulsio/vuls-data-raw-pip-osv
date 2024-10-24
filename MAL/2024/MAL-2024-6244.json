@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6244",
-	"modified": "2024-06-25T13:44:24Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:24Z",
 	"summary": "Malicious code in xolotcgstfiguu (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09566",
+				"import_time": "2024-10-24T01:00:27.279894376Z",
+				"modified_time": "2024-10-16T14:54:26Z",
+				"sha256": "71ab214a879d0e14c8cbd93001007ef81f82bba7f0a3142d321461d065679dec",
+				"source": "reversing-labs"
 			}
 		]
 	}

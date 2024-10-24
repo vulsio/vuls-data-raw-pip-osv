@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4818",
-	"modified": "2024-06-25T13:32:49Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:32:49Z",
 	"summary": "Malicious code in bip39-mnemonic-decrypt (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -19,6 +19,12 @@
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/bip39-mnemonic-decrypt/MAL-2024-4818.json"
 			}
+		}
+	],
+	"references": [
+		{
+			"type": "ARTICLE",
+			"url": "https://www.reversinglabs.com/blog/bipclip-malicious-pypi-packages-target-crypto-wallet-recovery-passwords"
 		}
 	],
 	"credits": [
@@ -42,6 +48,13 @@
 					"1.0.1",
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07877",
+				"import_time": "2024-10-24T00:58:50.077655757Z",
+				"modified_time": "2024-10-16T14:36:58Z",
+				"sha256": "6435114a1effdb76c0c633745eb77a9c63fb9e7a3f61bc29f704f29d34644628",
+				"source": "reversing-labs"
 			}
 		]
 	}

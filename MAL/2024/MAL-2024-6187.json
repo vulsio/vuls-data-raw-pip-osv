@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6187",
-	"modified": "2024-06-25T13:43:58Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:58Z",
 	"summary": "Malicious code in urllitelib (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -14,7 +14,10 @@
 			},
 			"versions": [
 				"1.2.0",
-				"1.0.3"
+				"1.0.3",
+				"1.0.0",
+				"1.0.1",
+				"1.0.2"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/urllitelib/MAL-2024-6187.json"
@@ -41,6 +44,18 @@
 				"versions": [
 					"1.2.0",
 					"1.0.3"
+				]
+			},
+			{
+				"id": "RLUA-2024-09473",
+				"import_time": "2024-10-24T01:00:23.684585496Z",
+				"modified_time": "2024-10-16T14:53:27Z",
+				"sha256": "94f3bdee99aa011b67ac9fa6fb5de06c021078faa431bbc90040f589577271c0",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0",
+					"1.0.1",
+					"1.0.2"
 				]
 			}
 		]

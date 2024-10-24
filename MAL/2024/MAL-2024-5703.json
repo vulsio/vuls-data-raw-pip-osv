@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5703",
-	"modified": "2024-06-25T13:39:59Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:59Z",
 	"summary": "Malicious code in pydistlib (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 					"0.4",
 					"0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08923",
+				"import_time": "2024-10-24T00:59:50.818877693Z",
+				"modified_time": "2024-10-16T14:47:53Z",
+				"sha256": "8afc092ae076c8ac7ce135713d4c790fe981c8ec23deb3b7e90facbe65a69d97",
+				"source": "reversing-labs"
 			}
 		]
 	}

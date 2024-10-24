@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4766",
-	"modified": "2024-06-28T03:14:45.201352Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:23Z",
 	"aliases": [
 		"SNYK-PYTHON-ANDROIDSPYEYE-5508582"
@@ -61,6 +61,13 @@
 				"versions": [
 					"2.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-07815",
+				"import_time": "2024-10-24T00:58:46.923214624Z",
+				"modified_time": "2024-10-16T14:36:20Z",
+				"sha256": "1467c721f4a7f1c9fec29de81705fdb50b7cb572432ae64e1a281c56b3d23882",
+				"source": "reversing-labs"
 			}
 		]
 	}

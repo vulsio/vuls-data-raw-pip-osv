@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5159",
-	"modified": "2024-06-25T13:35:34Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:34Z",
 	"summary": "Malicious code in fortnoob123 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08297",
+				"import_time": "2024-10-24T00:59:13.715439343Z",
+				"modified_time": "2024-10-16T14:41:24Z",
+				"sha256": "25c5506ed3cb05e24f6e54722aa9bc51492cd36003bcdfab920aee91d5d97044",
+				"source": "reversing-labs"
 			}
 		]
 	}

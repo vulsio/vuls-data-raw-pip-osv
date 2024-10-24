@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4889",
-	"modified": "2024-06-25T13:33:23Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:23Z",
 	"summary": "Malicious code in chromeselenium (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 					"0.1.2",
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07957",
+				"import_time": "2024-10-24T00:58:54.598605816Z",
+				"modified_time": "2024-10-16T14:37:50Z",
+				"sha256": "dfb44200c13f51636f84f91fd2c116487d38c48716b114c528eeb959c17cc79c",
+				"source": "reversing-labs"
 			}
 		]
 	}

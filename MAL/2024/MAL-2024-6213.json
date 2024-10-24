@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6213",
-	"modified": "2024-06-25T13:44:10Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:10Z",
 	"summary": "Malicious code in win23crypt (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 					"0.1.3",
 					"0.1.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-09532",
+				"import_time": "2024-10-24T01:00:25.241244692Z",
+				"modified_time": "2024-10-16T14:54:05Z",
+				"sha256": "275fb1812b1c64471bea47be649e42366f957cb3999124f809681d6e425bc4e1",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5273",
-	"modified": "2024-06-25T13:36:30Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:30Z",
 	"summary": "Malicious code in instarequests (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08415",
+				"import_time": "2024-10-24T00:59:21.30403432Z",
+				"modified_time": "2024-10-16T14:42:39Z",
+				"sha256": "e9dc4b3c7c3a1b01ab02af4491f021d7f6690681fccea632e8d3e6a24ba45fcd",
+				"source": "reversing-labs"
 			}
 		]
 	}

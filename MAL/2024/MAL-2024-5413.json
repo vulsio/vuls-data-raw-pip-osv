@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5413",
-	"modified": "2024-06-25T13:37:38Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:38Z",
 	"summary": "Malicious code in nitus (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08569",
+				"import_time": "2024-10-24T00:59:30.919991503Z",
+				"modified_time": "2024-10-16T14:44:14Z",
+				"sha256": "ace4bc20fb6a83616a45e98ddf88040aeff482d582283a0669645deec202238f",
+				"source": "reversing-labs"
 			}
 		]
 	}

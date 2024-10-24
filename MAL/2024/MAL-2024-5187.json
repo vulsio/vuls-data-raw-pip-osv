@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5187",
-	"modified": "2024-06-25T13:35:48Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:48Z",
 	"summary": "Malicious code in gpt-requests (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08327",
+				"import_time": "2024-10-24T00:59:15.457074893Z",
+				"modified_time": "2024-10-16T14:41:43Z",
+				"sha256": "25b2367305a2e975943b08dfb332026e83018d118758cfeb818514c0eb5d6742",
+				"source": "reversing-labs"
 			}
 		]
 	}

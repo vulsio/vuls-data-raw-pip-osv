@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5357",
-	"modified": "2024-06-25T13:37:11Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:11Z",
 	"summary": "Malicious code in me-dheeraj-moye-moye (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"1.0.2",
 					"1.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08505",
+				"import_time": "2024-10-24T00:59:26.908185025Z",
+				"modified_time": "2024-10-16T14:43:35Z",
+				"sha256": "175f7b8e33bb186ce423b59f76ac0d17400f5a9a7501d0e3589ae4c89c7bbd4b",
+				"source": "reversing-labs"
 			}
 		]
 	}

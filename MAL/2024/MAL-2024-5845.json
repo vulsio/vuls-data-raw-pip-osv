@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5845",
-	"modified": "2024-06-28T03:15:12.418344Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:16Z",
 	"aliases": [
 		"SNYK-PYTHON-QTCOLOR-6129556"
@@ -57,6 +57,13 @@
 					"2.3",
 					"4.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-09100",
+				"import_time": "2024-10-24T01:00:00.307292636Z",
+				"modified_time": "2024-10-16T14:49:39Z",
+				"sha256": "e206555d348d4ff88426761c5a48e4295417eee552fa2a7560efbf4616a63897",
+				"source": "reversing-labs"
 			}
 		]
 	}

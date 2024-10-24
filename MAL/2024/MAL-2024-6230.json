@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6230",
-	"modified": "2024-06-25T13:44:17Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:17Z",
 	"summary": "Malicious code in xolodyntlnewtp (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09552",
+				"import_time": "2024-10-24T01:00:26.282005432Z",
+				"modified_time": "2024-10-16T14:54:17Z",
+				"sha256": "5414d2b985d281f07a82997f1d5e0fe267610ecbc259cf7e760d2dd71b9db35b",
+				"source": "reversing-labs"
 			}
 		]
 	}

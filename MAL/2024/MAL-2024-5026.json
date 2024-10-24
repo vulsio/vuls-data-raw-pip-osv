@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5026",
-	"modified": "2024-06-25T13:34:29Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:29Z",
 	"summary": "Malicious code in data-platform-airflow-operators (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"999.9.20"
 				]
+			},
+			{
+				"id": "RLUA-2024-08102",
+				"import_time": "2024-10-24T00:59:04.537268993Z",
+				"modified_time": "2024-10-16T14:39:21Z",
+				"sha256": "f3571c17c979d8297d7091c441c41304e3f219e60219e5a6a677fa2df51cd878",
+				"source": "reversing-labs"
 			}
 		]
 	}

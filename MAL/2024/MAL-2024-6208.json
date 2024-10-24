@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6208",
-	"modified": "2024-06-25T13:44:07Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:07Z",
 	"summary": "Malicious code in weedycoder (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09524",
+				"import_time": "2024-10-24T01:00:24.95073364Z",
+				"modified_time": "2024-10-16T14:53:59Z",
+				"sha256": "a70d09cacb3406dc97a691a8fada5a03bb49132d90ea61ef88ac5f1a5f1267c5",
+				"source": "reversing-labs"
 			}
 		]
 	}

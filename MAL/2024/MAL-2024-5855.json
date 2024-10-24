@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5855",
-	"modified": "2024-06-25T13:41:21Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:21Z",
 	"summary": "Malicious code in realtek (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-09111",
+				"import_time": "2024-10-24T01:00:00.863448306Z",
+				"modified_time": "2024-10-16T14:49:47Z",
+				"sha256": "a787aede9d6efa88180c1de31f58112587fd80a18fc220f7fc65b9d25849b178",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4783",
-	"modified": "2024-06-25T13:32:32Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:32Z",
 	"summary": "Malicious code in async-dispatcher (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 					"1.2.1",
 					"1.2.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-07837",
+				"import_time": "2024-10-24T00:58:47.971925469Z",
+				"modified_time": "2024-10-16T14:36:32Z",
+				"sha256": "c3233139c7d52bc7bb51eee670d59928d4cab078f13511a6e1d9576d3072affb",
+				"source": "reversing-labs"
 			}
 		]
 	}

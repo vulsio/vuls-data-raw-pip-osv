@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6052",
-	"modified": "2024-06-25T13:42:55Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:55Z",
 	"summary": "Malicious code in styling (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -14,7 +14,8 @@
 			},
 			"versions": [
 				"1.9",
-				"2.0"
+				"2.0",
+				"1.8"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/styling/MAL-2024-6052.json"
@@ -47,6 +48,16 @@
 				"versions": [
 					"1.9",
 					"2.0"
+				]
+			},
+			{
+				"id": "RLUA-2024-09323",
+				"import_time": "2024-10-24T01:00:14.321195993Z",
+				"modified_time": "2024-10-16T14:51:57Z",
+				"sha256": "853c2abe17e80bc2630a977c7c34f78bb2b12fa61652b3a65b565fc46da658ed",
+				"source": "reversing-labs",
+				"versions": [
+					"1.8"
 				]
 			}
 		]

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5839",
-	"modified": "2024-06-25T13:41:12Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:12Z",
 	"summary": "Malicious code in pywinrequest (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09093",
+				"import_time": "2024-10-24T00:59:59.914570541Z",
+				"modified_time": "2024-10-16T14:49:35Z",
+				"sha256": "2a48110d1a16c701db4fd7d7f56214739bd8fbdc6900b2df9d1668f173ca1589",
+				"source": "reversing-labs"
 			}
 		]
 	}

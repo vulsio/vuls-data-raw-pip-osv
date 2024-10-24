@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6012",
-	"modified": "2024-06-25T13:42:36Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:36Z",
 	"summary": "Malicious code in simple-discord-https (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"1.7.5",
 					"1.7.6"
 				]
+			},
+			{
+				"id": "RLUA-2024-09275",
+				"import_time": "2024-10-24T01:00:11.818254789Z",
+				"modified_time": "2024-10-16T14:51:26Z",
+				"sha256": "56ba172bdb9d207051e2e522413567e96b04ea37dc48f77232af783a222f3c59",
+				"source": "reversing-labs"
 			}
 		]
 	}

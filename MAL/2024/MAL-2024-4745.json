@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4745",
-	"modified": "2024-06-25T13:32:13Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:13Z",
 	"summary": "Malicious code in ai-solver-py (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07790",
+				"import_time": "2024-10-24T00:58:45.391990816Z",
+				"modified_time": "2024-10-16T14:36:11Z",
+				"sha256": "de7f56480136830c05505966fa0b5793e009edaf9df157d1ab56f11df4808134",
+				"source": "reversing-labs"
 			}
 		]
 	}

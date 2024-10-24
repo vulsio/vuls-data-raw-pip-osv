@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5479",
-	"modified": "2024-06-25T13:38:09Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:09Z",
 	"summary": "Malicious code in pingdomv3 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -13,7 +13,8 @@
 				"purl": "pkg:pypi/pingdomv3"
 			},
 			"versions": [
-				"1.1.0"
+				"1.1.0",
+				"0.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pingdomv3/MAL-2024-5479.json"
@@ -39,6 +40,16 @@
 				"source": "reversing-labs",
 				"versions": [
 					"1.1.0"
+				]
+			},
+			{
+				"id": "RLUA-2024-08689",
+				"import_time": "2024-10-24T00:59:35.447494555Z",
+				"modified_time": "2024-10-16T14:45:28Z",
+				"sha256": "8fc8e0ff2c04e8849ea90181be10fb4f16725ed4a426359534711dd0802a2518",
+				"source": "reversing-labs",
+				"versions": [
+					"0.1"
 				]
 			}
 		]

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4920",
-	"modified": "2024-06-25T13:33:38Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:38Z",
 	"summary": "Malicious code in colorama-py (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.6"
 				]
+			},
+			{
+				"id": "RLUA-2024-07991",
+				"import_time": "2024-10-24T00:58:56.605783508Z",
+				"modified_time": "2024-10-16T14:38:11Z",
+				"sha256": "79792490ec5749ed1a6827bbc9ac9d7b6fb57f0c0329d7a4e3bc10da2e4ec5fa",
+				"source": "reversing-labs"
 			}
 		]
 	}

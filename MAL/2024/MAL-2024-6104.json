@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6104",
-	"modified": "2024-06-25T13:43:19Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:19Z",
 	"summary": "Malicious code in terminalgui (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"1.2",
 					"1.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09375",
+				"import_time": "2024-10-24T01:00:18.091137769Z",
+				"modified_time": "2024-10-16T14:52:28Z",
+				"sha256": "d4a773b251b4e0d169f3b087d7c32daf4728f3887a905be2b5df420e5e9ec94b",
+				"source": "reversing-labs"
 			}
 		]
 	}

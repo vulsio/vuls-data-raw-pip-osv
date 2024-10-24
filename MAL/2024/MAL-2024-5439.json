@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5439",
-	"modified": "2024-06-25T13:37:50Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:50Z",
 	"summary": "Malicious code in ovcdtwfcak (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08645",
+				"import_time": "2024-10-24T00:59:32.749007385Z",
+				"modified_time": "2024-10-16T14:45:00Z",
+				"sha256": "6fbdfb70f57511965ac0f4dd29988547a7b1fb08342fa2a0a626d6a662fc5fbf",
+				"source": "reversing-labs"
 			}
 		]
 	}

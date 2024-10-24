@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5959",
-	"modified": "2024-06-25T13:42:09Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:09Z",
 	"summary": "Malicious code in rrlzjulvyx (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09224",
+				"import_time": "2024-10-24T01:00:08.295177508Z",
+				"modified_time": "2024-10-16T14:50:54Z",
+				"sha256": "e93f25c1d0b71e9da0a39d45e30e5c982344e2e78973742d92bbbf50148bd5c2",
+				"source": "reversing-labs"
 			}
 		]
 	}

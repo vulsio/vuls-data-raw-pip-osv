@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5205",
-	"modified": "2024-06-25T13:35:58Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:58Z",
 	"summary": "Malicious code in hoes (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"0.0.2",
 					"0.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08348",
+				"import_time": "2024-10-24T00:59:16.639818553Z",
+				"modified_time": "2024-10-16T14:41:57Z",
+				"sha256": "5a6645785917b3c2b34ff391a9f51a10c89291e27f9add768f3e9b39af870b82",
+				"source": "reversing-labs"
 			}
 		]
 	}

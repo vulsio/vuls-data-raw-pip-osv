@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4788",
-	"modified": "2024-06-25T13:32:34Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:34Z",
 	"summary": "Malicious code in autorequirements (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07846",
+				"import_time": "2024-10-24T00:58:48.275014325Z",
+				"modified_time": "2024-10-16T14:36:38Z",
+				"sha256": "2a3fdf242a4423a20898cd32047f6f1687ad9e8e74782765a4b49b029a3345ef",
+				"source": "reversing-labs"
 			}
 		]
 	}

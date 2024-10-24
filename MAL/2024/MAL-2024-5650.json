@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5650",
-	"modified": "2024-06-25T13:39:31Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:31Z",
 	"summary": "Malicious code in pycerial (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -64,6 +64,13 @@
 					"0.0.4",
 					"0.0.6"
 				]
+			},
+			{
+				"id": "RLUA-2024-08868",
+				"import_time": "2024-10-24T00:59:47.047127473Z",
+				"modified_time": "2024-10-16T14:47:17Z",
+				"sha256": "0ead7f1c9d232093e644a320e5b38e8a3fa720d5ad68a085bfd12ff767ca65ec",
+				"source": "reversing-labs"
 			}
 		]
 	}

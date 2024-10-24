@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5576",
-	"modified": "2024-06-25T13:38:56Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:56Z",
 	"summary": "Malicious code in push2web (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08791",
+				"import_time": "2024-10-24T00:59:41.839383061Z",
+				"modified_time": "2024-10-16T14:46:30Z",
+				"sha256": "ab0e051da05b1f65430bf673b10853e4c66add7aede6a0630c3645c1728ac4a4",
+				"source": "reversing-labs"
 			}
 		]
 	}

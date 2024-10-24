@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5120",
-	"modified": "2024-06-25T13:35:15Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:15Z",
 	"summary": "Malicious code in ethtoolz (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08249",
+				"import_time": "2024-10-24T00:59:10.992160715Z",
+				"modified_time": "2024-10-16T14:40:54Z",
+				"sha256": "f75ddc4ce6b43be7605c055c33e64135fe2169cf1f74ca479b67b22cf299f53e",
+				"source": "reversing-labs"
 			}
 		]
 	}

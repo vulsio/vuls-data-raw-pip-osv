@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5361",
-	"modified": "2024-06-25T13:37:13Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:13Z",
 	"summary": "Malicious code in metrok (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08512",
+				"import_time": "2024-10-24T00:59:27.249538441Z",
+				"modified_time": "2024-10-16T14:43:39Z",
+				"sha256": "00db06ad0819e981ac723a64dc713baeba47a5eb8ac924935170c2f6ae1707d5",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6024",
-	"modified": "2024-06-25T13:42:41Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:41Z",
 	"summary": "Malicious code in soulnitro (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09293",
+				"import_time": "2024-10-24T01:00:12.495559245Z",
+				"modified_time": "2024-10-16T14:51:37Z",
+				"sha256": "5605728bd930eaab0b33ff316d189e212d739712c5b9e937f36b0cd5499bb1ca",
+				"source": "reversing-labs"
 			}
 		]
 	}

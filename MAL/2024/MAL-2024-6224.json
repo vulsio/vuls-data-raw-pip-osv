@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6224",
-	"modified": "2024-06-25T13:44:15Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:15Z",
 	"summary": "Malicious code in xlatency (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09546",
+				"import_time": "2024-10-24T01:00:25.905206572Z",
+				"modified_time": "2024-10-16T14:54:13Z",
+				"sha256": "56686b1f940e3085ff08b53330dc28ba97ecf6fac8426fa980186f1deac76c65",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5697",
-	"modified": "2024-06-25T13:39:56Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:56Z",
 	"summary": "Malicious code in pydiblis (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.7"
 				]
+			},
+			{
+				"id": "RLUA-2024-08917",
+				"import_time": "2024-10-24T00:59:50.417068294Z",
+				"modified_time": "2024-10-16T14:47:49Z",
+				"sha256": "c4284f9d394b1a5e96b1b3e0f7a36cd7a75517b1a6b80eba13a8c4ef47620c98",
+				"source": "reversing-labs"
 			}
 		]
 	}

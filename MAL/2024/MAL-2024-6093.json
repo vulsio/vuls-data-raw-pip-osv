@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6093",
-	"modified": "2024-06-25T13:43:14Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:14Z",
 	"summary": "Malicious code in sysuptoer (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09364",
+				"import_time": "2024-10-24T01:00:17.361484858Z",
+				"modified_time": "2024-10-16T14:52:21Z",
+				"sha256": "2d4508b6039ac5856ec39c9b0ba447fcd6481713108a2b58b0331165b59864be",
+				"source": "reversing-labs"
 			}
 		]
 	}

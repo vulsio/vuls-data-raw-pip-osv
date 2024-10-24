@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4952",
-	"modified": "2024-06-25T13:33:54Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:54Z",
 	"summary": "Malicious code in colored-upgrade (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08024",
+				"import_time": "2024-10-24T00:58:58.897215014Z",
+				"modified_time": "2024-10-16T14:38:31Z",
+				"sha256": "35ae93f04d9a9bfb896a9ca4cfd466df9665af931f23867ae665df1e1b3d30c5",
+				"source": "reversing-labs"
 			}
 		]
 	}

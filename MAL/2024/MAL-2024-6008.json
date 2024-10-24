@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6008",
-	"modified": "2024-06-25T13:42:34Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:34Z",
 	"summary": "Malicious code in shom (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09271",
+				"import_time": "2024-10-24T01:00:11.536608477Z",
+				"modified_time": "2024-10-16T14:51:24Z",
+				"sha256": "a90a51f38839fe6da2ff064248d541cd86008cd7583ddcd6733d47cb8e329169",
+				"source": "reversing-labs"
 			}
 		]
 	}

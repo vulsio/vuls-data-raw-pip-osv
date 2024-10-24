@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5123",
-	"modified": "2024-06-25T13:35:16Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:16Z",
 	"summary": "Malicious code in evilshield (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 					"0.0.2",
 					"0.0.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08255",
+				"import_time": "2024-10-24T00:59:11.189262898Z",
+				"modified_time": "2024-10-16T14:40:58Z",
+				"sha256": "135b7165338958860e4410e5b0bc5099ea5ea0d742484f1678c97240a62c8882",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5638",
-	"modified": "2024-06-25T13:39:25Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:25Z",
 	"summary": "Malicious code in py32cly (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08854",
+				"import_time": "2024-10-24T00:59:46.207920312Z",
+				"modified_time": "2024-10-16T14:47:08Z",
+				"sha256": "512ae5147b0c5fd633afbdf0c47d576b327147373a1da3e7af539ce4c9ff2afc",
+				"source": "reversing-labs"
 			}
 		]
 	}

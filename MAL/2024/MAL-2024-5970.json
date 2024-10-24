@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5970",
-	"modified": "2024-06-25T13:42:15Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:15Z",
 	"summary": "Malicious code in screencaptned (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09235",
+				"import_time": "2024-10-24T01:00:08.986695749Z",
+				"modified_time": "2024-10-16T14:51:01Z",
+				"sha256": "53e002c95f2b863e62907797988e9dc10bd3f3ae6f8421b5e136528a80af459e",
+				"source": "reversing-labs"
 			}
 		]
 	}

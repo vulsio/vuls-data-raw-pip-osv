@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5377",
-	"modified": "2024-06-25T13:37:20Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:20Z",
 	"summary": "Malicious code in mousemovement (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08532",
+				"import_time": "2024-10-24T00:59:28.326933138Z",
+				"modified_time": "2024-10-16T14:43:51Z",
+				"sha256": "43e6cfaf1f47dbe25b58ad1f2b591cef27792e2117a30dd921553c8248b0f6db",
+				"source": "reversing-labs"
 			}
 		]
 	}

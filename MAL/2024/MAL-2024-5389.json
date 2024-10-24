@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5389",
-	"modified": "2024-06-25T13:37:26Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:26Z",
 	"summary": "Malicious code in mygens (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"1.0",
 					"1.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08544",
+				"import_time": "2024-10-24T00:59:29.177405053Z",
+				"modified_time": "2024-10-16T14:43:59Z",
+				"sha256": "e6c61a50b2cd1ce54c2f0d6a0c58e2aff468f6e5f555d62c2c49a01ce2a6aef0",
+				"source": "reversing-labs"
 			}
 		]
 	}

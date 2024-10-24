@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5324",
-	"modified": "2024-06-25T13:36:55Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:55Z",
 	"summary": "Malicious code in libraryscraper (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-08470",
+				"import_time": "2024-10-24T00:59:24.489009874Z",
+				"modified_time": "2024-10-16T14:43:13Z",
+				"sha256": "90af4a4f28f5bb581afe056f303c7f69e047995bcb4d0a712acc8eda50b2e418",
+				"source": "reversing-labs"
 			}
 		]
 	}

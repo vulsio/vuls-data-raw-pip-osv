@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5241",
-	"modified": "2024-06-25T13:36:14Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:14Z",
 	"summary": "Malicious code in httpxmodifier (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08384",
+				"import_time": "2024-10-24T00:59:19.150298219Z",
+				"modified_time": "2024-10-16T14:42:19Z",
+				"sha256": "1b7f1d7912d74a3c29bc3aef13c091452db2eb2ce493a19772bb73e3f31db3ba",
+				"source": "reversing-labs"
 			}
 		]
 	}

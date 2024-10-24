@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5189",
-	"modified": "2024-06-25T13:35:49Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:49Z",
 	"summary": "Malicious code in graphdata (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.8.9",
 					"0.9.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08330",
+				"import_time": "2024-10-24T00:59:15.642738998Z",
+				"modified_time": "2024-10-16T14:41:45Z",
+				"sha256": "654d6e6bd6931a2eff58fe1844e6cc9a83676aa4c510a7e604e972a6d1f6db06",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5226",
-	"modified": "2024-06-25T13:36:08Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:08Z",
 	"summary": "Malicious code in httpsreqfast (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 					"1.1",
 					"1.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08369",
+				"import_time": "2024-10-24T00:59:18.193773323Z",
+				"modified_time": "2024-10-16T14:42:10Z",
+				"sha256": "5acfb66b08f45664d09753b8ffd88563f9db299bfe8adb11ab4e2881fadde6bf",
+				"source": "reversing-labs"
 			}
 		]
 	}

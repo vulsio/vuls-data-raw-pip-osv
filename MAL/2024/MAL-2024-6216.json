@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6216",
-	"modified": "2024-06-25T13:44:11Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:11Z",
 	"summary": "Malicious code in xbox-authorization (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09538",
+				"import_time": "2024-10-24T01:00:25.461986417Z",
+				"modified_time": "2024-10-16T14:54:09Z",
+				"sha256": "7bd2451a22b99c10ab12ca13f3d7c41301e447e3bb8066b9db51cc3dce52f6df",
+				"source": "reversing-labs"
 			}
 		]
 	}

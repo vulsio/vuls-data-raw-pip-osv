@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4768",
-	"modified": "2024-06-25T13:32:24Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:24Z",
 	"summary": "Malicious code in anticheatservice (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.13"
 				]
+			},
+			{
+				"id": "RLUA-2024-07818",
+				"import_time": "2024-10-24T00:58:47.029155642Z",
+				"modified_time": "2024-10-16T14:36:21Z",
+				"sha256": "01436beac5b1e1d0177b54e8c02281a735eb4c2cf5f1af7f2a24f683fd1dbceb",
+				"source": "reversing-labs"
 			}
 		]
 	}

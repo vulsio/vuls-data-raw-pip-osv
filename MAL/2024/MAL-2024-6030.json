@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6030",
-	"modified": "2024-06-25T13:42:45Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:45Z",
 	"summary": "Malicious code in speedquest (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09299",
+				"import_time": "2024-10-24T01:00:12.797356965Z",
+				"modified_time": "2024-10-16T14:51:41Z",
+				"sha256": "4196a01bf5586c5deb634fa7feedcf816a8e775c8549e7837572b3d40cfa0def",
+				"source": "reversing-labs"
 			}
 		]
 	}

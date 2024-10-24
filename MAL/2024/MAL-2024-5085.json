@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5085",
-	"modified": "2024-06-25T13:34:58Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:58Z",
 	"summary": "Malicious code in discordrolex (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08162",
+				"import_time": "2024-10-24T00:59:08.449195778Z",
+				"modified_time": "2024-10-16T14:39:59Z",
+				"sha256": "f67671d91dc910149027cc7fbd5810bc5a7f19f4dddf9906b24e0d1b39d02045",
+				"source": "reversing-labs"
 			}
 		]
 	}

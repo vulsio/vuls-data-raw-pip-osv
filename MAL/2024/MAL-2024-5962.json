@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5962",
-	"modified": "2024-06-25T13:42:11Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:11Z",
 	"summary": "Malicious code in sadonion (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"1.0",
 					"1.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09227",
+				"import_time": "2024-10-24T01:00:08.510836794Z",
+				"modified_time": "2024-10-16T14:50:56Z",
+				"sha256": "757b4e4b279ae7654e00a6e0a58ec5f395a1df2613c3f6893e2744d70a8f9c48",
+				"source": "reversing-labs"
 			}
 		]
 	}

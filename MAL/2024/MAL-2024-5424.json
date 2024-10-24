@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5424",
-	"modified": "2024-06-25T13:37:42Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:42Z",
 	"summary": "Malicious code in oauth-less (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08580",
+				"import_time": "2024-10-24T00:59:31.625388842Z",
+				"modified_time": "2024-10-16T14:44:21Z",
+				"sha256": "280dbfe4c6505a1b716be56b6b007366e1bd0b5fdf2fb5fb01bed31cdafc64f6",
+				"source": "reversing-labs"
 			}
 		]
 	}

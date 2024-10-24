@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5186",
-	"modified": "2024-06-25T13:35:47Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:47Z",
 	"summary": "Malicious code in gorilla2 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"3.4.0",
 					"0.5.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-08326",
+				"import_time": "2024-10-24T00:59:15.400371415Z",
+				"modified_time": "2024-10-16T14:41:43Z",
+				"sha256": "aad1ec09c9535dcc6e9c9de1a8b52b786945ded63a0a444fbc9c3c6fdad8b323",
+				"source": "reversing-labs"
 			}
 		]
 	}

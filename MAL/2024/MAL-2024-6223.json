@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6223",
-	"modified": "2024-06-25T13:44:14Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:14Z",
 	"summary": "Malicious code in xiedemo (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"0.0.0",
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09545",
+				"import_time": "2024-10-24T01:00:25.865373721Z",
+				"modified_time": "2024-10-16T14:54:13Z",
+				"sha256": "67d093327107550d60a9aab54f8c3932b48c0b1f47841e3dc5ee2dedbc66ea27",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5339",
-	"modified": "2024-06-25T13:37:02Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:02Z",
 	"summary": "Malicious code in lukz (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 					"2.0.0",
 					"3.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08485",
+				"import_time": "2024-10-24T00:59:25.750487953Z",
+				"modified_time": "2024-10-16T14:43:23Z",
+				"sha256": "4c3bc9bdcbd646f4291632250080c202a164b5e98a65ecedaa408ee9c0051162",
+				"source": "reversing-labs"
 			}
 		]
 	}

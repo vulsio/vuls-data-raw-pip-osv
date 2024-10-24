@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5198",
-	"modified": "2024-06-25T13:35:54Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:54Z",
 	"summary": "Malicious code in hashdecrypts (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -18,6 +18,12 @@
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/hashdecrypts/MAL-2024-5198.json"
 			}
+		}
+	],
+	"references": [
+		{
+			"type": "ARTICLE",
+			"url": "https://www.reversinglabs.com/blog/bipclip-malicious-pypi-packages-target-crypto-wallet-recovery-passwords"
 		}
 	],
 	"credits": [
@@ -40,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08340",
+				"import_time": "2024-10-24T00:59:16.167243174Z",
+				"modified_time": "2024-10-16T14:41:52Z",
+				"sha256": "190253f5e8697838961c67ab95c038a28b7706573b555239ae1017e12c09240e",
+				"source": "reversing-labs"
 			}
 		]
 	}

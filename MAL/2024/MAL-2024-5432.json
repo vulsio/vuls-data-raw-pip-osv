@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5432",
-	"modified": "2024-06-25T13:37:47Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:47Z",
 	"summary": "Malicious code in od7n (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08588",
+				"import_time": "2024-10-24T00:59:32.20674714Z",
+				"modified_time": "2024-10-16T14:44:26Z",
+				"sha256": "79e566960411006dcdc679d3dc4b9d1e67355bc3caf8637a57ec5d15801e6e23",
+				"source": "reversing-labs"
 			}
 		]
 	}

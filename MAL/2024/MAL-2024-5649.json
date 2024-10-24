@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5649",
-	"modified": "2024-06-25T13:39:31Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:31Z",
 	"summary": "Malicious code in pycapmonsterfree (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08867",
+				"import_time": "2024-10-24T00:59:46.931891905Z",
+				"modified_time": "2024-10-16T14:47:17Z",
+				"sha256": "b914bfa0bb4cd7accaec1297b74bf30214f2050cbb61ed427c70aa00c1337acc",
+				"source": "reversing-labs"
 			}
 		]
 	}

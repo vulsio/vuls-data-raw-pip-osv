@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5852",
-	"modified": "2024-06-25T13:41:19Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:19Z",
 	"summary": "Malicious code in readychars (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"0.0.2",
 					"0.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-09108",
+				"import_time": "2024-10-24T01:00:00.717585284Z",
+				"modified_time": "2024-10-16T14:49:45Z",
+				"sha256": "5baee4587508d5a54f3bb2024ce1c1567237471768a3b9cfff1f05614fff43f1",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5555",
-	"modified": "2024-06-25T13:38:46Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:46Z",
 	"summary": "Malicious code in plutotestingagain (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08765",
+				"import_time": "2024-10-24T00:59:40.29842997Z",
+				"modified_time": "2024-10-16T14:46:14Z",
+				"sha256": "dff1e72fa0805c1b0d4f803c52f48f8f43f693e4a662d2da9f17649b22194ffb",
+				"source": "reversing-labs"
 			}
 		]
 	}

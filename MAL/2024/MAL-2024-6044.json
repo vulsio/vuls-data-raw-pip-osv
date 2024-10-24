@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6044",
-	"modified": "2024-06-25T13:42:52Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:52Z",
 	"summary": "Malicious code in stripe-client (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09314",
+				"import_time": "2024-10-24T01:00:13.779614951Z",
+				"modified_time": "2024-10-16T14:51:51Z",
+				"sha256": "a0779197195d3d47de1f362026a664b557ad409d38d9e76cd2abdbb484ed6c71",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5945",
-	"modified": "2024-06-25T13:42:03Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:03Z",
 	"summary": "Malicious code in rhermann-sds (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09206",
+				"import_time": "2024-10-24T01:00:07.234424675Z",
+				"modified_time": "2024-10-16T14:50:43Z",
+				"sha256": "7b8e64f25a30297711398d8b6dcce4a1b3c79906fe8cfe9135e30894faace961",
+				"source": "reversing-labs"
 			}
 		]
 	}

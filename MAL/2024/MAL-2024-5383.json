@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5383",
-	"modified": "2024-06-25T13:37:23Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:23Z",
 	"summary": "Malicious code in multiconnection (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -56,6 +56,13 @@
 					"2.34.16",
 					"2.34.17"
 				]
+			},
+			{
+				"id": "RLUA-2024-08538",
+				"import_time": "2024-10-24T00:59:28.75756022Z",
+				"modified_time": "2024-10-16T14:43:55Z",
+				"sha256": "3abf7c5d2950bc101529ea132856c2df2bd1ef013e8ce350a59e182c4fd2e9c8",
+				"source": "reversing-labs"
 			}
 		]
 	}

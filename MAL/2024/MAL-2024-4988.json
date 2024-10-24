@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4988",
-	"modified": "2024-06-25T13:34:11Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:11Z",
 	"summary": "Malicious code in colourplus (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08060",
+				"import_time": "2024-10-24T00:59:01.49973654Z",
+				"modified_time": "2024-10-16T14:38:55Z",
+				"sha256": "ff390b607752cc7cb7c93e9bbd0300b47eb87fd92464002d588b31a4745bdf73",
+				"source": "reversing-labs"
 			}
 		]
 	}

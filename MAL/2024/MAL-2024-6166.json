@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6166",
-	"modified": "2024-06-25T13:43:49Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:49Z",
 	"summary": "Malicious code in trainers-cooks (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.0.1",
 					"0.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-09443",
+				"import_time": "2024-10-24T01:00:22.239494538Z",
+				"modified_time": "2024-10-16T14:53:09Z",
+				"sha256": "9f3d6fe198d0dddd49de983ca4456008b6e8640bf5bc886842a45f5e8afdcceb",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5333",
-	"modified": "2024-06-25T13:37:00Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:00Z",
 	"summary": "Malicious code in lsbs (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"0.0.1",
 					"0.0.12"
 				]
+			},
+			{
+				"id": "RLUA-2024-08479",
+				"import_time": "2024-10-24T00:59:25.114686866Z",
+				"modified_time": "2024-10-16T14:43:19Z",
+				"sha256": "91f6a07cf2f962ef5335e2e249f15d00169ff123a4a4f55ac67e172df37cc214",
+				"source": "reversing-labs"
 			}
 		]
 	}

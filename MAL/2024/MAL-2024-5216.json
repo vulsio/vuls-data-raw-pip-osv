@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5216",
-	"modified": "2024-06-25T13:36:03Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:03Z",
 	"summary": "Malicious code in httpacc (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08359",
+				"import_time": "2024-10-24T00:59:17.443447937Z",
+				"modified_time": "2024-10-16T14:42:04Z",
+				"sha256": "a158ebc843c8f8075a0ffd2ff6c44f146a0c223678bcaa6c8759ece123bba569",
+				"source": "reversing-labs"
 			}
 		]
 	}

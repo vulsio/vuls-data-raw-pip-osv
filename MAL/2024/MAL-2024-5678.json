@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5678",
-	"modified": "2024-06-25T13:39:46Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:46Z",
 	"summary": "Malicious code in pycparsre (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.21"
 				]
+			},
+			{
+				"id": "RLUA-2024-08898",
+				"import_time": "2024-10-24T00:59:49.225532774Z",
+				"modified_time": "2024-10-16T14:47:37Z",
+				"sha256": "c36610232e87c3800de8733f212c8e8a78d15dccba320d8abc5838f15d89259a",
+				"source": "reversing-labs"
 			}
 		]
 	}

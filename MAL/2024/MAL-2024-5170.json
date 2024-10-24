@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5170",
-	"modified": "2024-06-25T13:35:40Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:40Z",
 	"summary": "Malicious code in gamescodes (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08308",
+				"import_time": "2024-10-24T00:59:14.391665584Z",
+				"modified_time": "2024-10-16T14:41:31Z",
+				"sha256": "139ef3309dc83de42f4f66d9303e6274b0db685aec29424cb43d0556fb8883f2",
+				"source": "reversing-labs"
 			}
 		]
 	}

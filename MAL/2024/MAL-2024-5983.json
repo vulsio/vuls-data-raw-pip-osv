@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5983",
-	"modified": "2024-06-25T13:42:22Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:22Z",
 	"summary": "Malicious code in selib (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"3.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09248",
+				"import_time": "2024-10-24T01:00:09.956345509Z",
+				"modified_time": "2024-10-16T14:51:10Z",
+				"sha256": "f0cedaa1d82e2dd50a704b0abd747e3924212c78823eb9843ed18624db65af2b",
+				"source": "reversing-labs"
 			}
 		]
 	}

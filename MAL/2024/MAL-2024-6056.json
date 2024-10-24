@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6056",
-	"modified": "2024-06-25T13:42:57Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:57Z",
 	"summary": "Malicious code in sylexnaranjo (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09327",
+				"import_time": "2024-10-24T01:00:14.555612774Z",
+				"modified_time": "2024-10-16T14:51:59Z",
+				"sha256": "411a0e5d9150e1be52ceeed704739ab6cde49b19f2b471654dcb5757a206011d",
+				"source": "reversing-labs"
 			}
 		]
 	}

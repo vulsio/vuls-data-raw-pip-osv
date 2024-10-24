@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5132",
-	"modified": "2024-06-25T13:35:20Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:20Z",
 	"summary": "Malicious code in fatpanda (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08268",
+				"import_time": "2024-10-24T00:59:11.710281101Z",
+				"modified_time": "2024-10-16T14:41:06Z",
+				"sha256": "773aa31b44242638ba5dcd670c183489d034aaf1ceb6e34ff04267f913126f55",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6116",
-	"modified": "2024-06-25T13:43:25Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:25Z",
 	"summary": "Malicious code in testingiavv (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.31.10"
 				]
+			},
+			{
+				"id": "RLUA-2024-09389",
+				"import_time": "2024-10-24T01:00:18.888941666Z",
+				"modified_time": "2024-10-16T14:52:36Z",
+				"sha256": "da9192dff169fb1a63f58543cc80118cfb7766b7add6be3870e256ce183e81b7",
+				"source": "reversing-labs"
 			}
 		]
 	}

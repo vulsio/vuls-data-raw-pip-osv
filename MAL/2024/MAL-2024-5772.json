@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5772",
-	"modified": "2024-06-25T13:40:38Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:38Z",
 	"summary": "Malicious code in pysiyte (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-08999",
+				"import_time": "2024-10-24T00:59:55.633244366Z",
+				"modified_time": "2024-10-16T14:48:38Z",
+				"sha256": "27bd3b838a0d06f3fa9fdb92137d2d88a5f6334a43249c1dcb1adeaad431f6b2",
+				"source": "reversing-labs"
 			}
 		]
 	}

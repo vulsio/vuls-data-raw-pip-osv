@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6040",
-	"modified": "2024-06-25T13:42:50Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:50Z",
 	"summary": "Malicious code in strbeautify (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.4.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-09310",
+				"import_time": "2024-10-24T01:00:13.377968747Z",
+				"modified_time": "2024-10-16T14:51:49Z",
+				"sha256": "f07a2ce93e53e96ff9821555e7bf83a379d704c185c1e27cf8a09dc0189ef85e",
+				"source": "reversing-labs"
 			}
 		]
 	}

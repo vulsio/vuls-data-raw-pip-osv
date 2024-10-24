@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5728",
-	"modified": "2024-06-25T13:40:15Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:15Z",
 	"summary": "Malicious code in pyjunkerpro (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"1.0.1",
 					"1.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08952",
+				"import_time": "2024-10-24T00:59:52.668424099Z",
+				"modified_time": "2024-10-16T14:48:10Z",
+				"sha256": "7c7d346e107a39e416685cd064f2c803c64237aed08f180baa71e174d3a2f9c4",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5082",
-	"modified": "2024-06-25T13:34:56Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:56Z",
 	"summary": "Malicious code in discordreq99 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08159",
+				"import_time": "2024-10-24T00:59:08.205229755Z",
+				"modified_time": "2024-10-16T14:39:57Z",
+				"sha256": "3ea741172fc07dfb08468278bc19bae9471dfd866df9336400dd82bc6c2166da",
+				"source": "reversing-labs"
 			}
 		]
 	}

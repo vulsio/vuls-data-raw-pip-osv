@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5453",
-	"modified": "2024-06-28T03:14:56.642531Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:57Z",
 	"aliases": [
 		"SNYK-PYTHON-PANDEREQUESTS-5508595"
@@ -63,6 +63,13 @@
 					"0.2",
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08659",
+				"import_time": "2024-10-24T00:59:33.585055767Z",
+				"modified_time": "2024-10-16T14:45:10Z",
+				"sha256": "33e6647f4df30ad745cb3ac1ec4ed246622af26d6d4a503020834abdd7f8ec8b",
+				"source": "reversing-labs"
 			}
 		]
 	}

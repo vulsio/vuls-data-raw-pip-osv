@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5137",
-	"modified": "2024-06-25T13:35:23Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:23Z",
 	"summary": "Malicious code in ferns (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08273",
+				"import_time": "2024-10-24T00:59:11.996400738Z",
+				"modified_time": "2024-10-16T14:41:09Z",
+				"sha256": "e16f6ff51ea5845e4e68eaff2e349695b9a17066a16166e7e239175a24da6c39",
+				"source": "reversing-labs"
 			}
 		]
 	}

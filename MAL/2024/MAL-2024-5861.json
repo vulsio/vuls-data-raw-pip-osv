@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5861",
-	"modified": "2024-06-25T13:41:24Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:24Z",
 	"summary": "Malicious code in req7 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09120",
+				"import_time": "2024-10-24T01:00:01.442938412Z",
+				"modified_time": "2024-10-16T14:49:52Z",
+				"sha256": "13bb8812b8ecb24719a01712977927e791dc2fe90d96d320871045c877aad5bf",
+				"source": "reversing-labs"
 			}
 		]
 	}

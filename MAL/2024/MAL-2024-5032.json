@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5032",
-	"modified": "2024-06-25T13:34:32Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:32Z",
 	"summary": "Malicious code in datagraph (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.9.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08108",
+				"import_time": "2024-10-24T00:59:04.936858946Z",
+				"modified_time": "2024-10-16T14:39:25Z",
+				"sha256": "8d64b1e6492239797994f61889b15085a690d7210682e87d352b307fc4fb1c85",
+				"source": "reversing-labs"
 			}
 		]
 	}

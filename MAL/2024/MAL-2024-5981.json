@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5981",
-	"modified": "2024-06-25T13:42:21Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:21Z",
 	"summary": "Malicious code in seleniumunclickable (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09246",
+				"import_time": "2024-10-24T01:00:09.844154289Z",
+				"modified_time": "2024-10-16T14:51:09Z",
+				"sha256": "6d763ac14b25bdfd854ec6036d2363403ed6078155657a513e9365e4a8a0f858",
+				"source": "reversing-labs"
 			}
 		]
 	}

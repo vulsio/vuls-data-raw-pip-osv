@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5049",
-	"modified": "2024-06-25T13:34:41Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:41Z",
 	"summary": "Malicious code in dicuser (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"0.0.2",
 					"0.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08125",
+				"import_time": "2024-10-24T00:59:05.986792161Z",
+				"modified_time": "2024-10-16T14:39:35Z",
+				"sha256": "7d4a2e468126cefa25777914c78ca33e28f054b1f8a18c27e9c384d16fe095be",
+				"source": "reversing-labs"
 			}
 		]
 	}

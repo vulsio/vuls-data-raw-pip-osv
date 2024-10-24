@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6151",
-	"modified": "2024-06-25T13:43:41Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:41Z",
 	"summary": "Malicious code in tjajsd (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"10.33"
 				]
+			},
+			{
+				"id": "RLUA-2024-09428",
+				"import_time": "2024-10-24T01:00:21.29212779Z",
+				"modified_time": "2024-10-16T14:53:00Z",
+				"sha256": "9f555ead9539b2e0d6aa07d4a08f4a8771b0fbcce21214d0f29c22ae3e2f3a09",
+				"source": "reversing-labs"
 			}
 		]
 	}

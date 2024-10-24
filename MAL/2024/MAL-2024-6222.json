@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6222",
-	"modified": "2024-06-25T13:44:14Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:14Z",
 	"summary": "Malicious code in xhttpsp (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09544",
+				"import_time": "2024-10-24T01:00:25.803437615Z",
+				"modified_time": "2024-10-16T14:54:12Z",
+				"sha256": "2f74dff4405debe66448b62658dd0b92bd2e0080dc2b3281683af3501da4e2ee",
+				"source": "reversing-labs"
 			}
 		]
 	}

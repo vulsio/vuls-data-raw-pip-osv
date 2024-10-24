@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4779",
-	"modified": "2024-06-25T13:32:30Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:30Z",
 	"summary": "Malicious code in ascii-chillah (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07832",
+				"import_time": "2024-10-24T00:58:47.702441207Z",
+				"modified_time": "2024-10-16T14:36:29Z",
+				"sha256": "8336366ac2698d7cea5e6b549b31caacf9b31b0bb07e84c7c329996fa6b7ab10",
+				"source": "reversing-labs"
 			}
 		]
 	}

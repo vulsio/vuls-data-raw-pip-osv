@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5091",
-	"modified": "2024-06-25T13:35:01Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:01Z",
 	"summary": "Malicious code in dividedinkedwarpdrive (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08168",
+				"import_time": "2024-10-24T00:59:08.855588465Z",
+				"modified_time": "2024-10-16T14:40:02Z",
+				"sha256": "f2a4205ab42541aefb44a0d0545405fbde96074e40e2818e8f53f4065f637ff4",
+				"source": "reversing-labs"
 			}
 		]
 	}

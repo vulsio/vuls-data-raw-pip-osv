@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5732",
-	"modified": "2024-06-25T13:40:18Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:18Z",
 	"summary": "Malicious code in pylibfont (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08956",
+				"import_time": "2024-10-24T00:59:52.849889556Z",
+				"modified_time": "2024-10-16T14:48:13Z",
+				"sha256": "25a2fb7c49fc955f4073b03558a2c09a5cc88c98594a30dff50154bc3124ce51",
+				"source": "reversing-labs"
 			}
 		]
 	}

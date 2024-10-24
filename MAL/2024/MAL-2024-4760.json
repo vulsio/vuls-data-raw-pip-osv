@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4760",
-	"modified": "2024-06-25T13:32:21Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:21Z",
 	"summary": "Malicious code in alcloud-credentials (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.3.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-07808",
+				"import_time": "2024-10-24T00:58:46.593523317Z",
+				"modified_time": "2024-10-16T14:36:18Z",
+				"sha256": "8ebc0a669b6080eca1bf367d6a1c24de1912a0b6a4312f5f6cd460591c1286e3",
+				"source": "reversing-labs"
 			}
 		]
 	}

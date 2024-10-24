@@ -1,0 +1,46 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-10108",
+	"modified": "2024-10-16T14:46:27Z",
+	"published": "2024-10-16T14:46:27Z",
+	"summary": "Malicious code in pthon (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "pthon",
+				"purl": "pkg:pypi/pthon"
+			},
+			"versions": [
+				"1.0.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/pthon/MAL-2024-10108.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-08787",
+				"import_time": "2024-10-24T00:57:04.986926796Z",
+				"modified_time": "2024-10-16T14:46:27Z",
+				"sha256": "306b30aaf09a8164009caeb5ba3d25130aedb8b25754070cf1e1170953cd2d66",
+				"source": "reversing-labs",
+				"versions": [
+					"1.0.0"
+				]
+			}
+		]
+	}
+}

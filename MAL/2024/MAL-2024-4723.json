@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4723",
-	"modified": "2024-06-25T13:32:03Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:03Z",
 	"summary": "Malicious code in 1923tsl1 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"5.40"
 				]
+			},
+			{
+				"id": "RLUA-2024-07765",
+				"import_time": "2024-10-24T00:58:43.979922961Z",
+				"modified_time": "2024-10-16T13:48:54Z",
+				"sha256": "6c4739207b97129d5ce143664de7e4215e24c53460590897655c2fd83ab3c575",
+				"source": "reversing-labs"
 			}
 		]
 	}

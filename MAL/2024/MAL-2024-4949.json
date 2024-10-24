@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4949",
-	"modified": "2024-06-25T13:33:52Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:52Z",
 	"summary": "Malicious code in colordiscord2 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08021",
+				"import_time": "2024-10-24T00:58:58.663350386Z",
+				"modified_time": "2024-10-16T14:38:29Z",
+				"sha256": "94ffdb9f6e60eca965c50894ebe8df0ddb39c0e5a066231165dce53a7b569f6f",
+				"source": "reversing-labs"
 			}
 		]
 	}

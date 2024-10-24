@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5548",
-	"modified": "2024-06-25T13:38:42Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:42Z",
 	"summary": "Malicious code in piptyper (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08758",
+				"import_time": "2024-10-24T00:59:39.856448256Z",
+				"modified_time": "2024-10-16T14:46:10Z",
+				"sha256": "0674f88583d53cea3db6d05baad0b94cf6b495f6491572e90deb44f7075867b5",
+				"source": "reversing-labs"
 			}
 		]
 	}

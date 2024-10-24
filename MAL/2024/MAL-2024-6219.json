@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6219",
-	"modified": "2024-06-28T03:27:24.456980Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:12Z",
 	"aliases": [
 		"SNYK-PYTHON-XBOXLIVEPY-5292137"
@@ -57,6 +57,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09541",
+				"import_time": "2024-10-24T01:00:25.626370787Z",
+				"modified_time": "2024-10-16T14:54:10Z",
+				"sha256": "aa61626ef8eb1c64ea42dd1048fe3d52ac121f946d56088c1248573956253907",
+				"source": "reversing-labs"
 			}
 		]
 	}

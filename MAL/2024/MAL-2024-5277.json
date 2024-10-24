@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5277",
-	"modified": "2024-06-25T13:36:32Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:32Z",
 	"summary": "Malicious code in jas9do1 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"7.72"
 				]
+			},
+			{
+				"id": "RLUA-2024-08419",
+				"import_time": "2024-10-24T00:59:21.563161591Z",
+				"modified_time": "2024-10-16T14:42:42Z",
+				"sha256": "01ea4c2831ca421dd15a2b0ab5b7b89050a0ed08498fa53e028786513f3fa08a",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5963",
-	"modified": "2024-06-28T03:15:15.731387Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:12Z",
 	"aliases": [
 		"SNYK-PYTHON-SCCONCURRENTLOGHANDLER-5920737"
@@ -55,6 +55,13 @@
 					"0.0.13",
 					"0.0.14"
 				]
+			},
+			{
+				"id": "RLUA-2024-09228",
+				"import_time": "2024-10-24T01:00:08.552835837Z",
+				"modified_time": "2024-10-16T14:50:57Z",
+				"sha256": "d2f32f99dcfab58d78426a461a6d75e990d2f8466e9d6f21645b678a3033d106",
+				"source": "reversing-labs"
 			}
 		]
 	}

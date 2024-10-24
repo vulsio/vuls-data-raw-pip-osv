@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5677",
-	"modified": "2024-06-25T13:39:45Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:45Z",
 	"summary": "Malicious code in pycparserrr (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.21"
 				]
+			},
+			{
+				"id": "RLUA-2024-08897",
+				"import_time": "2024-10-24T00:59:49.141358778Z",
+				"modified_time": "2024-10-16T14:47:36Z",
+				"sha256": "d09de808606b033bfe53e92080be08fbe54e295b17cdf25c624b3ee874ae3457",
+				"source": "reversing-labs"
 			}
 		]
 	}

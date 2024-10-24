@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5755",
-	"modified": "2024-06-25T13:40:29Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:29Z",
 	"summary": "Malicious code in pyou (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08980",
+				"import_time": "2024-10-24T00:59:54.287421133Z",
+				"modified_time": "2024-10-16T14:48:27Z",
+				"sha256": "b58334471c70ce52dc17cca42faec236f4dfff392a4b83c3fedb305187b713ab",
+				"source": "reversing-labs"
 			}
 		]
 	}

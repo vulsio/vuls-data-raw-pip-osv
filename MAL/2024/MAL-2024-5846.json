@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5846",
-	"modified": "2024-06-28T03:15:12.479781Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:16Z",
 	"aliases": [
 		"SNYK-PYTHON-QUANTIUMBASE-5820012"
@@ -59,6 +59,13 @@
 					"0.8.1",
 					"0.7.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09101",
+				"import_time": "2024-10-24T01:00:00.350383502Z",
+				"modified_time": "2024-10-16T14:49:40Z",
+				"sha256": "d60913921fc693d5f853a1d30cf2ffb65cd23d20bdcfa3b8d3f84aec87958b39",
+				"source": "reversing-labs"
 			}
 		]
 	}

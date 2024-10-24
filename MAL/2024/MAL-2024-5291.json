@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5291",
-	"modified": "2024-06-25T13:36:39Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:39Z",
 	"summary": "Malicious code in kfactionlogger (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.0.1",
 					"0.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08436",
+				"import_time": "2024-10-24T00:59:22.441826899Z",
+				"modified_time": "2024-10-16T14:42:53Z",
+				"sha256": "fa5618cd13fb60d2083a21107853b286b71da77b60e9ad6f0c38afa24f34bbae",
+				"source": "reversing-labs"
 			}
 		]
 	}

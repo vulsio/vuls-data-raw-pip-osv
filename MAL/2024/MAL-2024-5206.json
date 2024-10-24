@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5206",
-	"modified": "2024-06-25T13:35:58Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:58Z",
 	"summary": "Malicious code in hsbcgui (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"0.0.12",
 					"0.0.7"
 				]
+			},
+			{
+				"id": "RLUA-2024-08349",
+				"import_time": "2024-10-24T00:59:16.740925418Z",
+				"modified_time": "2024-10-16T14:41:57Z",
+				"sha256": "0431e3fd89881504b75a647c2b70bcd680098aa6d3ee4d2426fb4c9bd535c2a2",
+				"source": "reversing-labs"
 			}
 		]
 	}

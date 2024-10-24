@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5035",
-	"modified": "2024-06-25T13:34:34Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:34Z",
 	"summary": "Malicious code in dekugay (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08111",
+				"import_time": "2024-10-24T00:59:05.108628263Z",
+				"modified_time": "2024-10-16T14:39:26Z",
+				"sha256": "0bc5108e2463e43ecfb31e0ba9f0dc311726ad1b171b8cbfd1847678980a7b42",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5647",
-	"modified": "2024-06-25T13:39:30Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:30Z",
 	"summary": "Malicious code in pycalcdata (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08865",
+				"import_time": "2024-10-24T00:59:46.804131102Z",
+				"modified_time": "2024-10-16T14:47:15Z",
+				"sha256": "bb43b72791e3c95dd44cb2e77e409735d109375f7a4b6bbc379609da10ea9ab4",
+				"source": "reversing-labs"
 			}
 		]
 	}

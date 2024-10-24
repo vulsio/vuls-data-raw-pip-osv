@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5231",
-	"modified": "2024-06-25T13:36:10Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:10Z",
 	"summary": "Malicious code in httptes232 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"4.4.5",
 					"4.4.6"
 				]
+			},
+			{
+				"id": "RLUA-2024-08374",
+				"import_time": "2024-10-24T00:59:18.476936886Z",
+				"modified_time": "2024-10-16T14:42:13Z",
+				"sha256": "f2672067ea123e204b2ddb4ef6137d04955a62111ada8da287fb38fec155e2f3",
+				"source": "reversing-labs"
 			}
 		]
 	}

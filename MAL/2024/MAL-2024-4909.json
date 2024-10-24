@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4909",
-	"modified": "2024-06-25T13:33:33Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:33Z",
 	"summary": "Malicious code in colarify (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.1.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-07980",
+				"import_time": "2024-10-24T00:58:55.913010956Z",
+				"modified_time": "2024-10-16T14:38:04Z",
+				"sha256": "1b867f08fc74bd2a16ae7301cb29fc0a6ed58301eafb233fc37e9fce03ab24e0",
+				"source": "reversing-labs"
 			}
 		]
 	}

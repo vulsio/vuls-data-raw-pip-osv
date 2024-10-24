@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4725",
-	"modified": "2024-06-25T13:32:04Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:04Z",
 	"summary": "Malicious code in 3m-promo-gen-api (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07767",
+				"import_time": "2024-10-24T00:58:44.135116037Z",
+				"modified_time": "2024-10-16T13:48:55Z",
+				"sha256": "69e49ca268fea813260c228c12d7cfe0b516bc5a8212cfa8aa47de1cb08c13f6",
+				"source": "reversing-labs"
 			}
 		]
 	}

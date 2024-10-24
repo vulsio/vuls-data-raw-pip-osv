@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4789",
-	"modified": "2024-06-25T13:32:35Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:35Z",
 	"summary": "Malicious code in azerty123 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-07847",
+				"import_time": "2024-10-24T00:58:48.382018349Z",
+				"modified_time": "2024-10-16T14:36:39Z",
+				"sha256": "545fc33d70fefad9a23f900666cce6c9ce099b36fe75fb5276fcbc97b328096b",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5535",
-	"modified": "2024-06-28T03:15:00.477819Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:36Z",
 	"aliases": [
 		"SNYK-PYTHON-PIPLIBSCRAPE-5932255"
@@ -53,6 +53,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08745",
+				"import_time": "2024-10-24T00:59:39.05081415Z",
+				"modified_time": "2024-10-16T14:46:02Z",
+				"sha256": "e1e0e7e9af172fda3cca8b3e560337909e245a1fdf26c664fa68b889c8f18fc7",
+				"source": "reversing-labs"
 			}
 		]
 	}

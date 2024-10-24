@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5557",
-	"modified": "2024-06-25T13:38:47Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:47Z",
 	"summary": "Malicious code in pocpackage1234 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.10"
 				]
+			},
+			{
+				"id": "RLUA-2024-08767",
+				"import_time": "2024-10-24T00:59:40.406827675Z",
+				"modified_time": "2024-10-16T14:46:15Z",
+				"sha256": "797ebc9f3ab82a5e8fda50e4f1c3103fa4a84d49280f853d663f07713c4fc46b",
+				"source": "reversing-labs"
 			}
 		]
 	}

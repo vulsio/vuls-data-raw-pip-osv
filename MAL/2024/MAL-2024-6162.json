@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6162",
-	"modified": "2024-06-25T13:43:47Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:47Z",
 	"summary": "Malicious code in tommygtst (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09439",
+				"import_time": "2024-10-24T01:00:22.050670431Z",
+				"modified_time": "2024-10-16T14:53:07Z",
+				"sha256": "97f9c392aff533bc8cfd2c6cc0e4a3f68761b5d43bbf7af9fa9547842bf92801",
+				"source": "reversing-labs"
 			}
 		]
 	}

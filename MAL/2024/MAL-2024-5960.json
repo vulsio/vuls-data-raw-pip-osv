@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5960",
-	"modified": "2024-06-25T13:42:10Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:10Z",
 	"summary": "Malicious code in ruequest3 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"2.19.1",
 					"2.19.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09225",
+				"import_time": "2024-10-24T01:00:08.396188838Z",
+				"modified_time": "2024-10-16T14:50:55Z",
+				"sha256": "b4efadb289e159169648d7d38ea51937d949347db9d7921d34b344d68f0d9433",
+				"source": "reversing-labs"
 			}
 		]
 	}

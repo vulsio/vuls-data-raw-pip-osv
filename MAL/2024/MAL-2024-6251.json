@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6251",
-	"modified": "2024-06-25T13:44:27Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:27Z",
 	"summary": "Malicious code in youtubebot (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"0.1.1",
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09573",
+				"import_time": "2024-10-24T01:00:27.986790185Z",
+				"modified_time": "2024-10-16T14:54:30Z",
+				"sha256": "2a8ecea08d024ed45d899108c4e0528d8163c8cc5d2b8bf046e0034138d579c8",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5857",
-	"modified": "2024-06-25T13:41:22Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:22Z",
 	"summary": "Malicious code in relefpots (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09115",
+				"import_time": "2024-10-24T01:00:01.115190921Z",
+				"modified_time": "2024-10-16T14:49:49Z",
+				"sha256": "b844652730c9d74cdc22d98624a02d97a6fca3680cf62ab355301ddef5d07e07",
+				"source": "reversing-labs"
 			}
 		]
 	}

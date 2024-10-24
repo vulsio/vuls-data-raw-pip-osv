@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4757",
-	"modified": "2024-06-25T13:32:19Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:19Z",
 	"summary": "Malicious code in aiosync (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -48,6 +48,13 @@
 					"0.0.8",
 					"0.0.7"
 				]
+			},
+			{
+				"id": "RLUA-2024-07804",
+				"import_time": "2024-10-24T00:58:46.396815958Z",
+				"modified_time": "2024-10-16T14:36:16Z",
+				"sha256": "a7e5dad63579751454b8a1974903e2388337637e6663a41a3b0dd177779600e5",
+				"source": "reversing-labs"
 			}
 		]
 	}

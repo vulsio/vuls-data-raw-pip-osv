@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6170",
-	"modified": "2024-06-28T03:27:24.395996Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:50Z",
 	"aliases": [
 		"SNYK-PYTHON-TRYHACKMEOFFENSIVE-5885078"
@@ -53,6 +53,13 @@
 				"versions": [
 					"0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-09451",
+				"import_time": "2024-10-24T01:00:22.4967412Z",
+				"modified_time": "2024-10-16T14:53:14Z",
+				"sha256": "3ad5747d0c0e3636c5b11591dbdce17e21eadca5870f4d32fd46a4a52160f88b",
+				"source": "reversing-labs"
 			}
 		]
 	}

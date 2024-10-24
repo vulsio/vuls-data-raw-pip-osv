@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5939",
-	"modified": "2024-06-25T13:42:00Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:00Z",
 	"summary": "Malicious code in ressy (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-09199",
+				"import_time": "2024-10-24T01:00:06.914073951Z",
+				"modified_time": "2024-10-16T14:50:39Z",
+				"sha256": "6ee9d4050a836a6b265916c8f47fe933f6cace351e7b8a1e1f8393adc05d6563",
+				"source": "reversing-labs"
 			}
 		]
 	}

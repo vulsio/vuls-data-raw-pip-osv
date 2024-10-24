@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5257",
-	"modified": "2024-06-25T13:36:22Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:22Z",
 	"summary": "Malicious code in imagesolverpy (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08399",
+				"import_time": "2024-10-24T00:59:20.043904604Z",
+				"modified_time": "2024-10-16T14:42:29Z",
+				"sha256": "f41b647042986dbd25f66e00f2e50e437f71702d876c6bf344c663d0ffe5e33d",
+				"source": "reversing-labs"
 			}
 		]
 	}

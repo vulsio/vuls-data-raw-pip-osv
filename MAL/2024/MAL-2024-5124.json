@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5124",
-	"modified": "2024-06-25T13:35:17Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:17Z",
 	"summary": "Malicious code in exo-steal (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08257",
+				"import_time": "2024-10-24T00:59:11.253064971Z",
+				"modified_time": "2024-10-16T14:40:59Z",
+				"sha256": "6a490cdec4a0850ebbc276c1617971e5d2f2aa49b34d5553b712f5e22c534110",
+				"source": "reversing-labs"
 			}
 		]
 	}

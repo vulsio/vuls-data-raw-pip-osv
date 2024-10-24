@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5380",
-	"modified": "2024-06-25T13:37:22Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:22Z",
 	"summary": "Malicious code in muktesittaban (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.0.16",
 					"0.0.13"
 				]
+			},
+			{
+				"id": "RLUA-2024-08535",
+				"import_time": "2024-10-24T00:59:28.558874754Z",
+				"modified_time": "2024-10-16T14:43:53Z",
+				"sha256": "1e0371ffb0037123942575ac80117e073368a1b7e6ea26ab3cd22da68ca95318",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5789",
-	"modified": "2024-06-25T13:40:48Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:48Z",
 	"summary": "Malicious code in pythonbademoduleimport (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09028",
+				"import_time": "2024-10-24T00:59:56.60840932Z",
+				"modified_time": "2024-10-16T14:48:55Z",
+				"sha256": "2dfac8cf9b717e3f19097d2a76cec5cb2d5bfaa716001f9917f0dc24d508db09",
+				"source": "reversing-labs"
 			}
 		]
 	}

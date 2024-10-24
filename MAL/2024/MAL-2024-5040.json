@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5040",
-	"modified": "2024-06-25T13:34:36Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:36Z",
 	"summary": "Malicious code in dependency-confusion12 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08116",
+				"import_time": "2024-10-24T00:59:05.401235647Z",
+				"modified_time": "2024-10-16T14:39:30Z",
+				"sha256": "ec113c2964cd9fc2834e482ad3801d72509fdf672f089e04e64773ca3f0b352c",
+				"source": "reversing-labs"
 			}
 		]
 	}

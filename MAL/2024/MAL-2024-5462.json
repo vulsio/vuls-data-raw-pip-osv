@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5462",
-	"modified": "2024-06-25T13:38:01Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:38:01Z",
 	"summary": "Malicious code in pehttps (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"0.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08670",
+				"import_time": "2024-10-24T00:59:34.385429658Z",
+				"modified_time": "2024-10-16T14:45:16Z",
+				"sha256": "e6cee639863a1a519e9aa8fb7f4a382d30827b5b857ba6eb843f18381a825454",
+				"source": "reversing-labs"
 			}
 		]
 	}

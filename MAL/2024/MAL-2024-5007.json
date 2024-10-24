@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5007",
-	"modified": "2024-06-25T13:34:20Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:20Z",
 	"summary": "Malicious code in cryztalnitro (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08082",
+				"import_time": "2024-10-24T00:59:02.814025393Z",
+				"modified_time": "2024-10-16T14:39:08Z",
+				"sha256": "7cc072ca1c607e9a4e71dc7a95dbf1c3885335b9d19baffc7ee5d599122378ca",
+				"source": "reversing-labs"
 			}
 		]
 	}

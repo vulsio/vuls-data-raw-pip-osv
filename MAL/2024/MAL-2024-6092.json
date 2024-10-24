@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6092",
-	"modified": "2024-06-25T13:43:13Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:13Z",
 	"summary": "Malicious code in systemdemon (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"2.9"
 				]
+			},
+			{
+				"id": "RLUA-2024-09363",
+				"import_time": "2024-10-24T01:00:17.278774054Z",
+				"modified_time": "2024-10-16T14:52:20Z",
+				"sha256": "266c4de6229f43bb5d180d5135148b140a854c8047fca70f724368ba886266a2",
+				"source": "reversing-labs"
 			}
 		]
 	}

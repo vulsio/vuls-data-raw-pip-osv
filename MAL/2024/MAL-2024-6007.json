@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6007",
-	"modified": "2024-06-25T13:42:33Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:33Z",
 	"summary": "Malicious code in shiwers (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09270",
+				"import_time": "2024-10-24T01:00:11.458720227Z",
+				"modified_time": "2024-10-16T14:51:23Z",
+				"sha256": "1caae7e927ef6191afd03e962e187dcd3421726b433216217d5f43f4eaf28528",
+				"source": "reversing-labs"
 			}
 		]
 	}

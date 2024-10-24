@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6006",
-	"modified": "2024-06-25T13:42:33Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:33Z",
 	"summary": "Malicious code in shimi (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09269",
+				"import_time": "2024-10-24T01:00:11.329426335Z",
+				"modified_time": "2024-10-16T14:51:23Z",
+				"sha256": "7e7dd32d16499e9ed4fb8a76d2624cb6b06a88b53aa57fafe594837a62582816",
+				"source": "reversing-labs"
 			}
 		]
 	}

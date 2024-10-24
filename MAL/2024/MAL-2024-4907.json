@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4907",
-	"modified": "2024-06-25T13:33:32Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:32Z",
 	"summary": "Malicious code in colarg (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.2",
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-07978",
+				"import_time": "2024-10-24T00:58:55.766254501Z",
+				"modified_time": "2024-10-16T14:38:03Z",
+				"sha256": "aad9c9040afe5bbb4e1168dd6b72e0cdd60b0dc3ffdc467dd9c55afc3be449f3",
+				"source": "reversing-labs"
 			}
 		]
 	}

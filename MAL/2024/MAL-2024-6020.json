@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6020",
-	"modified": "2024-06-28T03:15:16.918452Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:40Z",
 	"aliases": [
 		"SNYK-PYTHON-SOCIALCHECKER-5508585"
@@ -61,6 +61,13 @@
 				"versions": [
 					"7.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-09283",
+				"import_time": "2024-10-24T01:00:12.263330317Z",
+				"modified_time": "2024-10-16T14:51:31Z",
+				"sha256": "0fad63edae221a22896758c0e17c34e6dd4b6a9261fb17a938e0ebdf50c3a563",
+				"source": "reversing-labs"
 			}
 		]
 	}

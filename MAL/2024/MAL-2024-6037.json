@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6037",
-	"modified": "2024-06-25T13:42:49Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:49Z",
 	"summary": "Malicious code in stake-auto-better (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09307",
+				"import_time": "2024-10-24T01:00:13.226915263Z",
+				"modified_time": "2024-10-16T14:51:46Z",
+				"sha256": "6abf72a8de5b9171ab46b594faf15709b0f2748448c79a17a2e621b7acd31d38",
+				"source": "reversing-labs"
 			}
 		]
 	}

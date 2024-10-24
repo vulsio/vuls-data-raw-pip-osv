@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5951",
-	"modified": "2024-06-25T13:42:06Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:06Z",
 	"summary": "Malicious code in robloxfollowers (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-09212",
+				"import_time": "2024-10-24T01:00:07.592242368Z",
+				"modified_time": "2024-10-16T14:50:47Z",
+				"sha256": "cc50275af60a3c55318364d18b41f1c73e6748dc9ccae3fa75e6967531235d29",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6138",
-	"modified": "2024-06-25T13:43:35Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:35Z",
 	"summary": "Malicious code in this-is-fine-wuzzi (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09414",
+				"import_time": "2024-10-24T01:00:20.347475908Z",
+				"modified_time": "2024-10-16T14:52:52Z",
+				"sha256": "fc177c7a03d3e33f6a6db26c056517241b57067c24e60256e54ab26479f0b638",
+				"source": "reversing-labs"
 			}
 		]
 	}

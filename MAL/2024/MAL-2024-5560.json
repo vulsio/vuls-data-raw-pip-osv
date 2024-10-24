@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5560",
-	"modified": "2024-06-28T03:15:01.419236Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:48Z",
 	"aliases": [
 		"SNYK-PYTHON-POPYQUESTS-5885058"
@@ -53,6 +53,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08772",
+				"import_time": "2024-10-24T00:59:40.716661041Z",
+				"modified_time": "2024-10-16T14:46:18Z",
+				"sha256": "6a282420f215efd1d0ec0984d5f15507c176901ed515dac42595298993f57704",
+				"source": "reversing-labs"
 			}
 		]
 	}

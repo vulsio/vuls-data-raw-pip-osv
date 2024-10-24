@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4825",
-	"modified": "2024-06-25T13:32:52Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:32:52Z",
 	"summary": "Malicious code in bogdi (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07885",
+				"import_time": "2024-10-24T00:58:50.484746195Z",
+				"modified_time": "2024-10-16T14:37:03Z",
+				"sha256": "9c0647369b7f1d629ff7c432c555d0c188e862b09e98aadda4181dbe8b4bab0b",
+				"source": "reversing-labs"
 			}
 		]
 	}

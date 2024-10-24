@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5947",
-	"modified": "2024-06-25T13:42:04Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:04Z",
 	"summary": "Malicious code in rmrentryutils (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"1.1.1",
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09208",
+				"import_time": "2024-10-24T01:00:07.334609849Z",
+				"modified_time": "2024-10-16T14:50:45Z",
+				"sha256": "8916186881764b199d56aca1bbb3c214fe99f099816a4776c50070b2c7385179",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5476",
-	"modified": "2024-06-25T13:38:08Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:38:08Z",
 	"summary": "Malicious code in pillov (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"10.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08686",
+				"import_time": "2024-10-24T00:59:35.260688457Z",
+				"modified_time": "2024-10-16T14:45:26Z",
+				"sha256": "e07c6b37809f05a6a2bdfa43649ebf6c814c2ce3daf87f095dab8f505997b2e5",
+				"source": "reversing-labs"
 			}
 		]
 	}

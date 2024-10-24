@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5369",
-	"modified": "2024-06-25T13:37:17Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:17Z",
 	"summary": "Malicious code in minis-sdk (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08520",
+				"import_time": "2024-10-24T00:59:27.767814054Z",
+				"modified_time": "2024-10-16T14:43:44Z",
+				"sha256": "3665c9e7936bc7ae6680ed53f5240b796e37d9560471e149b1d52bcd0dc07bb9",
+				"source": "reversing-labs"
 			}
 		]
 	}

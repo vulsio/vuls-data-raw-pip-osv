@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4956",
-	"modified": "2024-06-25T13:33:56Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:56Z",
 	"summary": "Malicious code in coloreq1 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08028",
+				"import_time": "2024-10-24T00:58:59.281480786Z",
+				"modified_time": "2024-10-16T14:38:34Z",
+				"sha256": "61752b7e6e8f0d4a342e0641234f9340106ba4382ce1eff694942ac9bfdcef83",
+				"source": "reversing-labs"
 			}
 		]
 	}

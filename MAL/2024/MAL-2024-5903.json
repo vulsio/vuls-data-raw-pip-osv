@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5903",
-	"modified": "2024-06-25T13:41:43Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:41:43Z",
 	"summary": "Malicious code in requests-upgrade (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.0.1",
 					"0.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-09163",
+				"import_time": "2024-10-24T01:00:04.403969181Z",
+				"modified_time": "2024-10-16T14:50:18Z",
+				"sha256": "d41788aa83cc42c78e5d15d5a73c28448dfd831917f657900c3f9785e1db3a0b",
+				"source": "reversing-labs"
 			}
 		]
 	}

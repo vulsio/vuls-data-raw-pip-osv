@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5428",
-	"modified": "2024-06-25T13:37:44Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:44Z",
 	"summary": "Malicious code in oauthgenerator (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08584",
+				"import_time": "2024-10-24T00:59:31.889489931Z",
+				"modified_time": "2024-10-16T14:44:23Z",
+				"sha256": "906b62284e7823d83e0e87c7b01b5c7db4d5309d30e9868e719ebc58d3b49f37",
+				"source": "reversing-labs"
 			}
 		]
 	}

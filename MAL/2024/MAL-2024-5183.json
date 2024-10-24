@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5183",
-	"modified": "2024-06-25T13:35:46Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:46Z",
 	"summary": "Malicious code in glovo-data-platform-importer-brain (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"999.9.20"
 				]
+			},
+			{
+				"id": "RLUA-2024-08323",
+				"import_time": "2024-10-24T00:59:15.245350171Z",
+				"modified_time": "2024-10-16T14:41:41Z",
+				"sha256": "b3fd172539edcedc37e6cf544e2c1caeb478ff77eec27b44e1f3d73d8042e96d",
+				"source": "reversing-labs"
 			}
 		]
 	}

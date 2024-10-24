@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5374",
-	"modified": "2024-06-25T13:37:19Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:19Z",
 	"summary": "Malicious code in modulelibraryv1 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08529",
+				"import_time": "2024-10-24T00:59:28.103747357Z",
+				"modified_time": "2024-10-16T14:43:49Z",
+				"sha256": "a4bdd4a5af449cac31256b0653eb2bd8f95c611c0bdb49afe05384251cb519be",
+				"source": "reversing-labs"
 			}
 		]
 	}

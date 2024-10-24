@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5173",
-	"modified": "2024-06-25T13:35:41Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:41Z",
 	"summary": "Malicious code in genqrcode (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08311",
+				"import_time": "2024-10-24T00:59:14.547335221Z",
+				"modified_time": "2024-10-16T14:41:34Z",
+				"sha256": "655674ab29e0a06593f5817501361935a86429461f05f8d87552297882ace826",
+				"source": "reversing-labs"
 			}
 		]
 	}

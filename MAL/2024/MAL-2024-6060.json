@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6060",
-	"modified": "2024-06-25T13:42:59Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:59Z",
 	"summary": "Malicious code in syntaxcode (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09331",
+				"import_time": "2024-10-24T01:00:14.793247159Z",
+				"modified_time": "2024-10-16T14:52:01Z",
+				"sha256": "0bad9700e80b63aa75d456d7254fae0bbbba02161b5fc71784d68b4238c36130",
+				"source": "reversing-labs"
 			}
 		]
 	}

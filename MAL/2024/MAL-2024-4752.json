@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4752",
-	"modified": "2024-06-25T13:32:17Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:17Z",
 	"summary": "Malicious code in ailzyn1tr0 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07797",
+				"import_time": "2024-10-24T00:58:45.887828642Z",
+				"modified_time": "2024-10-16T14:36:14Z",
+				"sha256": "7ac6152ae8f4b3350fb4146cd425b7aa44a0b0769cb74f1b5e3954eed4c87a54",
+				"source": "reversing-labs"
 			}
 		]
 	}

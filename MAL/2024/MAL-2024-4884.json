@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4884",
-	"modified": "2024-06-25T13:33:21Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:21Z",
 	"summary": "Malicious code in catbannersxd (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07952",
+				"import_time": "2024-10-24T00:58:54.304974625Z",
+				"modified_time": "2024-10-16T14:37:46Z",
+				"sha256": "5b1e07e30aee34e31c6c01aaacf317e3032d1993de0b1305886cb7b662ce7d69",
+				"source": "reversing-labs"
 			}
 		]
 	}

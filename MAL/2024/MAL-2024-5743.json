@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5743",
-	"modified": "2024-06-25T13:40:23Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:23Z",
 	"summary": "Malicious code in pymaniac (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -72,6 +72,13 @@
 					"0.2",
 					"0.8"
 				]
+			},
+			{
+				"id": "RLUA-2024-08968",
+				"import_time": "2024-10-24T00:59:53.545952266Z",
+				"modified_time": "2024-10-16T14:48:20Z",
+				"sha256": "431017486dbb53fc7c73f175e75b1b9194575b978725b87d798b9bd58b3741e2",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4730",
-	"modified": "2024-06-25T13:32:07Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:07Z",
 	"summary": "Malicious code in adm3 (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.8.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07775",
+				"import_time": "2024-10-24T00:58:44.497327891Z",
+				"modified_time": "2024-10-16T13:49:00Z",
+				"sha256": "b1a5a717a37fb4a358f0f3411ac61b6ea56cf41a0d79ca3614a4344bc8c767b2",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5201",
-	"modified": "2024-06-25T13:35:56Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:56Z",
 	"summary": "Malicious code in helrmerter (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08344",
+				"import_time": "2024-10-24T00:59:16.364057821Z",
+				"modified_time": "2024-10-16T14:41:54Z",
+				"sha256": "e66e3ab4ab01e17d40ffbd892ad961ff35b686b26935f58541d62977146319d7",
+				"source": "reversing-labs"
 			}
 		]
 	}

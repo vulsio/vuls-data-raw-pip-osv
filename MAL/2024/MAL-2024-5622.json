@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5622",
-	"modified": "2024-06-28T03:15:05.368925Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:39:18Z",
 	"aliases": [
 		"SNYK-PYTHON-PYCOWRD-6513663"
@@ -53,6 +53,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08837",
+				"import_time": "2024-10-24T00:59:45.155155174Z",
+				"modified_time": "2024-10-16T14:46:58Z",
+				"sha256": "bd96cdbc4d48942ebc7899b5230ae604ebf4321edc8055a8d01c92f2c6c2b138",
+				"source": "reversing-labs"
 			}
 		]
 	}

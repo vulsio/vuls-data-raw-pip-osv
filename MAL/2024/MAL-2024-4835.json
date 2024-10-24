@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4835",
-	"modified": "2024-06-25T13:32:57Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:32:57Z",
 	"summary": "Malicious code in bruts (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07897",
+				"import_time": "2024-10-24T00:58:51.197011943Z",
+				"modified_time": "2024-10-16T14:37:11Z",
+				"sha256": "e8128edd6483f8a759de261e287d1e2408afce35c926f9d6672942d98d508847",
+				"source": "reversing-labs"
 			}
 		]
 	}

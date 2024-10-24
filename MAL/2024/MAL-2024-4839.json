@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4839",
-	"modified": "2024-06-25T13:32:59Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:32:59Z",
 	"summary": "Malicious code in buildoslibuploader (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07902",
+				"import_time": "2024-10-24T00:58:51.40527099Z",
+				"modified_time": "2024-10-16T14:37:14Z",
+				"sha256": "88997bccee3a7131c73ff857b1c646bc0a6e19f3e7da3da605a476f1a5d89788",
+				"source": "reversing-labs"
 			}
 		]
 	}

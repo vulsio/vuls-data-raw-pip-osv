@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4748",
-	"modified": "2024-06-25T13:32:15Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:15Z",
 	"summary": "Malicious code in aicreatorpackage (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-07793",
+				"import_time": "2024-10-24T00:58:45.555190312Z",
+				"modified_time": "2024-10-16T14:36:12Z",
+				"sha256": "acd5fbb50a8a799ef7c1cd43d4af82239b1a667bcb0951b15b4cf5cf6ca499b4",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4885",
-	"modified": "2024-06-25T13:33:21Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:21Z",
 	"summary": "Malicious code in centerprint (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"2.2",
 					"2.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-07953",
+				"import_time": "2024-10-24T00:58:54.36512537Z",
+				"modified_time": "2024-10-16T14:37:47Z",
+				"sha256": "14d756d1aab25afbfb34d72071aa777157c71f207a41c3ec55032f63337febf1",
+				"source": "reversing-labs"
 			}
 		]
 	}

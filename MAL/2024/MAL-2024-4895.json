@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4895",
-	"modified": "2024-06-25T13:33:26Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:26Z",
 	"summary": "Malicious code in clearsrc (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"6.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-07966",
+				"import_time": "2024-10-24T00:58:54.938371102Z",
+				"modified_time": "2024-10-16T14:37:55Z",
+				"sha256": "7f46e5dd70a0656e010c0e2e7eff5dd81b7df9674bffc2b80ca212997294366f",
+				"source": "reversing-labs"
 			}
 		]
 	}

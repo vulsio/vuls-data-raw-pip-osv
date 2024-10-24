@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5791",
-	"modified": "2024-06-28T03:15:09.987291Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:49Z",
 	"aliases": [
 		"SNYK-PYTHON-PYTHONCAPTCHASOLVER-5295997"
@@ -53,6 +53,13 @@
 				"versions": [
 					"2.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09030",
+				"import_time": "2024-10-24T00:59:56.7655765Z",
+				"modified_time": "2024-10-16T14:48:57Z",
+				"sha256": "0e143d5428191cb0b4fdb4361bf8bd1ab99ffc0b791d1ae2bc844da9a07b526b",
+				"source": "reversing-labs"
 			}
 		]
 	}

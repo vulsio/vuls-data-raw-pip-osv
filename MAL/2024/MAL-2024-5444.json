@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5444",
-	"modified": "2024-06-25T13:37:52Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:52Z",
 	"summary": "Malicious code in packagecolorslib (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 					"0",
 					"3.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08651",
+				"import_time": "2024-10-24T00:59:33.152328661Z",
+				"modified_time": "2024-10-16T14:45:04Z",
+				"sha256": "d6b41f06ceb29b16ffc95bebfa80142141e008cf7af2aa9a41f893b5e9acfc11",
+				"source": "reversing-labs"
 			}
 		]
 	}

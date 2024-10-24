@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5442",
-	"modified": "2024-06-25T13:37:51Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:51Z",
 	"summary": "Malicious code in p9llow (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08649",
+				"import_time": "2024-10-24T00:59:32.965591205Z",
+				"modified_time": "2024-10-16T14:45:03Z",
+				"sha256": "f1ecdc1c46607e5e1492ef498355f610d4faeca36a346d4a5018e3375cbe00e4",
+				"source": "reversing-labs"
 			}
 		]
 	}

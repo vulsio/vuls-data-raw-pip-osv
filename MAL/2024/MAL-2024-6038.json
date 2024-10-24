@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6038",
-	"modified": "2024-06-25T13:42:49Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:49Z",
 	"summary": "Malicious code in steelseriesgen-api (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09308",
+				"import_time": "2024-10-24T01:00:13.286825438Z",
+				"modified_time": "2024-10-16T14:51:47Z",
+				"sha256": "c48887b6ae1dfa7439a95db21121b236f97a66f7179a2871353d1718bf203f25",
+				"source": "reversing-labs"
 			}
 		]
 	}

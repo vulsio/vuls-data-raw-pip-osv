@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6110",
-	"modified": "2024-06-25T13:43:23Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:23Z",
 	"summary": "Malicious code in testdufou (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 					"3",
 					"2"
 				]
+			},
+			{
+				"id": "RLUA-2024-09383",
+				"import_time": "2024-10-24T01:00:18.469457877Z",
+				"modified_time": "2024-10-16T14:52:33Z",
+				"sha256": "80aea83223ec1661661e1befa531a9eb84215c1969102e45cf051cb76b9784c3",
+				"source": "reversing-labs"
 			}
 		]
 	}

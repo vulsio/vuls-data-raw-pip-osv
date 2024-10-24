@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5258",
-	"modified": "2024-06-25T13:36:23Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:23Z",
 	"summary": "Malicious code in imapping (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -44,6 +44,13 @@
 					"0.1.2",
 					"0.1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08400",
+				"import_time": "2024-10-24T00:59:20.131326311Z",
+				"modified_time": "2024-10-16T14:42:29Z",
+				"sha256": "3b050baa043549073004aea32be69bdb7a52d3496c8f726890d68687396011f5",
+				"source": "reversing-labs"
 			}
 		]
 	}

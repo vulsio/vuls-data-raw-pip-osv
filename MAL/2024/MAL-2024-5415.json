@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5415",
-	"modified": "2024-06-25T13:37:38Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:38Z",
 	"summary": "Malicious code in nonertheguy (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.2.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08571",
+				"import_time": "2024-10-24T00:59:31.050816665Z",
+				"modified_time": "2024-10-16T14:44:15Z",
+				"sha256": "8506e2130f7b4aae94b9be34a5d860a845ffb44efef56b9c3918321b5a710749",
+				"source": "reversing-labs"
 			}
 		]
 	}

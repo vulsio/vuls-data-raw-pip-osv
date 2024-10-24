@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4980",
-	"modified": "2024-06-25T13:34:07Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:34:07Z",
 	"summary": "Malicious code in colorsgradient (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -52,6 +52,13 @@
 					"15",
 					"5"
 				]
+			},
+			{
+				"id": "RLUA-2024-08052",
+				"import_time": "2024-10-24T00:59:00.980872951Z",
+				"modified_time": "2024-10-16T14:38:49Z",
+				"sha256": "2de6eb8a5c16fadd88c6afdf4f82dcd46c0173b14c8473eb9343f290d4f06eff",
+				"source": "reversing-labs"
 			}
 		]
 	}

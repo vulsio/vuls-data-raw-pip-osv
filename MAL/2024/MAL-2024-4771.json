@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4771",
-	"modified": "2024-06-25T13:32:26Z",
+	"modified": "2024-10-24T01:01:57Z",
 	"published": "2024-06-25T13:32:26Z",
 	"summary": "Malicious code in apiclear (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-07821",
+				"import_time": "2024-10-24T00:58:47.199513588Z",
+				"modified_time": "2024-10-16T14:36:23Z",
+				"sha256": "083758523f11d43487228c672923dd7fe74dc6079be0649fb2b411e970316bfe",
+				"source": "reversing-labs"
 			}
 		]
 	}

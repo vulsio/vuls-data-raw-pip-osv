@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5158",
-	"modified": "2024-06-25T13:35:33Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:33Z",
 	"summary": "Malicious code in forring (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -50,6 +50,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08296",
+				"import_time": "2024-10-24T00:59:13.640105863Z",
+				"modified_time": "2024-10-16T14:41:24Z",
+				"sha256": "36b8293dfaf083b65ec6621b01a96646c73d83bf7478e8745cde02d1e1c4f309",
+				"source": "reversing-labs"
 			}
 		]
 	}

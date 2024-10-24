@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5156",
-	"modified": "2024-06-25T13:35:32Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:32Z",
 	"summary": "Malicious code in forgyps (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -54,6 +54,13 @@
 					"1.0.3",
 					"2.0.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08293",
+				"import_time": "2024-10-24T00:59:13.385099861Z",
+				"modified_time": "2024-10-16T14:41:22Z",
+				"sha256": "8eebf0f8f7ac820d910034039fa74bb3ea5ecfac7ee7d9fa7b33cb5c9a46637c",
+				"source": "reversing-labs"
 			}
 		]
 	}

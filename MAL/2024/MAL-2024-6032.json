@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6032",
-	"modified": "2024-06-25T13:42:46Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:46Z",
 	"summary": "Malicious code in speedyquests (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.6.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09301",
+				"import_time": "2024-10-24T01:00:12.924738219Z",
+				"modified_time": "2024-10-16T14:51:42Z",
+				"sha256": "233850e2c96bda446a07514749d19ad7b9367b2ccb7c7c302a7e62cc6b3b8989",
+				"source": "reversing-labs"
 			}
 		]
 	}

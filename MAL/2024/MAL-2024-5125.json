@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5125",
-	"modified": "2024-06-25T13:35:17Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:17Z",
 	"summary": "Malicious code in exporter-stackdriver (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"99.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08260",
+				"import_time": "2024-10-24T00:59:11.306762985Z",
+				"modified_time": "2024-10-16T14:41:01Z",
+				"sha256": "e3ca74f52388cfca85ce19e9cfbcfe2970903f3e8f45e21c333f6d0afadd3864",
+				"source": "reversing-labs"
 			}
 		]
 	}

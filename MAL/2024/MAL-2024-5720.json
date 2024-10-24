@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5720",
-	"modified": "2024-06-25T13:40:08Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:40:08Z",
 	"summary": "Malicious code in pyhoul (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-08942",
+				"import_time": "2024-10-24T00:59:52.091058935Z",
+				"modified_time": "2024-10-16T14:48:04Z",
+				"sha256": "b953737bfb16e80d86c559620fe69ab9a9042630951e2749c566e2ae85868241",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5286",
-	"modified": "2024-06-25T13:36:37Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:37Z",
 	"summary": "Malicious code in jupitercalc (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.0.5",
 					"0.0.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08430",
+				"import_time": "2024-10-24T00:59:22.173748179Z",
+				"modified_time": "2024-10-16T14:42:49Z",
+				"sha256": "1c171200a1af6e925f9efed5b41f4caae3137a78e073ea5f4ee16a6a7b7429ee",
+				"source": "reversing-labs"
 			}
 		]
 	}

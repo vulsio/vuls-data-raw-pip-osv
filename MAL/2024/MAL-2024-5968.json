@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5968",
-	"modified": "2024-06-25T13:42:14Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:14Z",
 	"summary": "Malicious code in sclighte (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1"
 				]
+			},
+			{
+				"id": "RLUA-2024-09233",
+				"import_time": "2024-10-24T01:00:08.849289467Z",
+				"modified_time": "2024-10-16T14:51:00Z",
+				"sha256": "6c67e1f53242fd1f8fb0b8a6823c1d34bb0cb7b256f7639372033021bf98cf28",
+				"source": "reversing-labs"
 			}
 		]
 	}

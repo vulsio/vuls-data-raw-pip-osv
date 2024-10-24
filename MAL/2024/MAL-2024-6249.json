@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6249",
-	"modified": "2024-06-25T13:44:26Z",
+	"modified": "2024-10-24T01:02:00Z",
 	"published": "2024-06-25T13:44:26Z",
 	"summary": "Malicious code in yellorq (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-09571",
+				"import_time": "2024-10-24T01:00:27.828137841Z",
+				"modified_time": "2024-10-16T14:54:29Z",
+				"sha256": "62282d2f7afc26c90bf87321f204612cfb5bbd5e0aba7c736abf2b2b10c04553",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5302",
-	"modified": "2024-06-25T13:36:45Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:36:45Z",
 	"summary": "Malicious code in kynlocker (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.1.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-08448",
+				"import_time": "2024-10-24T00:59:23.207014781Z",
+				"modified_time": "2024-10-16T14:43:00Z",
+				"sha256": "bd5ad03cf4d42d23bb2ae9be137f430af72bbe312e939776000b8ba2b8bcc44b",
+				"source": "reversing-labs"
 			}
 		]
 	}

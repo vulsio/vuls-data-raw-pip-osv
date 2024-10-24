@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5174",
-	"modified": "2024-06-25T13:35:42Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:35:42Z",
 	"summary": "Malicious code in genui (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"0.0.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-08314",
+				"import_time": "2024-10-24T00:59:14.59488299Z",
+				"modified_time": "2024-10-16T14:41:35Z",
+				"sha256": "d11a13b9dbd54b2588bcd372d559d37a8391a2f0956fdaefea87c298ca6aa66a",
+				"source": "reversing-labs"
 			}
 		]
 	}

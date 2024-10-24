@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6021",
-	"modified": "2024-06-28T03:15:16.984117Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:40Z",
 	"aliases": [
 		"SNYK-PYTHON-SOCIALSCRAPPERS-5885054"
@@ -57,6 +57,13 @@
 				"versions": [
 					"2.3"
 				]
+			},
+			{
+				"id": "RLUA-2024-09284",
+				"import_time": "2024-10-24T01:00:12.308405581Z",
+				"modified_time": "2024-10-16T14:51:32Z",
+				"sha256": "53b0f65eb59e7b1706b5facff9c4ab42c6b0c944495cdcad78d6a0b2135ae935",
+				"source": "reversing-labs"
 			}
 		]
 	}

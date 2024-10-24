@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5340",
-	"modified": "2024-06-25T13:37:03Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:03Z",
 	"summary": "Malicious code in lulumortreux (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"0.1.3",
 					"0.1.4"
 				]
+			},
+			{
+				"id": "RLUA-2024-08486",
+				"import_time": "2024-10-24T00:59:25.796642001Z",
+				"modified_time": "2024-10-16T14:43:23Z",
+				"sha256": "3bc0f6412e42905e5e4a5eb4079379b9db6d1634cdc4dd6cd3a3b594395cb085",
+				"source": "reversing-labs"
 			}
 		]
 	}

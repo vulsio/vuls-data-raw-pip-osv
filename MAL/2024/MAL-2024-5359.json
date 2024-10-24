@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5359",
-	"modified": "2024-06-25T13:37:12Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:37:12Z",
 	"summary": "Malicious code in mestin (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-08510",
+				"import_time": "2024-10-24T00:59:27.088126541Z",
+				"modified_time": "2024-10-16T14:43:38Z",
+				"sha256": "390aac6a961d495b03929e7c7f30eef2e94e35d672dc84ab91b09b3d6d4a37b3",
+				"source": "reversing-labs"
 			}
 		]
 	}

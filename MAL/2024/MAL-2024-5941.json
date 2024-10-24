@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5941",
-	"modified": "2024-06-25T13:42:01Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:01Z",
 	"summary": "Malicious code in rgbcolor (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -14,7 +14,8 @@
 			},
 			"versions": [
 				"0.1.7",
-				"0.1.5"
+				"0.1.5",
+				"0.1.6"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/rgbcolor/MAL-2024-5941.json"
@@ -41,6 +42,16 @@
 				"versions": [
 					"0.1.7",
 					"0.1.5"
+				]
+			},
+			{
+				"id": "RLUA-2024-09202",
+				"import_time": "2024-10-24T01:00:07.022783641Z",
+				"modified_time": "2024-10-16T14:50:41Z",
+				"sha256": "bb5388d7167718bfec148dafe330c40b35ba48e6e0023aaf26c4b68791dc0e97",
+				"source": "reversing-labs",
+				"versions": [
+					"0.1.6"
 				]
 			}
 		]

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-6140",
-	"modified": "2024-06-25T13:43:36Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:43:36Z",
 	"summary": "Malicious code in threads4images (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -40,6 +40,13 @@
 				"versions": [
 					"1.3.5"
 				]
+			},
+			{
+				"id": "RLUA-2024-09417",
+				"import_time": "2024-10-24T01:00:20.528905537Z",
+				"modified_time": "2024-10-16T14:52:54Z",
+				"sha256": "c08aefc5ddf80c89825cc8ede94fdc3a7b9cecd12770d4dfb3f0f894d435bc5b",
+				"source": "reversing-labs"
 			}
 		]
 	}

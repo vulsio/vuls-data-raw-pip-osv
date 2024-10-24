@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5950",
-	"modified": "2024-06-25T13:42:05Z",
+	"modified": "2024-10-24T01:01:59Z",
 	"published": "2024-06-25T13:42:05Z",
 	"summary": "Malicious code in roblox-python-wrapper (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -42,6 +42,13 @@
 					"2.0.3",
 					"1.0.93"
 				]
+			},
+			{
+				"id": "RLUA-2024-09211",
+				"import_time": "2024-10-24T01:00:07.533633233Z",
+				"modified_time": "2024-10-16T14:50:46Z",
+				"sha256": "20b6ac2e5b77a827dba125d9fc760e94074fcaf00a7debd9b2002571688cfc36",
+				"source": "reversing-labs"
 			}
 		]
 	}

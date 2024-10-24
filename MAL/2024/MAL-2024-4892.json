@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-4892",
-	"modified": "2024-06-25T13:33:24Z",
+	"modified": "2024-10-24T01:01:58Z",
 	"published": "2024-06-25T13:33:24Z",
 	"summary": "Malicious code in cirtum (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -46,6 +46,13 @@
 				"versions": [
 					"1.0"
 				]
+			},
+			{
+				"id": "RLUA-2024-07962",
+				"import_time": "2024-10-24T00:58:54.765913857Z",
+				"modified_time": "2024-10-16T14:37:53Z",
+				"sha256": "2b54c0f24a49415168a2c1025ad2fbf35dd810498ddafcd1f92cd9b513f19554",
+				"source": "reversing-labs"
 			}
 		]
 	}
