@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7j98-74jh-cjxh",
-	"modified": "2024-02-18T05:26:33.844445Z",
+	"modified": "2024-10-25T22:37:44.555892Z",
 	"published": "2024-01-16T15:30:28Z",
 	"aliases": [
 		"CVE-2023-6395"
@@ -88,7 +88,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-20"
+			"CWE-20",
+			"CWE-94"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-01-25T21:13:03Z",

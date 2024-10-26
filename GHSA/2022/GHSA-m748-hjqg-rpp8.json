@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m748-hjqg-rpp8",
-	"modified": "2023-11-08T04:09:36.510538Z",
+	"modified": "2024-10-25T21:42:08.052277Z",
 	"published": "2022-09-22T00:00:24Z",
 	"aliases": [
 		"CVE-2022-3250",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
