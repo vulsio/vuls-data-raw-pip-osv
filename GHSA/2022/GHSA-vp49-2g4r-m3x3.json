@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vp49-2g4r-m3x3",
-	"modified": "2024-04-22T22:41:32.943368Z",
+	"modified": "2024-10-26T23:18:36.477064Z",
 	"published": "2022-05-24T17:16:58Z",
 	"aliases": [
 		"CVE-2020-11652",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -234,7 +238,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://docs.saltstack.com/en/latest/topics/releases/2019.2.4.html"
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/salt/PYSEC-2020-103.yaml"
 		},
 		{
 			"type": "PACKAGE",
@@ -278,10 +282,6 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://support.blackberry.com/kb/articleDetail?articleNumber=000063758"
-		},
-		{
-			"type": "WEB",
 			"url": "http://www.vmware.com/security/advisories/VMSA-2020-0009.html"
 		}
 	],
@@ -293,6 +293,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-04-22T22:24:41Z",
 		"nvd_published_at": "2020-04-30T17:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
