@@ -1,18 +1,22 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f58w-649r-qjr9",
-	"modified": "2023-11-08T04:01:37.141304Z",
+	"modified": "2024-10-27T15:50:08.557828Z",
 	"published": "2019-03-25T16:18:04Z",
 	"aliases": [
 		"CVE-2019-5729",
 		"PYSEC-2019-203"
 	],
-	"summary": "Moderate severity vulnerability that affects splunk-sdk",
+	"summary": "splunk-sdk does not properly verify untrusted TLS server certificates",
 	"details": "Splunk-SDK-Python before 1.6.6 does not properly verify untrusted TLS server certificates, which could result in man-in-the-middle attacks.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -72,6 +76,14 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/splunk-sdk/PYSEC-2019-203.yaml"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/splunk/splunk-sdk-python"
+		},
+		{
+			"type": "WEB",
 			"url": "https://www.splunk.com/view/SP-CAAAQAD"
 		}
 	],
@@ -82,6 +94,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-06-16T21:33:41Z",
 		"nvd_published_at": null,
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }
