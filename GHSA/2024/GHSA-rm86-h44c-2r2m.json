@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rm86-h44c-2r2m",
-	"modified": "2024-07-26T22:29:03.056209Z",
+	"modified": "2024-10-30T19:01:12.280606Z",
 	"published": "2024-07-24T06:31:10Z",
 	"aliases": [
 		"CVE-2024-40767"
@@ -237,7 +237,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-436"
+			"CWE-436",
+			"CWE-552"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-25T14:27:53Z",
