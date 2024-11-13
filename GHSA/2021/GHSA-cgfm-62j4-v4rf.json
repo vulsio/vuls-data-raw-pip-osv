@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cgfm-62j4-v4rf",
-	"modified": "2023-12-06T01:01:21.240407Z",
+	"modified": "2024-11-13T16:38:54.700653Z",
 	"published": "2021-08-25T14:44:17Z",
 	"aliases": [
 		"BIT-tensorflow-2021-37635",
@@ -16,6 +16,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:L/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -381,6 +385,22 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/tensorflow/tensorflow/commit/87158f43f05f2720a374f3e6d22a7aaa3a33f750"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-cpu/PYSEC-2021-548.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-gpu/PYSEC-2021-746.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow/PYSEC-2021-257.yaml"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/tensorflow/tensorflow"
 		}
 	],
 	"database_specific": {
