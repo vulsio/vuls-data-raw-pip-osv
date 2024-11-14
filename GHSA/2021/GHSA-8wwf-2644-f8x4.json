@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8wwf-2644-f8x4",
-	"modified": "2024-02-22T05:32:06.105860Z",
+	"modified": "2024-11-13T23:23:21.007345Z",
 	"published": "2021-06-15T15:49:01Z",
 	"aliases": [
 		"CVE-2021-34363",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -136,12 +140,6 @@
 				"3.8",
 				"3.9"
 			],
-			"ecosystem_specific": {
-				"affected_functions": [
-					"thefuck.rules.dirty_untar.side_effect",
-					"thefuck.rules.dirty_unzip.side_effect"
-				]
-			},
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-8wwf-2644-f8x4/GHSA-8wwf-2644-f8x4.json"
 			}
@@ -166,6 +164,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/thefuck/PYSEC-2021-97.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4MEDDLBFVRUQHPYIBJ4MFM3M4NUJUXL5"
 		},
 		{
@@ -184,6 +186,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2021-06-14T19:25:06Z",
 		"nvd_published_at": "2021-06-10T11:15:00Z",
-		"severity": "CRITICAL"
+		"severity": "HIGH"
 	}
 }

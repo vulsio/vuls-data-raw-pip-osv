@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fpcp-9h7m-ffpx",
-	"modified": "2024-02-19T05:32:59.685153Z",
+	"modified": "2024-11-13T22:25:18.887815Z",
 	"published": "2022-02-09T23:33:17Z",
 	"aliases": [
 		"BIT-tensorflow-2022-23595",
@@ -15,6 +15,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -407,6 +411,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/tensorflow/tensorflow/commit/e21af685e1828f7ca65038307df5cc06de4479e8"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-cpu/PYSEC-2022-103.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-gpu/PYSEC-2022-158.yaml"
 		},
 		{
 			"type": "WEB",

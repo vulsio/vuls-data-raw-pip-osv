@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qj5r-f9mv-rffh",
-	"modified": "2023-12-06T01:02:00.237100Z",
+	"modified": "2024-11-13T23:02:14.715816Z",
 	"published": "2022-02-09T23:38:56Z",
 	"aliases": [
 		"BIT-tensorflow-2022-23569",
@@ -15,6 +15,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -405,6 +409,14 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23569"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-cpu/PYSEC-2022-78.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-gpu/PYSEC-2022-133.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/tensorflow/tensorflow"
 		},
@@ -420,6 +432,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2022-02-03T21:16:06Z",
 		"nvd_published_at": "2022-02-03T13:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
