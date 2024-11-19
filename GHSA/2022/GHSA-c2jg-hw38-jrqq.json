@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c2jg-hw38-jrqq",
-	"modified": "2024-02-20T05:22:34.504738Z",
+	"modified": "2024-11-18T23:14:10.532438Z",
 	"published": "2022-04-04T21:29:41Z",
 	"aliases": [
 		"CVE-2022-24801",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -179,6 +183,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2022-04-04T21:29:41Z",
 		"nvd_published_at": "2022-04-04T18:15:00Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }

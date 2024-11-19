@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-33c7-2mpw-hg34",
-	"modified": "2024-02-16T08:20:17.027865Z",
+	"modified": "2024-11-18T22:34:41.829085Z",
 	"published": "2020-07-29T18:07:16Z",
 	"aliases": [
 		"CVE-2020-7694",
@@ -14,6 +14,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -176,6 +180,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/encode/uvicorn"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/uvicorn/PYSEC-2020-150.yaml"
 		},
 		{
 			"type": "WEB",

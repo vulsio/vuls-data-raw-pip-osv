@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j3vq-pmp5-r5xj",
-	"modified": "2024-11-14T23:12:12.787479Z",
+	"modified": "2024-11-18T21:41:34.178582Z",
 	"published": "2024-11-14T18:30:37Z",
 	"aliases": [
 		"CVE-2024-4311"
@@ -11,7 +11,7 @@
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:H"
+			"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:H"
 		}
 	],
 	"affected": [
