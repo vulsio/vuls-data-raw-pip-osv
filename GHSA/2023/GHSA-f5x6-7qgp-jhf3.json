@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f5x6-7qgp-jhf3",
-	"modified": "2024-02-16T08:04:58.763843Z",
+	"modified": "2024-11-19T17:01:17.067007Z",
 	"published": "2023-07-25T17:46:19Z",
 	"aliases": [
 		"CVE-2023-37902",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
