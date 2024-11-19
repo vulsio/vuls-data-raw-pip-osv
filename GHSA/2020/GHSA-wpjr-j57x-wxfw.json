@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wpjr-j57x-wxfw",
-	"modified": "2024-09-20T15:23:49.238219Z",
+	"modified": "2024-11-19T05:38:34.283599Z",
 	"published": "2020-06-05T16:20:44Z",
 	"aliases": [
 		"BIT-django-2020-13254",
@@ -165,6 +165,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-06-04T18:32:36Z",
 		"nvd_published_at": "2020-06-03T14:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
