@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m982-h4f8-g4hf",
-	"modified": "2024-11-15T21:13:39.305230Z",
+	"modified": "2024-11-19T21:20:55.804976Z",
 	"published": "2024-11-15T12:31:44Z",
 	"aliases": [
 		"CVE-2021-3986"
@@ -11,7 +11,7 @@
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
 		}
 	],
 	"affected": [

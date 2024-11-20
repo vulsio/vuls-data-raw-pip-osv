@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hwv5-w8gm-fq9f",
-	"modified": "2023-11-08T04:02:34.922704Z",
+	"modified": "2024-11-19T18:25:41.611627Z",
 	"published": "2020-10-06T18:21:02Z",
 	"aliases": [
 		"CVE-2020-15239",
@@ -13,6 +13,10 @@
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:N/SC:L/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -61,6 +65,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/horazont/xmpp-http-upload/commit/82056540191e89f0cd697c81f57714c00962ed75"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/horazont/xmpp-http-upload"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/xmpp-http-upload/PYSEC-2020-158.yaml"
 		},
 		{
 			"type": "WEB",
