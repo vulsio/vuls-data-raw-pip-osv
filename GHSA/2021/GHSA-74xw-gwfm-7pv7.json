@@ -1,12 +1,13 @@
 {
 	"schema_version": "1.6.0",
-	"id": "PYSEC-2021-880",
+	"id": "GHSA-74xw-gwfm-7pv7",
 	"modified": "2024-11-21T22:27:03.049941Z",
-	"published": "2021-12-17T21:15:00Z",
+	"published": "2021-12-18T00:00:40Z",
 	"aliases": [
 		"CVE-2021-41497",
-		"GHSA-74xw-gwfm-7pv7"
+		"PYSEC-2021-880"
 	],
+	"summary": "bounter Null pointer reference",
 	"details": "Null pointer reference in CMS_Conservative_increment_obj in RaRe-Technologies bounter version 1.01 and 1.10, allows attackers to conduct Denial of Service attacks by inputting a huge width of hash bucket.",
 	"severity": [
 		{
@@ -27,6 +28,9 @@
 					"events": [
 						{
 							"introduced": "0"
+						},
+						{
+							"last_affected": "1.2.0"
 						}
 					]
 				}
@@ -41,14 +45,35 @@
 				"1.2.0"
 			],
 			"database_specific": {
-				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/bounter/PYSEC-2021-880.yaml"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/12/GHSA-74xw-gwfm-7pv7/GHSA-74xw-gwfm-7pv7.json"
 			}
 		}
 	],
 	"references": [
 		{
-			"type": "REPORT",
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41497"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/RaRe-Technologies/bounter/issues/47"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/RaRe-Technologies/bounter"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/bounter/PYSEC-2021-880.yaml"
 		}
-	]
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-476"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2024-11-21T22:18:17Z",
+		"nvd_published_at": "2021-12-17T21:15:00Z",
+		"severity": "HIGH"
+	}
 }
