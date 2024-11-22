@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3gw4-m5w7-v89c",
-	"modified": "2024-09-23T17:03:07.080218Z",
+	"modified": "2024-11-22T05:26:32.543724Z",
 	"published": "2020-06-11T00:04:15Z",
 	"aliases": [
 		"CVE-2020-11090",
@@ -81,6 +81,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-06-11T00:02:06Z",
 		"nvd_published_at": null,
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }

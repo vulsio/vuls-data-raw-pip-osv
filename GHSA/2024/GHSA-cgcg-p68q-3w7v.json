@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cgcg-p68q-3w7v",
-	"modified": "2024-08-02T16:36:16.400511Z",
+	"modified": "2024-11-22T05:42:52.433938Z",
 	"published": "2024-07-15T06:30:53Z",
 	"aliases": [
 		"CVE-2024-21513",
@@ -107,6 +107,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-15T16:26:46Z",
 		"nvd_published_at": "2024-07-15T05:15:01Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }

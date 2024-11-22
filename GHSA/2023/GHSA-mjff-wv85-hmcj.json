@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mjff-wv85-hmcj",
-	"modified": "2024-09-11T17:50:54.256019Z",
+	"modified": "2024-11-22T05:25:55.376204Z",
 	"published": "2023-06-19T09:30:17Z",
 	"aliases": [
 		"BIT-airflow-2023-35005",
@@ -109,6 +109,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-06-19T22:47:45Z",
 		"nvd_published_at": "2023-06-19T09:15:09Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }

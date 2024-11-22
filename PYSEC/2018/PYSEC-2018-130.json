@@ -1,11 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2018-130",
-	"modified": "2024-11-21T14:57:30.518202Z",
+	"modified": "2024-11-21T14:22:48.306556Z",
 	"published": "2018-05-29T07:29:00Z",
-	"aliases": [
-		"CVE-2018-11531"
-	],
 	"details": "Exiv2 0.26 has a heap-based buffer overflow in getData in preview.cpp.",
 	"severity": [
 		{

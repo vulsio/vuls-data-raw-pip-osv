@@ -1,11 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2018-128",
-	"modified": "2024-11-21T14:57:30.377780Z",
+	"modified": "2024-11-21T14:22:48.186470Z",
 	"published": "2018-05-12T04:29:00Z",
-	"aliases": [
-		"CVE-2018-10999"
-	],
 	"details": "An issue was discovered in Exiv2 0.26. The Exiv2::Internal::PngChunk::parseTXTChunk function has a heap-based buffer over-read.",
 	"severity": [
 		{
