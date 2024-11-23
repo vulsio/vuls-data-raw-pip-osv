@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r6v9-p59m-gj2p",
-	"modified": "2024-09-23T16:38:59.407916Z",
+	"modified": "2024-11-23T05:25:17.090178Z",
 	"published": "2022-09-02T21:55:20Z",
 	"aliases": [
 		"CVE-2022-31020",
@@ -494,6 +494,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2022-09-02T21:55:20Z",
 		"nvd_published_at": "2022-09-06T17:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
