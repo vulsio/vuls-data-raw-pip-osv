@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hggm-jpg3-v476",
-	"modified": "2024-09-13T18:22:31.483473Z",
+	"modified": "2024-11-24T05:24:23.229640Z",
 	"published": "2020-10-27T20:33:13Z",
 	"aliases": [
 		"CVE-2020-25659",
@@ -174,6 +174,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-10-27T20:32:44Z",
 		"nvd_published_at": "2021-01-11T16:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
