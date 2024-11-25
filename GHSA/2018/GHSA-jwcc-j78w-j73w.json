@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jwcc-j78w-j73w",
-	"modified": "2024-09-04T19:21:19.656852Z",
+	"modified": "2024-11-25T05:25:52.519043Z",
 	"published": "2018-10-10T17:23:20Z",
 	"aliases": [
 		"CVE-2018-10855",
@@ -156,6 +156,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-06-16T21:44:13Z",
 		"nvd_published_at": "2018-07-03T01:29:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }

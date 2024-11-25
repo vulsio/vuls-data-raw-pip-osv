@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-frxj-5j27-f8rf",
-	"modified": "2024-09-05T00:37:47.611600Z",
+	"modified": "2024-11-25T05:25:15.851785Z",
 	"published": "2021-04-20T16:44:49Z",
 	"aliases": [
 		"CVE-2019-14905",
@@ -192,6 +192,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2021-04-05T14:41:23Z",
 		"nvd_published_at": "2020-03-31T17:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }

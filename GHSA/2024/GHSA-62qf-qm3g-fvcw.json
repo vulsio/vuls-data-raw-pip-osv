@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-62qf-qm3g-fvcw",
-	"modified": "2024-08-05T16:58:53.515186Z",
+	"modified": "2024-11-25T05:24:56.966693Z",
 	"published": "2024-08-05T09:30:26Z",
 	"aliases": [
 		"CVE-2024-42447"
@@ -77,6 +77,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-08-05T16:09:33Z",
 		"nvd_published_at": "2024-08-05T08:15:56Z",
-		"severity": "MODERATE"
+		"severity": "LOW"
 	}
 }
