@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hf26-vvmx-x8c8",
-	"modified": "2024-11-25T22:42:10.766435Z",
+	"modified": "2024-11-26T16:50:13Z",
 	"published": "2022-05-01T18:36:14Z",
 	"aliases": [
 		"CVE-2007-5741",
@@ -9,6 +9,16 @@
 	],
 	"summary": "Plone Arbitrary Code Execution via Unsafe Handling of Pickles",
 	"details": "Plone 2.5 through 2.5.4 and 3.0 through 3.0.2 allows remote attackers to execute arbitrary Python code via network data containing pickled objects for the (1) statusmessages or (2) linkintegrity module, which the module unpickles and executes.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -69,6 +79,10 @@
 			"url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/38288"
 		},
 		{
+			"type": "PACKAGE",
+			"url": "https://github.com/plone/Plone"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/pypa/advisory-database/tree/main/vulns/plone/PYSEC-2007-4.yaml"
 		},
@@ -100,6 +114,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-09-22T21:57:47Z",
 		"nvd_published_at": "2007-11-07T21:46:00Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }
