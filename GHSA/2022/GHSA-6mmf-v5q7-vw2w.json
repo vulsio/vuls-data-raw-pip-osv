@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6mmf-v5q7-vw2w",
-	"modified": "2024-09-05T21:48:22.424135Z",
+	"modified": "2024-11-26T05:27:54.755395Z",
 	"published": "2022-05-24T19:21:10Z",
 	"aliases": [
 		"CVE-2021-44144",
@@ -108,6 +108,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-04-08T18:51:18Z",
 		"nvd_published_at": "2021-11-22T21:15:00Z",
-		"severity": "CRITICAL"
+		"severity": "HIGH"
 	}
 }
