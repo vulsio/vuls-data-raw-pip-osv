@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p62g-jhg6-v3rq",
-	"modified": "2024-09-06T18:01:17.101527Z",
+	"modified": "2024-11-27T06:12:03.552043Z",
 	"published": "2021-04-07T20:37:06Z",
 	"aliases": [
 		"CVE-2020-10684",
@@ -216,6 +216,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2021-04-05T14:46:48Z",
 		"nvd_published_at": "2020-03-24T14:15:00Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
