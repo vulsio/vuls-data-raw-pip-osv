@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p99h-pfg6-qrfg",
-	"modified": "2024-09-30T19:01:23.627Z",
+	"modified": "2024-11-30T05:29:33.339602Z",
 	"published": "2023-12-12T03:31:45Z",
 	"summary": "Duplicate Advisory: Privilege escalation in sap-xssec",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6mjg-37cp-42x5. This link is maintained to preserve external references.\n\n## Original Description\nSAP BTP Security Services Integration Library ([Python] sap-xssec) - versions < 4.1.0, allow under certain conditions an escalation of privileges. On successful exploitation, an unauthenticated attacker can obtain arbitrary permissions within the application.\n\n",
