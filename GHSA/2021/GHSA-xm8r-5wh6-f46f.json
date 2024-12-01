@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xm8r-5wh6-f46f",
-	"modified": "2023-04-11T01:38:28.997338Z",
+	"modified": "2024-12-01T05:38:35.586931Z",
 	"published": "2021-02-24T19:45:15Z",
 	"summary": "Timing attack",
 	"details": "While each ID is used for only one authentication attempt, a timing attack is possible to figure out in Autobahn.",
