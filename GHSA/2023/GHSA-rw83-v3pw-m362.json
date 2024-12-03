@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rw83-v3pw-m362",
-	"modified": "2023-04-11T01:37:59.122204Z",
+	"modified": "2024-12-03T06:08:55.973162Z",
 	"published": "2023-01-30T06:30:27Z",
 	"summary": "Withdrawn: safeurl-python contains Server-Side Request Forgery",
 	"details": "## Withdrawn\n\nThis advisory has been withdrawn as a duplicate of [GHSA-jgh8-vchw-q3g7](https://github.com/advisories/GHSA-jgh8-vchw-q3g7).\n\n## Original Description\n\nisInList in the safeurl-python package before 1.2 for Python has an insufficiently restrictive regular expression for external domains, leading to SSRF.",
