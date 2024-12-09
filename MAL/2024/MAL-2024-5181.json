@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-5181",
-	"modified": "2024-10-24T01:01:58Z",
+	"modified": "2024-12-09T14:39:23Z",
 	"published": "2024-06-25T13:35:45Z",
 	"summary": "Malicious code in glovo-data-platform-declarative (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -17,7 +17,8 @@
 				"999.9.20",
 				"999.9.18",
 				"999.9.17",
-				"999.9.13"
+				"999.9.13",
+				"999.9.15"
 			],
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/glovo-data-platform-declarative/MAL-2024-5181.json"
@@ -56,6 +57,16 @@
 				"source": "reversing-labs",
 				"versions": [
 					"999.9.13"
+				]
+			},
+			{
+				"id": "RLUA-2024-11054",
+				"import_time": "2024-12-09T14:38:53.592941522Z",
+				"modified_time": "2024-12-09T06:50:20Z",
+				"sha256": "38da342d764f6b5af12291c018b3b8df620538dbccbc36fad9cb8e7b5ab12737",
+				"source": "reversing-labs",
+				"versions": [
+					"999.9.15"
 				]
 			}
 		]

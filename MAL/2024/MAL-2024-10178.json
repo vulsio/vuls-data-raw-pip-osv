@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-10178",
-	"modified": "2024-10-16T14:53:13Z",
+	"modified": "2024-12-09T14:39:23Z",
 	"published": "2024-10-16T14:53:13Z",
 	"summary": "Malicious code in trustdecoderss (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -21,6 +21,12 @@
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/trustdecoderss/MAL-2024-10178.json"
 			}
+		}
+	],
+	"references": [
+		{
+			"type": "ARTICLE",
+			"url": "https://checkmarx.com/blog/crypto-stealing-code-lurking-in-python-package-dependencies"
 		}
 	],
 	"credits": [
@@ -46,6 +52,13 @@
 					"2",
 					"2.1"
 				]
+			},
+			{
+				"id": "RLUA-2024-11194",
+				"import_time": "2024-12-09T14:38:53.857715381Z",
+				"modified_time": "2024-12-09T06:51:22Z",
+				"sha256": "de607e6590fb0610f484318107f41d08d8e33c5f51b45d9e2779d8f017fea314",
+				"source": "reversing-labs"
 			}
 		]
 	}

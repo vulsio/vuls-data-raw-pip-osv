@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-9960",
-	"modified": "2024-10-16T14:37:51Z",
+	"modified": "2024-12-09T14:39:23Z",
 	"published": "2024-10-16T14:37:51Z",
 	"summary": "Malicious code in cipherbcryptors (PyPI)",
 	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
@@ -19,6 +19,12 @@
 			"database_specific": {
 				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/cipherbcryptors/MAL-2024-9960.json"
 			}
+		}
+	],
+	"references": [
+		{
+			"type": "ARTICLE",
+			"url": "https://checkmarx.com/blog/crypto-stealing-code-lurking-in-python-package-dependencies"
 		}
 	],
 	"credits": [
@@ -42,6 +48,13 @@
 					"1.3.1",
 					"1.3.2"
 				]
+			},
+			{
+				"id": "RLUA-2024-11004",
+				"import_time": "2024-12-09T14:38:53.338882413Z",
+				"modified_time": "2024-12-09T06:49:59Z",
+				"sha256": "bf884d2db3f550d91e6679ecb9a3ac53f736d65b56471e1bec67ffcb797f88b3",
+				"source": "reversing-labs"
 			}
 		]
 	}

@@ -1,0 +1,50 @@
+{
+	"schema_version": "1.6.0",
+	"id": "MAL-2024-11535",
+	"modified": "2024-12-09T06:49:50Z",
+	"published": "2024-12-09T06:49:50Z",
+	"summary": "Malicious code in bibit (PyPI)",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "PyPI",
+				"name": "bibit",
+				"purl": "pkg:pypi/bibit"
+			},
+			"versions": [
+				"8.1.4",
+				"8.1.5",
+				"8.1.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/pypi/bibit/MAL-2024-11535.json"
+			}
+		}
+	],
+	"credits": [
+		{
+			"name": "ReversingLabs",
+			"contact": [
+				"https://www.reversinglabs.com"
+			],
+			"type": "FINDER"
+		}
+	],
+	"database_specific": {
+		"malicious-packages-origins": [
+			{
+				"id": "RLMA-2024-10980",
+				"import_time": "2024-12-09T14:38:41.115995436Z",
+				"modified_time": "2024-12-09T06:49:50Z",
+				"sha256": "a3f54a7f33700038f4fc6cfbc3721a13d3583600d7a38fc6852a84412d170c07",
+				"source": "reversing-labs",
+				"versions": [
+					"8.1.4",
+					"8.1.5",
+					"8.1.9"
+				]
+			}
+		]
+	}
+}
