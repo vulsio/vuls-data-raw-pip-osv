@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m9hc-vxjj-4x6q",
-	"modified": "2024-12-17T21:59:23.704922Z",
+	"modified": "2024-12-18T14:59:46.248107Z",
 	"published": "2024-12-17T21:37:18Z",
 	"aliases": [
 		"CVE-2024-56142"
@@ -56,6 +56,10 @@
 			"url": "https://github.com/Aiven-Open/pghoard/security/advisories/GHSA-m9hc-vxjj-4x6q"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56142"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/Aiven-Open/pghoard/commit/fe9947642cc73bcacf6d19b93eb98f442223fb47"
 		},
@@ -70,7 +74,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-12-17T21:37:18Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-12-17T22:15:07Z",
 		"severity": "MODERATE"
 	}
 }
