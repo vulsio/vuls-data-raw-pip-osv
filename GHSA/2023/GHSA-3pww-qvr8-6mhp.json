@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3pww-qvr8-6mhp",
-	"modified": "2024-02-17T05:34:53.513205Z",
+	"modified": "2025-01-09T23:47:31.279053Z",
 	"published": "2023-11-16T18:30:31Z",
 	"aliases": [
 		"CVE-2023-6021"
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"last_affected": "2.6.3"
+							"fixed": "2.8.1"
 						}
 					]
 				}
@@ -121,7 +121,12 @@
 				"2.6.0",
 				"2.6.1",
 				"2.6.2",
-				"2.6.3"
+				"2.6.3",
+				"2.7.0",
+				"2.7.0rc0",
+				"2.7.1",
+				"2.7.2",
+				"2.8.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/11/GHSA-3pww-qvr8-6mhp/GHSA-3pww-qvr8-6mhp.json"
@@ -136,6 +141,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/ray-project/ray"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/ray-project/ray/releases/tag/ray-2.8.1"
 		},
 		{
 			"type": "WEB",
