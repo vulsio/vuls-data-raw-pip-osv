@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2019-255",
-	"modified": "2024-12-18T17:35:31.249266Z",
+	"modified": "2025-01-12T05:34:20.550037Z",
 	"published": "2019-02-19T16:29:00Z",
 	"details": "data/interfaces/default/history.html in Tautulli 2.1.26 has XSS via a crafted Plex username that is mishandled when constructing the History page.",
 	"severity": [
@@ -74,7 +74,8 @@
 				"4.5.0.2142",
 				"4.5.1.2142",
 				"4.6.0.2142",
-				"4.6.1.2142"
+				"4.6.1.2142",
+				"4.6.2.2142"
 			],
 			"database_specific": {
 				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/tautulli/PYSEC-2019-255.yaml"
