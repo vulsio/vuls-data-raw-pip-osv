@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xxcj-rhqg-m46g",
-	"modified": "2023-12-06T01:02:38.363858Z",
+	"modified": "2025-01-15T17:55:49.946084Z",
 	"published": "2022-11-21T20:42:00Z",
 	"aliases": [
 		"BIT-tensorflow-2022-41889",
@@ -15,7 +15,7 @@
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H"
+			"score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
 		}
 	],
 	"affected": [
