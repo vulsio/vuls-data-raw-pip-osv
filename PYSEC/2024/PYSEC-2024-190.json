@@ -1,26 +1,18 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-g5hv-r743-v8pm",
+	"id": "PYSEC-2024-190",
 	"modified": "2025-01-19T07:56:51.494347Z",
-	"published": "2024-07-17T09:30:49Z",
+	"published": "2024-07-17T08:15:02Z",
 	"aliases": [
 		"BIT-airflow-2024-39877",
 		"CVE-2024-39877",
-		"PYSEC-2024-190"
+		"GHSA-g5hv-r743-v8pm"
 	],
-	"related": [
-		"CGA-h5gv-qmmr-9r2w"
-	],
-	"summary": "Apache Airflow has DAG Author Code Execution possibility in airflow-scheduler",
 	"details": "Apache Airflow 2.4.0, and versions before 2.9.3, has a vulnerability that allows authenticated DAG authors to craft a doc_md parameter in a way that could execute arbitrary code in the scheduler context, which should be forbidden according to the Airflow Security model. Users should upgrade to version 2.9.3 or later which has removed the vulnerability.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
 			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
-		},
-		{
-			"type": "CVSS_V4",
-			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -121,40 +113,22 @@
 				"2.9.3rc1"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-g5hv-r743-v8pm/GHSA-g5hv-r743-v8pm.json"
+				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/apache-airflow/PYSEC-2024-190.yaml"
 			}
 		}
 	],
 	"references": [
 		{
-			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39877"
+			"type": "ARTICLE",
+			"url": "https://lists.apache.org/thread/1xhj9dkp37d6pzn24ll2mf94wbqnb2y1"
 		},
 		{
-			"type": "WEB",
+			"type": "REPORT",
 			"url": "https://github.com/apache/airflow/pull/40522"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/apache/airflow/commit/8159f6e24704f5e0e3b3217cf79ecf5083dce531"
-		},
-		{
-			"type": "PACKAGE",
-			"url": "https://github.com/apache/airflow"
-		},
-		{
-			"type": "WEB",
-			"url": "https://lists.apache.org/thread/1xhj9dkp37d6pzn24ll2mf94wbqnb2y1"
+			"url": "http://www.openwall.com/lists/oss-security/2024/07/16/7"
 		}
-	],
-	"database_specific": {
-		"cwe_ids": [
-			"CWE-277",
-			"CWE-94"
-		],
-		"github_reviewed": true,
-		"github_reviewed_at": "2024-07-17T17:59:44Z",
-		"nvd_published_at": "2024-07-17T08:15:02Z",
-		"severity": "HIGH"
-	}
+	]
 }
