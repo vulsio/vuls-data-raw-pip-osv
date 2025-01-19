@@ -1,18 +1,17 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-45rp-q25w-4426",
+	"id": "PYSEC-2024-180",
 	"modified": "2025-01-19T02:41:53.177843Z",
-	"published": "2024-08-23T15:30:34Z",
+	"published": "2024-08-23T15:15:17Z",
 	"aliases": [
 		"CVE-2024-8113",
-		"PYSEC-2024-180"
+		"GHSA-45rp-q25w-4426"
 	],
-	"summary": "pretix Stored Cross-site Scripting vulnerability",
 	"details": "Stored XSS in organizer and event settings of pretix up to 2024.7.0 allows malicious event organizers to inject HTML tags into e-mail previews on settings page. The default Content Security Policy of pretix prevents execution of attacker-provided scripts, making exploitation unlikely. However, combined with a CSP bypass (which is not currently known) the vulnerability could be used to impersonate other organizers or staff users.",
 	"severity": [
 		{
-			"type": "CVSS_V4",
-			"score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:U/V:X/RE:L/U:Green"
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
 		}
 	],
 	"affected": [
@@ -183,35 +182,14 @@
 				"4.9.1"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-45rp-q25w-4426/GHSA-45rp-q25w-4426.json"
+				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/pretix/PYSEC-2024-180.yaml"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8113"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/pretix/pretix/commit/0f44a2ad4e170882dbe6b9d95dba6c36e4e181cf"
-		},
-		{
-			"type": "PACKAGE",
-			"url": "https://github.com/pretix/pretix"
-		},
-		{
-			"type": "WEB",
-			"url": "https://pretix.eu/about/en/blog/20240823-release-2024-7-1"
+			"url": "https://pretix.eu/about/en/blog/20240823-release-2024-7-1/"
 		}
-	],
-	"database_specific": {
-		"cwe_ids": [
-			"CWE-79"
-		],
-		"github_reviewed": true,
-		"github_reviewed_at": "2024-08-23T18:51:02Z",
-		"nvd_published_at": "2024-08-23T15:15:17Z",
-		"severity": "HIGH"
-	}
+	]
 }
