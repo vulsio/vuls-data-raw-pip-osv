@@ -1,22 +1,17 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-89v2-pqfv-c5r9",
-	"modified": "2025-01-19T22:56:52.587676Z",
-	"published": "2024-10-10T21:36:36Z",
+	"id": "PYSEC-2024-220",
+	"modified": "2025-01-19T22:56:51.887142Z",
+	"published": "2024-10-10T23:15:03Z",
 	"aliases": [
-		"CVE-2024-47165",
-		"PYSEC-2024-214"
+		"CVE-2024-47872",
+		"GHSA-gvv6-33j7-884g"
 	],
-	"summary": "Gradio's CORS origin validation accepts the null origin",
-	"details": "### Impact\n**What kind of vulnerability is it? Who is impacted?**\n\nThis vulnerability relates to **CORS origin validation accepting a null origin**. When a Gradio server is deployed locally, the `localhost_aliases` variable includes \"null\" as a valid origin. This allows attackers to make unauthorized requests from sandboxed iframes or other sources with a null origin, potentially leading to data theft, such as user authentication tokens or uploaded files. This impacts users running Gradio locally, especially those using basic authentication.\n\n### Patches\nYes, please upgrade to `gradio>=5.0` to address this issue.\n\n### Workarounds\n**Is there a way for users to fix or remediate the vulnerability without upgrading?**\n\nAs a workaround, users can manually modify the `localhost_aliases` list in their local Gradio deployment to exclude \"null\" as a valid origin. By removing this value, the Gradio server will no longer accept requests from sandboxed iframes or sources with a null origin, mitigating the potential for exploitation.",
+	"details": "Gradio is an open-source Python package designed for quick prototyping. This vulnerability involves **Cross-Site Scripting (XSS)** on any Gradio server that allows file uploads. Authenticated users can upload files such as HTML, JavaScript, or SVG files containing malicious scripts. When other users download or view these files, the scripts will execute in their browser, allowing attackers to perform unauthorized actions or steal sensitive information from their sessions. This impacts any Gradio server that allows file uploads, particularly those using components that process or display user-uploaded files. Users are advised to upgrade to `gradio>=5` to address this issue. As a workaround, users can restrict the types of files that can be uploaded to the Gradio server by limiting uploads to non-executable file types such as images or text. Additionally, developers can implement server-side validation to sanitize uploaded files, ensuring that HTML, JavaScript, and SVG files are properly handled or rejected before being stored or displayed to users.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
-		},
-		{
-			"type": "CVSS_V4",
-			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"
+			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
 		}
 	],
 	"affected": [
@@ -483,18 +478,10 @@
 				"3.44.4",
 				"3.45.0",
 				"3.45.0b0",
-				"3.45.0b1",
 				"3.45.0b10",
 				"3.45.0b11",
 				"3.45.0b12",
 				"3.45.0b13",
-				"3.45.0b2",
-				"3.45.0b3",
-				"3.45.0b4",
-				"3.45.0b5",
-				"3.45.0b6",
-				"3.45.0b7",
-				"3.45.0b8",
 				"3.45.0b9",
 				"3.45.1",
 				"3.45.2",
@@ -597,9 +584,6 @@
 				"4.9.1",
 				"5.0.0b1",
 				"5.0.0b10",
-				"5.0.0b2",
-				"5.0.0b3",
-				"5.0.0b4",
 				"5.0.0b5",
 				"5.0.0b6",
 				"5.0.0b7",
@@ -607,32 +591,14 @@
 				"5.0.0b9"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/10/GHSA-89v2-pqfv-c5r9/GHSA-89v2-pqfv-c5r9.json"
+				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/gradio/PYSEC-2024-220.yaml"
 			}
 		}
 	],
 	"references": [
 		{
-			"type": "WEB",
-			"url": "https://github.com/gradio-app/gradio/security/advisories/GHSA-89v2-pqfv-c5r9"
-		},
-		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47165"
-		},
-		{
-			"type": "PACKAGE",
-			"url": "https://github.com/gradio-app/gradio"
+			"url": "https://github.com/gradio-app/gradio/security/advisories/GHSA-gvv6-33j7-884g"
 		}
-	],
-	"database_specific": {
-		"cwe_ids": [
-			"CWE-285",
-			"CWE-346"
-		],
-		"github_reviewed": true,
-		"github_reviewed_at": "2024-10-10T21:36:36Z",
-		"nvd_published_at": "2024-10-10T22:15:10Z",
-		"severity": "MODERATE"
-	}
+	]
 }
