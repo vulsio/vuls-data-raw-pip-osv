@@ -1,10 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "PYSEC-2024-204",
-	"modified": "2025-01-19T19:57:06.206481Z",
+	"modified": "2025-01-21T19:56:56.188418Z",
 	"published": "2024-11-12T18:15:45Z",
 	"aliases": [
-		"CVE-2024-49048"
+		"CVE-2024-49048",
+		"GHSA-g5vp-j278-8pjh"
 	],
 	"details": "TorchGeo Remote Code Execution Vulnerability",
 	"severity": [
