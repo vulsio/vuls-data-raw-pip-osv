@@ -1,23 +1,18 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-qpgc-w4mg-6v92",
+	"id": "PYSEC-2024-224",
 	"modified": "2025-02-03T16:57:04.978745Z",
-	"published": "2024-11-25T18:33:26Z",
+	"published": "2024-11-25T14:15:06Z",
 	"aliases": [
 		"BIT-mlflow-2024-27134",
 		"CVE-2024-27134",
-		"PYSEC-2024-224"
+		"GHSA-qpgc-w4mg-6v92"
 	],
-	"summary": "MLflow's excessive directory permissions allow local privilege escalation",
 	"details": "Excessive directory permissions in MLflow leads to local privilege escalation when using spark_udf. This behavior can be exploited by a local attacker to gain elevated permissions by using a ToCToU attack. The issue is only relevant when the spark_udf() MLflow API is called.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
-		},
-		{
-			"type": "CVSS_V4",
-			"score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+			"score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
 		}
 	],
 	"affected": [
@@ -152,35 +147,14 @@
 				"2.9.2"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-qpgc-w4mg-6v92/GHSA-qpgc-w4mg-6v92.json"
+				"source": "https://github.com/pypa/advisory-database/blob/main/vulns/mlflow/PYSEC-2024-224.yaml"
 			}
 		}
 	],
 	"references": [
 		{
-			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27134"
-		},
-		{
-			"type": "WEB",
+			"type": "REPORT",
 			"url": "https://github.com/mlflow/mlflow/pull/10874"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/mlflow/mlflow/commit/0b1d995d66a678153e01ed3040f3f4dfc16a0d6b"
-		},
-		{
-			"type": "PACKAGE",
-			"url": "https://github.com/mlflow/mlflow"
 		}
-	],
-	"database_specific": {
-		"cwe_ids": [
-			"CWE-276"
-		],
-		"github_reviewed": true,
-		"github_reviewed_at": "2024-11-25T19:41:56Z",
-		"nvd_published_at": "2024-11-25T14:15:06Z",
-		"severity": "HIGH"
-	}
+	]
 }
