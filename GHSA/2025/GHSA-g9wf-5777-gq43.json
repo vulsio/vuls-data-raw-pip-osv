@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g9wf-5777-gq43",
-	"modified": "2025-02-03T16:27:21.447557Z",
+	"modified": "2025-02-04T17:34:23.756830Z",
 	"published": "2025-02-03T15:48:53Z",
 	"aliases": [
 		"CVE-2025-24370"
@@ -153,6 +153,10 @@
 			"url": "https://github.com/adamghill/django-unicorn/security/advisories/GHSA-g9wf-5777-gq43"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24370"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/adamghill/django-unicorn/commit/17614200f27174f789d4af54cc3a1f2b0df7870c"
 		},
@@ -171,7 +175,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2025-02-03T15:48:53Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2025-02-03T21:15:15Z",
 		"severity": "CRITICAL"
 	}
 }
