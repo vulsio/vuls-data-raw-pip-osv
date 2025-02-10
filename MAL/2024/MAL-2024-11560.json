@@ -1,10 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "MAL-2024-11560",
-	"modified": "2024-12-09T06:50:01Z",
-	"published": "2024-12-09T06:50:01Z",
+	"modified": "2025-02-10T05:36:19Z",
+	"published": "2024-09-29T16:36:08Z",
 	"summary": "Malicious code in colotama (PyPI)",
-	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n",
+	"details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (18c9d3a75d7d00423b531ffce7bf8ecbe34e723046045707f3ce1bd6043255fe)\nThe OpenSSF Package Analysis project identified 'colotama' @ 0.4.8 (pypi) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
 	"affected": [
 		{
 			"package": {
@@ -27,6 +27,14 @@
 	],
 	"credits": [
 		{
+			"name": "OpenSSF: Package Analysis",
+			"contact": [
+				"https://github.com/ossf/package-analysis",
+				"https://openssf.slack.com/channels/package_analysis"
+			],
+			"type": "FINDER"
+		},
+		{
 			"name": "ReversingLabs",
 			"contact": [
 				"https://www.reversinglabs.com"
@@ -48,6 +56,24 @@
 					"0.4.7",
 					"0.4.8",
 					"0.4.9",
+					"0.5.0"
+				]
+			},
+			{
+				"import_time": "2025-02-10T05:35:47.229602921Z",
+				"modified_time": "2024-09-29T16:36:08Z",
+				"sha256": "18c9d3a75d7d00423b531ffce7bf8ecbe34e723046045707f3ce1bd6043255fe",
+				"source": "ossf-package-analysis",
+				"versions": [
+					"0.4.8"
+				]
+			},
+			{
+				"import_time": "2025-02-10T05:35:47.314378023Z",
+				"modified_time": "2024-09-29T16:51:09Z",
+				"sha256": "6393d8ebf54de33a6f79256270b507e8302a4326d5572cc9448d62433f830dfa",
+				"source": "ossf-package-analysis",
+				"versions": [
 					"0.5.0"
 				]
 			}
